@@ -288,11 +288,12 @@ function renderPatient() {
    <div><small>Propuesta del agente IA</small><strong>${ia?.categoria ? '#' + String(POS.ia.get(p.id)).padStart(2, '0') : '—'}</strong><p>${ia?.categoria ? `${ETIQ[ia.categoria]} · puntaje ${ia.puntaje} · ${e}` : 'Sin propuesta'}</p></div>
   </div>
   <div class="detail-grid">
-   <section class="explanation-panel"><div class="explanation-heading"><h2>¿Por qué está en esta posición?</h2><span class="example-label">Regla ${esc(D.meta.version_regla)}</span></div>
+   <section class="explanation-panel"><div class="explanation-heading"><h2>¿Por qué está en esta posición?</h2><span class="example-label">${p.explicacion_ia?.texto ? 'Amazon Bedrock' : 'Regla ' + esc(D.meta.version_regla)}</span></div>
+    ${p.explicacion_ia?.texto ? `<div class="explanation-body ia-explica"><p>${esc(p.explicacion_ia.texto)}</p></div>` : ''}
     <div class="explanation-body"><p>${esc(hechos[0] || '')} Prioridad de hoy: <b>${ETIQ[p.prioridad].toLowerCase()}</b>${p.carril ? ', en carril rápido' : ''}.</p></div>
     <div class="reason-list">${hechos.slice(1).map((h, i) => `<div class="reason-item"><span>${String(i + 1).padStart(2, '0')}</span><div><p>${esc(h)}</p></div></div>`).join('')}</div>
     <details><summary>Señales y antecedentes que consideró la regla</summary>${[...(p.senales_deterioro || []).map(s => ['Deterioro', s]), ...(p.senales_mejora || []).map(s => ['Mejoría', s]), ...(p.clusters || []).map(s => ['Cluster', s]), ...(p.no_relacionados || []).map(s => ['No mueve', s])].map(([k, v]) => `<p class="evidence-reference"><b>${k}</b> · ${esc(v)}</p>`).join('') || '<p class="evidence-reference">Sin señales registradas.</p>'}</details>
-    <p class="explanation-footnote">Explicación determinista de la regla (motor/explicar.py). Es una propuesta: el equipo de gestión la valida antes de citar.</p>
+    <p class="explanation-footnote">${p.explicacion_ia?.texto ? 'Redactada por Claude Haiku 4.5 en Amazon Bedrock a partir de los hechos de la regla; ' : 'Explicación determinista de la regla (motor/explicar.py); '}es una propuesta: el equipo de gestión la valida antes de citar.</p>
    </section>
    <section class="panel evolution-panel"><div class="panel-heading"><div><h2>Evolución en la lista</h2><p>Corte a corte, los lunes de las últimas ${D.meta.cortes.length} semanas</p></div><div class="chart-toggle" role="group" aria-label="Tipo de evolución"><button data-chart-mode="prioridad">Prioridad</button><button data-chart-mode="puesto">Puesto</button><button data-chart-mode="medicion" ${Object.keys(p.mediciones || {}).length ? '' : 'disabled'}>Medición</button></div></div>
     <div class="evolution-legend"><i class="legend-dot green"></i><span id="evolution-series-label"></span></div><div id="evolution-chart" class="evolution-chart"></div><p class="chart-footnote" id="chart-footnote"></p>

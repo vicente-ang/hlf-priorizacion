@@ -193,6 +193,17 @@ def _alertas(datos, cfg: dict, hoy: date, nombres: dict) -> dict:
             "items": items, "n": len(items)}
 
 
+def _explicaciones() -> dict:
+    """Explicaciones redactadas por Bedrock (ia/resultados/explicaciones_hlf.csv), por id de paciente.
+    Si el archivo no existe, el front usa la explicación de la plantilla (sin red)."""
+    arch = IA_RES / "explicaciones_hlf.csv"
+    if not arch.exists():
+        return {}
+    df = pd.read_csv(arch)
+    return {r["id_paciente"]: {"texto": r.get("explicacion_bedrock"), "fuente": r.get("fuente")}
+            for r in df.to_dict("records")}
+
+
 def construir(carpeta: str | Path | None = None, hoy: str | date | None = None, salida: str | Path | None = None) -> dict:
     datos, cfg = Datos.cargar(carpeta), cargar_regla()
     hoy = date.fromisoformat(str(hoy)) if hoy else datos.fecha_referencia()
@@ -203,6 +214,7 @@ def construir(carpeta: str | Path | None = None, hoy: str | date | None = None, 
     p90 = int(round(vigente.dias_espera.quantile(0.9))) if len(vigente) else 0
     nombres = _nombres(Path(carpeta) if carpeta else DATOS_DEFECTO)
     ia, ia_resumen = _ia()
+    explic = _explicaciones()
     if ia_resumen:
         from ia.decisiones import descartados
         prop = pd.read_csv(IA_RES / "propuestas_hlf.csv")
@@ -241,6 +253,7 @@ def construir(carpeta: str | Path | None = None, hoy: str | date | None = None, 
             "sin_priorizar": bool(p.sin_priorizar), "propuesta_guia": p.propuesta,
             "historial": historial, "antecedentes": _antecedentes(p, cfg, hoy), "mediciones": _mediciones(p, hoy),
             "ia": ia.get(r["id_paciente"]),
+            "explicacion_ia": explic.get(r["id_paciente"]),
         })
 
     # El contexto cambió: quienes tienen antecedentes nuevos entre el corte anterior y el vigente

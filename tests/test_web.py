@@ -115,3 +115,29 @@ def test_lambda_corte_regenera_datos_js_en_s3(monkeypatch):
         assert texto.startswith("// Generado") and "window.HLF = " in texto
         data = json.loads(texto.split("window.HLF = ", 1)[1].rstrip().rstrip(";\n").rstrip(";"))
         assert len(data["pacientes"]) == 423 and "alertas" in data
+
+
+
+def test_explicaciones_top_por_especialidad_sin_red(monkeypatch, tmp_path):
+    """P5: ia.explicaciones redacta la explicación del top-N por especialidad. Sin BEDROCK_MODEL_ID usa la
+    plantilla determinista (el respaldo del front cuando no hay red)."""
+    from ia import explicaciones
+    monkeypatch.delenv("BEDROCK_MODEL_ID", raising=False)
+    df = explicaciones.generar(top=5, salida=tmp_path / "exp.csv")
+    assert len(df) > 0 and df.groupby("especialidad").size().max() <= 5
+    assert (df.fuente == "plantilla").all()                       # sin modelo, todo plantilla
+    assert df.explicacion_bedrock.str.len().min() > 0             # siempre hay texto (respaldo)
+
+
+def test_front_incluye_explicacion_ia_cuando_existe_el_csv(datos):
+    """P5: web.construir adjunta la explicación redactada a los pacientes que están en explicaciones_hlf.csv."""
+    import pandas as pd
+    from web import construir as c
+    d, _ = datos
+    arch = c.IA_RES / "explicaciones_hlf.csv"
+    if not arch.exists():
+        pytest.skip("no hay explicaciones_hlf.csv en esta copia")
+    ids_csv = set(pd.read_csv(arch).id_paciente)
+    con = [p for p in d["pacientes"] if p.get("explicacion_ia") and p["explicacion_ia"].get("texto")]
+    assert con, "ningún paciente trae explicacion_ia"
+    assert all(p["id"] in ids_csv for p in con)

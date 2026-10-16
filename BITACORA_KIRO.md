@@ -139,3 +139,24 @@ SIGO: P4 (Lambda del corte del lunes) cuando se retome.
 - Nota: el schedule está ENABLED; correrá los lunes. Si se quiere apagar: scheduler update-schedule State=DISABLED.
 
 SIGO: P5 (explicaciones Bedrock top-10) cuando se retome.
+
+## 2026-10-16 03:45 — P5: explicaciones redactadas por Bedrock (Claude Haiku 4.5)
+- Qué: para los 10 primeros de la lista vigente de cada especialidad, Bedrock redacta la explicación del puesto a
+  partir de los HECHOS de la regla (no decide el orden). Se muestran en la ficha del front; sin red, cae a la
+  explicación de la plantilla.
+- Archivos:
+  - `ia/explicaciones.py`: `generar(top=10)` toma el top-N por especialidad de `priorizar`, redacta con Bedrock
+    (Converse) usando CACHÉ en `ia/cache/exp_*.json` (por modelo+hechos; reruns gratis) y escribe
+    `ia/resultados/explicaciones_hlf.csv` (id, especialidad, puesto, prioridad, explicacion_bedrock, fuente, hechos).
+    Sin BEDROCK_MODEL_ID o ante error, usa `explicacion_plantilla` (fuente=plantilla).
+  - `web/construir.py`: `_explicaciones()` lee el CSV y adjunta `explicacion_ia` {texto, fuente} a cada paciente.
+  - `web/app.js` + `web/estilos.css`: la ficha muestra la redacción de Bedrock en un bloque destacado
+    (`.ia-explica`) sobre los hechos de la regla; si no hay, muestra solo la regla (fallback sin red).
+  - `tests/test_web.py`: test del top-N sin red (todo plantilla) y test de que el front adjunta explicacion_ia.
+- Verificación: 70 explicaciones (7 especialidades × 10), fuente bedrock 70/70, redactadas en español de Chile
+  citando los hechos (carril, LACE, plazo, atraso). `python -m pytest -q` → **138 passed**. datos.js regenerado:
+  70 pacientes con explicacion_ia. Front re-subido a S3 + CloudFront (caché invalidada). app.js balanceado.
+- Costo REAL (desde la caché exp_*): 27.213 tokens entrada + 11.008 salida con Haiku 4.5 ≈ **US$ 0,09** (< US$ 0,50).
+- Recursos AWS: ninguno nuevo (solo llamadas a Bedrock, cacheadas; re-subida al bucket/CloudFront existentes).
+
+SIGO: P6 (pulir demo) cuando se retome.

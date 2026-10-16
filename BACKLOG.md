@@ -20,7 +20,7 @@ Orden de ejecución. Marcar `[x]` al terminar y verificar (`python -m pytest -q`
   - Regenera `datos.js` en el bucket de P1. EventBridge Scheduler `cron(0 7 ? * MON *)`, zona America/Santiago.
   - Sin Docker: capa administrada AWSSDKPandas para Python 3.12, y PyYAML dentro del zip.
   - Si no se permite crear el rol IAM, documentar el bloqueo y seguir.
-- [ ] **P5. Explicaciones redactadas por Bedrock (Claude Haiku 4.5)** para los 10 primeros de cada especialidad
+- [x] **P5. Explicaciones redactadas por Bedrock (Claude Haiku 4.5)** para los 10 primeros de cada especialidad
   - Se guardan en `ia/resultados/explicaciones_hlf.csv` y se muestran en la ficha.
   - Sin red, el front muestra la explicación de la regla. Usa la caché. Costo < US$ 0,50.
 - [ ] **P6. Pulir la demo**
