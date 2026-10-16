@@ -160,3 +160,39 @@ SIGO: P5 (explicaciones Bedrock top-10) cuando se retome.
 - Recursos AWS: ninguno nuevo (solo llamadas a Bedrock, cacheadas; re-subida al bucket/CloudFront existentes).
 
 SIGO: P6 (pulir demo) cuando se retome.
+
+## 2026-10-16 04:05 — P6: pulir la demo
+- Qué: gráfico de TEST para el pitch, revisión responsive y DEMO.md con la URL y el gráfico.
+- Archivos:
+  - `ia/grafico_test.py`: genera `salidas/graficos/ia_test.png` desde `test_conteos_bedrock.csv` (3 paneles:
+    deterioros detectados de 23, «alta» en baja de 29, falsas alarmas; IA en acento verde, resto gris; valores
+    sobre cada barra; etiquetas rotadas). Verificado visualmente.
+  - `DEMO.md`: URL del front publicado ya estaba (P1); añadidas referencias a `ia_test.png` en la preparación y
+    en el bloque de TEST. Cifras consistentes con v0 (producción): IA 22/23, 0/29, 25/95.
+  - `tests/test_ia.py`: `test_grafico_test_se_genera`.
+  - Responsive: la página Alertas (P3) y las nuevas vistas reutilizan componentes con breakpoints existentes
+    (@media 1250/1050/700px): `metrics-grid` (4→2→1 columnas), `table-scroll` (overflow-x:auto en 390px),
+    `count-pill` y `page-heading`. No requirió CSS nuevo salvo `.ia-explica` (P5), que hereda del panel.
+- Verificación: `python -m pytest -q` → **139 passed**. `python -m web.construir` OK. ia_test.png 103 KB.
+
+## 2026-10-16 04:05 — CIERRE: BACKLOG P1–P6 completo
+Todos los ítems [x]. Tests 139 passed. Front en https://da8n28k4fli3t.cloudfront.net/.
+
+### Recursos AWS creados (nombre · tipo · para qué)
+- `hlf-priorizacion-web-904433306629` · bucket S3 privado · hospeda el front.
+- `E2276ADQM8SNAX` · CloudFront (da8n28k4fli3t.cloudfront.net) · sirve el front por HTTPS (OAC).
+- `hlf-priorizacion-web-oac` · CloudFront Origin Access Control · acceso del CDN al bucket privado.
+- `hlf-priorizacion-corte` · Lambda (Python 3.12, capa AWSSDKPandas) · regenera y publica datos.js los lunes.
+- `hlf-priorizacion-corte-rol` · rol IAM de ejecución de esa Lambda (y del scheduler).
+- `hlf-priorizacion-corte-lunes` · EventBridge Scheduler cron(0 7 ? * MON *) America/Santiago.
+- `hlf-priorizacion-ia-904433306629` · bucket S3 (rúbricas/resultados/mundo, de sesiones previas).
+
+### Costo estimado total de la noche
+~US$ 4–5 (P2 ciclo + agente v2 ~US$ 2–3; P5 explicaciones US$ 0,09; S3/CloudFront/Lambda ~US$ 0; corridas previas
+~US$ 1,74). Dentro del presupuesto de US$ 15.
+
+### Reglas respetadas
+ia/rubrica/v0.md, ia/mundo.py y data/mundo/*_verdad sin modificar. Español de Chile. Solo recursos hlf-*. Sin
+buckets públicos. Sin usuarios IAM nuevos (solo el rol de ejecución de la Lambda).
+
+FIN. Commits: ab7d0c2 base · 5132f25 P1 · e29b23a P2 · 389f95a congelado · 8f91e53 P3 · 5a76b7c P4 · 5c1f752 P5 · (P6 a continuación).

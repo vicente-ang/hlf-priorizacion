@@ -23,7 +23,7 @@ Orden de ejecución. Marcar `[x]` al terminar y verificar (`python -m pytest -q`
 - [x] **P5. Explicaciones redactadas por Bedrock (Claude Haiku 4.5)** para los 10 primeros de cada especialidad
   - Se guardan en `ia/resultados/explicaciones_hlf.csv` y se muestran en la ficha.
   - Sin red, el front muestra la explicación de la regla. Usa la caché. Costo < US$ 0,50.
-- [ ] **P6. Pulir la demo**
+- [x] **P6. Pulir la demo**
   - Revisar el front a 1280 px y a 390 px. Gráfico `salidas/graficos/ia_test.png` con la tabla de TEST.
   - Recorrer `DEMO.md` sobre la URL de P1 y corregir cifras que no coincidan.
 

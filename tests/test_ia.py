@@ -201,3 +201,17 @@ def test_los_tests_no_llaman_a_aws_aunque_la_terminal_tenga_entorno_ps1():
     """conftest.py borra BEDROCK_MODEL_ID y compañía en cada test: el resultado no depende de la terminal."""
     import os
     assert not any(os.environ.get(v) for v in ("BEDROCK_MODEL_ID", "BEDROCK_MODEL_ID_REGULADOR", "HLF_BUCKET"))
+
+
+
+def test_grafico_test_se_genera(tmp_path):
+    """P6: ia.grafico_test dibuja el PNG de la medición en TEST desde test_conteos_bedrock.csv."""
+    import pandas as pd
+    from ia import grafico_test
+    csv = RAIZ / "ia" / "resultados" / "test_conteos_bedrock.csv"
+    if not csv.exists():
+        pytest.skip("no hay test_conteos_bedrock.csv en esta copia")
+    destino = grafico_test.generar(csv=csv, salida=tmp_path / "ia_test.png")
+    assert destino.exists() and destino.stat().st_size > 0
+    df = pd.read_csv(csv).set_index("metodo")       # el gráfico usa estas columnas
+    assert {"detectados", "quedaron_en_baja", "no_empeoraron", "empeoraron", "debian_ser_alta"} <= set(df.columns)

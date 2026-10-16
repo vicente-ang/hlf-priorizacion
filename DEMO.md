@@ -62,7 +62,7 @@ La consola Streamlit (`streamlit run app.py`) sigue disponible para la escena de
 
 Preparación: `streamlit run app.py`, navegador a pantalla completa. Barra lateral: **Hoy 13-10-2026** (lista
 vigente: corte del lunes 12-10-2026), especialidad **Traumatología**, modo **Regla MVP**, perfil **Gestora de
-demanda**. Tener abiertos `salidas/graficos/impacto.png` y `cadencia.png`.
+demanda**. Tener abiertos `salidas/graficos/impacto.png`, `cadencia.png` e `ia_test.png` (medición del agente en TEST).
 Plan B si algo falla: el video grabado de esta misma secuencia y, en la terminal, `python demo_evento.py`.
 La pestaña Agente IA no llama a Bedrock en vivo: muestra lo que el agente ya calculó (`ia/resultados/`), así que
 la demo no depende de la red ni de las credenciales del taller.
@@ -110,6 +110,7 @@ corridas reales en Amazon Bedrock del 15-10-2026 (verificadas el 15-10-2026).
     **IA 22 de 23**.
   - Debían ser alta y quedaron en baja: regla actual 6 de 29, palabras clave 9 de 29, **IA 0 de 29**.
   - Subió sin que empeoraran: regla MVP 36 de 95, **IA 25 de 95**.
+  - Respaldo visual: `salidas/graficos/ia_test.png` (barras por método; genera con `python -m ia.grafico_test`).
 - Decir: "¿Cómo sabemos que no es humo? Fabricamos pacientes con la verdad escondida: el agente nunca la ve. Un
   segundo agente, el regulador, mira los errores en entrenamiento y propone reglas para la rúbrica; solo se
   aceptan si mejoran en validación. Esta vez propuso dos, empeoraban la validación (0,749 → 0,734) y las
