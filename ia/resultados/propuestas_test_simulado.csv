@@ -1,0 +1,297 @@
+id_paciente,especialidad,fecha_ingreso,prioridad_inicial,categoria_regla,carril_rapido,categoria_ia,puntaje_ia,direccion_ia,propone_bajar,categoria_final,confianza,evidencia,resumen,modo,tokens_entrada,tokens_salida,error,puesto_final,puesto_ia
+SIN-TE-00277,Broncopulmonar,2026-05-10,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}, {""fecha"": ""2026-10-12"", ""fuente"": ""epicrisis"", ""cita"": ""Epicrisis: ahogo en reposo, oxímetro marca 88%. Se mantiene parecido.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,1,1
+SIN-TE-00201,Broncopulmonar,2026-08-27,baja,alta,True,alta,94,sube,False,alta,media,"[{""fecha"": ""2026-10-11"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,2,2
+SIN-TE-00260,Broncopulmonar,2026-09-25,media,alta,True,alta,94,sube,False,alta,media,"[{""fecha"": ""2026-10-08"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,3,3
+SIN-TE-00287,Broncopulmonar,2026-03-27,media,media,False,alta,87,sube,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: ahogo en reposo, oxímetro marca 88%. Ha ido empeorando desde la última vez. Pedimos que lo vea el esp""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,4,4
+SIN-TE-00120,Broncopulmonar,2026-08-08,media,media,False,alta,87,sube,False,alta,media,"[{""fecha"": ""2026-09-06"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: ahogo en reposo, oxímetro marca 88%. Ha ido empeorando desde la última vez.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,5,5
+SIN-TE-00055,Broncopulmonar,2026-04-01,alta,alta,False,alta,83,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,6,6
+SIN-TE-00223,Broncopulmonar,2025-06-09,media,alta,False,alta,79,sube,False,alta,media,"[{""fecha"": ""2026-07-18"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: ahogo en reposo, oxímetro marca 88%. Igual que la última vez.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,7,7
+SIN-TE-00039,Broncopulmonar,2025-10-31,baja,alta,False,alta,79,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,8,8
+SIN-TE-00028,Broncopulmonar,2025-12-07,media,media,False,alta,79,sube,False,alta,media,"[{""fecha"": ""2026-09-02"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: ahogo en reposo, oxímetro marca 88%. Igual que la última vez.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,9,9
+SIN-TE-00002,Broncopulmonar,2026-01-16,media,media,False,alta,79,sube,False,alta,media,"[{""fecha"": ""2026-09-21"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: ahogo en reposo, oxímetro marca 88%. Se mantiene parecido.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,10,10
+SIN-TE-00097,Broncopulmonar,2026-03-22,alta,alta,False,alta,79,igual,False,alta,media,"[{""fecha"": ""2026-08-04"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: ahogo en reposo, oxímetro marca 88%. Igual que la última vez.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,11,11
+SIN-TE-00235,Broncopulmonar,2026-02-17,media,alta,False,alta,77,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,12,12
+SIN-TE-00272,Broncopulmonar,2026-05-16,alta,alta,False,alta,73,igual,False,alta,media,"[{""fecha"": ""2026-08-22"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: ahogo en reposo, oxímetro marca 88%. Igual que la última vez.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,13,13
+SIN-TE-00129,Broncopulmonar,2026-01-10,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,14,21
+SIN-TE-00263,Broncopulmonar,2026-04-26,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,15,24
+SIN-TE-00147,Broncopulmonar,2026-08-16,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,16,25
+SIN-TE-00065,Broncopulmonar,2026-08-18,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,17,26
+SIN-TE-00077,Broncopulmonar,2025-05-16,media,alta,False,baja,31,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,18,15
+SIN-TE-00041,Broncopulmonar,2025-05-09,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,19,16
+SIN-TE-00264,Broncopulmonar,2025-06-22,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,20,18
+SIN-TE-00048,Broncopulmonar,2026-01-18,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,21,22
+SIN-TE-00262,Broncopulmonar,2026-03-18,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,22,23
+SIN-TE-00296,Broncopulmonar,2026-08-18,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,23,27
+SIN-TE-00176,Broncopulmonar,2026-05-14,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,24,33
+SIN-TE-00020,Broncopulmonar,2025-11-23,baja,alta,False,baja,33,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,25,14
+SIN-TE-00171,Broncopulmonar,2025-05-15,baja,media,False,baja,19,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,26,17
+SIN-TE-00162,Broncopulmonar,2025-07-04,baja,media,False,baja,19,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,27,19
+SIN-TE-00195,Broncopulmonar,2025-10-15,baja,media,False,baja,19,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,28,20
+SIN-TE-00049,Broncopulmonar,2025-08-05,baja,media,False,baja,13,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,29,28
+SIN-TE-00249,Broncopulmonar,2025-08-18,baja,media,False,baja,13,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,30,29
+SIN-TE-00112,Broncopulmonar,2025-11-18,baja,media,False,baja,13,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,31,30
+SIN-TE-00156,Broncopulmonar,2025-12-15,baja,media,False,baja,13,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,32,31
+SIN-TE-00252,Broncopulmonar,2026-05-07,baja,baja,False,baja,13,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,33,32
+SIN-TE-00017,Cardiología,2025-08-29,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-09-16"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,1,1
+SIN-TE-00163,Cardiología,2025-09-21,media,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-09-26"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,2,2
+SIN-TE-00190,Cardiología,2025-10-05,media,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-09-22"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,3,3
+SIN-TE-00246,Cardiología,2025-10-21,media,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-09-12"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,4,4
+SIN-TE-00054,Cardiología,2025-11-29,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-10-06"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,5,5
+SIN-TE-00220,Cardiología,2026-03-08,media,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,6,6
+SIN-TE-00122,Cardiología,2026-03-22,media,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,7,7
+SIN-TE-00140,Cardiología,2026-05-18,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""ingreso UCI""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,8,8
+SIN-TE-00234,Cardiología,2026-07-17,baja,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-10-02"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,9,9
+SIN-TE-00024,Cardiología,2026-07-27,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-09-22"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,10,10
+SIN-TE-00203,Cardiología,2026-08-26,baja,alta,True,alta,97,sube,False,alta,media,"[{""fecha"": ""2026-10-06"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,11,11
+SIN-TE-00185,Cardiología,2026-07-23,media,alta,False,alta,94,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,12,12
+SIN-TE-00111,Cardiología,2025-05-10,alta,alta,False,alta,89,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,13,13
+SIN-TE-00238,Cardiología,2026-02-16,alta,alta,False,alta,89,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,14,14
+SIN-TE-00012,Cardiología,2026-03-27,media,alta,False,alta,89,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,15,15
+SIN-TE-00121,Cardiología,2026-02-03,alta,alta,False,alta,86,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,16,16
+SIN-TE-00124,Cardiología,2026-04-06,alta,alta,False,alta,82,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,17,17
+SIN-TE-00177,Cardiología,2025-04-30,baja,alta,False,alta,80,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,18,18
+SIN-TE-00053,Cardiología,2025-06-16,media,alta,False,alta,79,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,19,19
+SIN-TE-00070,Cardiología,2026-05-22,media,alta,False,alta,74,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,20,20
+SIN-TE-00029,Cardiología,2026-06-16,baja,alta,False,alta,74,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,21,21
+SIN-TE-00106,Cardiología,2025-07-24,alta,alta,False,baja,31,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,22,24
+SIN-TE-00001,Cardiología,2026-01-08,alta,alta,False,baja,31,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,23,25
+SIN-TE-00214,Cardiología,2025-11-09,alta,alta,False,baja,25,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,24,30
+SIN-TE-00269,Cardiología,2026-02-25,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,25,33
+SIN-TE-00280,Cardiología,2026-03-02,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,26,34
+SIN-TE-00225,Cardiología,2026-03-11,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,27,35
+SIN-TE-00027,Cardiología,2026-03-25,alta,alta,False,baja,19,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,28,36
+SIN-TE-00063,Cardiología,2025-12-15,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,29,40
+SIN-TE-00100,Cardiología,2026-05-01,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,30,42
+SIN-TE-00068,Cardiología,2026-02-24,alta,alta,False,baja,13,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,31,50
+SIN-TE-00221,Cardiología,2025-05-31,media,alta,False,baja,34,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,32,22
+SIN-TE-00270,Cardiología,2025-09-28,media,alta,False,baja,28,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,33,27
+SIN-TE-00015,Cardiología,2026-05-31,media,media,False,baja,27,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,34,29
+SIN-TE-00153,Cardiología,2025-10-04,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,35,32
+SIN-TE-00233,Cardiología,2026-07-01,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,36,37
+SIN-TE-00245,Cardiología,2025-05-06,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,37,38
+SIN-TE-00187,Cardiología,2025-11-09,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,38,39
+SIN-TE-00228,Cardiología,2026-05-09,media,alta,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,39,43
+SIN-TE-00180,Cardiología,2025-07-28,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,40,45
+SIN-TE-00025,Cardiología,2025-09-11,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,41,46
+SIN-TE-00040,Cardiología,2025-09-15,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,42,47
+SIN-TE-00013,Cardiología,2025-10-26,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,43,48
+SIN-TE-00102,Cardiología,2026-04-28,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,44,51
+SIN-TE-00286,Cardiología,2025-04-24,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,45,52
+SIN-TE-00261,Cardiología,2025-07-12,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,46,54
+SIN-TE-00058,Cardiología,2026-03-07,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,47,58
+SIN-TE-00050,Cardiología,2026-04-22,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,48,59
+SIN-TE-00083,Cardiología,2026-06-27,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,49,61
+SIN-TE-00258,Cardiología,2026-09-06,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,50,63
+SIN-TE-00105,Cardiología,2026-06-13,baja,media,False,baja,32,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,51,23
+SIN-TE-00119,Cardiología,2025-09-12,baja,alta,False,baja,28,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,52,26
+SIN-TE-00290,Cardiología,2025-11-12,baja,alta,False,baja,28,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,53,28
+SIN-TE-00154,Cardiología,2026-04-17,baja,media,False,baja,24,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,54,31
+SIN-TE-00151,Cardiología,2026-01-20,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,55,41
+SIN-TE-00200,Cardiología,2026-05-19,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,56,44
+SIN-TE-00196,Cardiología,2026-01-20,baja,media,False,baja,13,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,57,49
+SIN-TE-00226,Cardiología,2025-07-05,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,58,53
+SIN-TE-00157,Cardiología,2025-07-24,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,59,55
+SIN-TE-00265,Cardiología,2025-09-20,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,60,56
+SIN-TE-00137,Cardiología,2026-03-06,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,61,57
+SIN-TE-00145,Cardiología,2026-05-04,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,62,60
+SIN-TE-00006,Cardiología,2026-08-01,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,63,62
+SIN-TE-00082,Endocrinología,2025-07-14,media,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-10-04"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,1,1
+SIN-TE-00060,Endocrinología,2026-01-28,media,alta,True,alta,99,sube,False,alta,media,"[{""fecha"": ""2026-10-08"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,2,2
+SIN-TE-00166,Endocrinología,2026-09-28,baja,alta,True,alta,99,sube,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,3,3
+SIN-TE-00089,Endocrinología,2025-11-03,media,alta,False,alta,77,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,4,4
+SIN-TE-00206,Endocrinología,2026-05-12,media,alta,False,alta,77,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,5,5
+SIN-TE-00150,Endocrinología,2026-06-16,baja,alta,False,alta,76,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,6,6
+SIN-TE-00189,Endocrinología,2026-01-14,alta,alta,False,baja,27,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,7,14
+SIN-TE-00101,Endocrinología,2025-11-23,baja,alta,False,media,68,sube,False,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,8,7
+SIN-TE-00278,Endocrinología,2025-10-13,media,media,False,baja,35,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,9,9
+SIN-TE-00071,Endocrinología,2026-03-21,media,media,False,baja,32,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,10,11
+SIN-TE-00034,Endocrinología,2025-11-13,media,alta,False,baja,31,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,11,12
+SIN-TE-00297,Endocrinología,2026-01-30,media,media,False,baja,27,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,12,15
+SIN-TE-00299,Endocrinología,2026-04-29,media,media,False,baja,27,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,13,16
+SIN-TE-00066,Endocrinología,2025-10-17,media,media,False,baja,19,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,14,21
+SIN-TE-00133,Endocrinología,2026-07-02,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,15,27
+SIN-TE-00130,Endocrinología,2026-09-15,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,16,31
+SIN-TE-00227,Endocrinología,2025-06-06,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,17,32
+SIN-TE-00211,Endocrinología,2026-06-29,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,18,33
+SIN-TE-00188,Endocrinología,2025-05-12,media,media,False,baja,12,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,19,34
+SIN-TE-00191,Endocrinología,2025-07-31,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,20,35
+SIN-TE-00057,Endocrinología,2026-02-17,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,21,39
+SIN-TE-00181,Endocrinología,2026-04-11,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,22,40
+SIN-TE-00014,Endocrinología,2026-05-27,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,23,42
+SIN-TE-00159,Endocrinología,2026-09-19,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,24,46
+SIN-TE-00256,Endocrinología,2025-05-18,baja,alta,False,baja,38,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,25,8
+SIN-TE-00294,Endocrinología,2025-10-04,baja,alta,False,baja,34,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,26,10
+SIN-TE-00118,Endocrinología,2025-10-22,baja,media,False,baja,27,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,27,13
+SIN-TE-00069,Endocrinología,2025-09-13,baja,alta,False,baja,25,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,28,17
+SIN-TE-00167,Endocrinología,2026-05-13,baja,media,False,baja,24,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,29,18
+SIN-TE-00056,Endocrinología,2026-05-15,baja,alta,False,baja,22,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,30,19
+SIN-TE-00047,Endocrinología,2026-04-09,baja,media,False,baja,21,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,31,20
+SIN-TE-00115,Endocrinología,2026-03-26,baja,media,False,baja,19,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,32,22
+SIN-TE-00281,Endocrinología,2026-09-01,baja,baja,False,baja,19,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,33,23
+SIN-TE-00143,Endocrinología,2026-08-05,baja,baja,False,baja,18,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,34,24
+SIN-TE-00192,Endocrinología,2025-11-13,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,35,25
+SIN-TE-00210,Endocrinología,2026-06-06,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,36,26
+SIN-TE-00093,Endocrinología,2026-07-03,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,37,28
+SIN-TE-00080,Endocrinología,2026-07-15,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,38,29
+SIN-TE-00218,Endocrinología,2026-08-03,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,39,30
+SIN-TE-00285,Endocrinología,2025-09-27,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,40,36
+SIN-TE-00212,Endocrinología,2026-01-06,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,41,37
+SIN-TE-00098,Endocrinología,2026-02-08,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,42,38
+SIN-TE-00038,Endocrinología,2026-04-24,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,43,41
+SIN-TE-00009,Endocrinología,2026-06-02,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,44,43
+SIN-TE-00061,Endocrinología,2026-06-12,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,45,44
+SIN-TE-00170,Endocrinología,2026-09-02,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,46,45
+SIN-TE-00222,Endocrinología,2025-12-25,baja,media,False,baja,7,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,47,47
+SIN-TE-00178,Endocrinología,2025-04-21,baja,media,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,48,48
+SIN-TE-00292,Endocrinología,2025-06-01,baja,media,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,49,49
+SIN-TE-00067,Endocrinología,2025-06-13,baja,media,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,50,50
+SIN-TE-00257,Endocrinología,2025-11-21,baja,media,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,51,51
+SIN-TE-00136,Endocrinología,2026-01-30,baja,baja,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,52,52
+SIN-TE-00237,Endocrinología,2026-03-01,baja,media,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,53,53
+SIN-TE-00091,Endocrinología,2026-07-09,baja,media,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,54,54
+SIN-TE-00037,Endocrinología,2026-07-19,baja,baja,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,55,55
+SIN-TE-00193,Endocrinología,2026-09-07,baja,baja,False,baja,4,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,56,56
+SIN-TE-00064,Endocrinología,2026-05-03,baja,media,False,baja,0,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,57,57
+SIN-TE-00008,Gastroenterología,2026-06-01,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-10-04"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,1,1
+SIN-TE-00266,Gastroenterología,2026-04-26,media,alta,True,alta,99,sube,False,alta,media,"[{""fecha"": ""2026-09-27"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,2,2
+SIN-TE-00202,Gastroenterología,2025-12-30,baja,alta,True,alta,91,sube,False,alta,media,"[{""fecha"": ""2026-09-29"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,3,3
+SIN-TE-00043,Gastroenterología,2026-09-16,baja,alta,True,alta,91,sube,False,alta,media,"[{""fecha"": ""2026-10-10"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,4,4
+SIN-TE-00289,Gastroenterología,2025-09-10,alta,alta,False,alta,89,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,5,5
+SIN-TE-00035,Gastroenterología,2025-09-16,alta,alta,False,alta,89,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,6,6
+SIN-TE-00090,Gastroenterología,2026-01-06,baja,alta,True,alta,85,sube,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,7,7
+SIN-TE-00243,Gastroenterología,2025-10-07,alta,alta,False,baja,31,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,8,9
+SIN-TE-00075,Gastroenterología,2026-07-09,alta,alta,False,baja,13,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,9,12
+SIN-TE-00010,Gastroenterología,2026-03-29,media,media,False,baja,24,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,10,10
+SIN-TE-00036,Gastroenterología,2026-06-13,media,media,False,baja,13,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,11,11
+SIN-TE-00254,Gastroenterología,2025-05-29,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,12,13
+SIN-TE-00216,Gastroenterología,2025-12-29,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,13,14
+SIN-TE-00242,Gastroenterología,2026-04-19,media,media,False,baja,4,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,14,17
+SIN-TE-00251,Gastroenterología,2025-11-27,baja,alta,False,baja,37,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,15,8
+SIN-TE-00231,Gastroenterología,2026-09-01,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,16,15
+SIN-TE-00244,Gastroenterología,2026-09-22,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,17,16
+SIN-TE-00169,Neurología,2026-05-17,media,alta,False,alta,92,sube,False,alta,media,"[{""fecha"": ""2026-08-31"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: dolor de cabeza con pérdida de fuerza en un brazo. Ha ido empeorando desde la última vez.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,1,1
+SIN-TE-00175,Neurología,2025-07-30,alta,alta,False,alta,76,igual,False,alta,media,"[{""fecha"": ""2026-09-02"", ""fuente"": ""epicrisis"", ""cita"": ""Epicrisis: dolor de cabeza con pérdida de fuerza en un brazo. Más complicado que antes.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,2,2
+SIN-TE-00300,Neurología,2025-11-04,alta,alta,False,alta,76,igual,False,alta,media,"[{""fecha"": ""2026-08-21"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: dolor de cabeza con pérdida de fuerza en un brazo. Se mantiene parecido.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,3,3
+SIN-TE-00236,Neurología,2025-06-28,media,alta,False,alta,70,sube,False,alta,media,"[{""fecha"": ""2026-08-08"", ""fuente"": ""CESFAM"", ""cita"": ""Control en CESFAM: dolor de cabeza con pérdida de fuerza en un brazo. Igual que la última vez.""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,4,4
+SIN-TE-00113,Neurología,2026-07-11,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,5,14
+SIN-TE-00110,Neurología,2026-04-30,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,6,11
+SIN-TE-00031,Neurología,2025-11-23,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,7,19
+SIN-TE-00168,Neurología,2026-04-19,baja,media,False,baja,24,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,8,5
+SIN-TE-00062,Neurología,2026-05-09,baja,media,False,baja,24,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,9,6
+SIN-TE-00087,Neurología,2025-09-15,baja,alta,False,baja,22,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,10,7
+SIN-TE-00016,Neurología,2025-05-18,baja,media,False,baja,18,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,11,8
+SIN-TE-00179,Neurología,2025-10-16,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,12,9
+SIN-TE-00182,Neurología,2026-01-27,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,13,10
+SIN-TE-00205,Neurología,2026-05-19,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,14,12
+SIN-TE-00255,Neurología,2026-05-30,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,15,13
+SIN-TE-00011,Neurología,2026-08-12,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,16,15
+SIN-TE-00239,Neurología,2026-09-07,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,17,16
+SIN-TE-00268,Neurología,2026-09-12,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,18,17
+SIN-TE-00141,Neurología,2025-07-24,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,19,18
+SIN-TE-00148,Neurología,2025-12-18,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,20,20
+SIN-TE-00045,Neurología,2026-02-13,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,21,21
+SIN-TE-00172,Neurología,2026-04-10,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,22,22
+SIN-TE-00131,Neurología,2026-04-15,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,23,23
+SIN-TE-00125,Neurología,2026-08-01,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,24,24
+SIN-TE-00250,Salud Mental,2025-04-21,baja,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-09-30"", ""fuente"": ""evento"", ""cita"": ""ingreso UCI""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,1,1
+SIN-TE-00051,Salud Mental,2025-05-10,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,2,2
+SIN-TE-00161,Salud Mental,2025-12-23,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-09-28"", ""fuente"": ""evento"", ""cita"": ""ingreso UCI""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,3,3
+SIN-TE-00259,Salud Mental,2026-04-17,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-10-02"", ""fuente"": ""evento"", ""cita"": ""ingreso UCI""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,4,4
+SIN-TE-00094,Salud Mental,2026-07-12,alta,alta,True,alta,100,igual,False,alta,media,"[{""fecha"": ""2026-10-12"", ""fuente"": ""evento"", ""cita"": ""ingreso hospitalario""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,5,5
+SIN-TE-00114,Salud Mental,2025-05-27,media,alta,False,alta,88,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,6,6
+SIN-TE-00288,Salud Mental,2025-06-09,alta,alta,False,alta,86,igual,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,7,7
+SIN-TE-00128,Salud Mental,2025-11-01,baja,alta,False,alta,82,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,8,8
+SIN-TE-00079,Salud Mental,2025-12-25,media,alta,False,alta,74,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,9,9
+SIN-TE-00232,Salud Mental,2026-06-07,alta,alta,False,baja,24,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,10,11
+SIN-TE-00127,Salud Mental,2025-05-23,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,11,15
+SIN-TE-00134,Salud Mental,2025-11-14,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,12,19
+SIN-TE-00096,Salud Mental,2026-05-24,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,13,21
+SIN-TE-00174,Salud Mental,2026-05-28,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,14,22
+SIN-TE-00076,Salud Mental,2026-07-24,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,15,23
+SIN-TE-00095,Salud Mental,2026-08-11,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,16,24
+SIN-TE-00116,Salud Mental,2025-07-05,alta,alta,False,baja,10,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,17,28
+SIN-TE-00276,Salud Mental,2025-11-26,alta,alta,False,baja,10,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,18,36
+SIN-TE-00042,Salud Mental,2026-09-03,alta,alta,False,baja,10,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,19,46
+SIN-TE-00230,Salud Mental,2026-08-16,media,media,False,baja,18,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,20,13
+SIN-TE-00026,Salud Mental,2025-08-21,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,21,17
+SIN-TE-00291,Salud Mental,2026-05-09,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,22,20
+SIN-TE-00046,Salud Mental,2026-09-10,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,23,26
+SIN-TE-00132,Salud Mental,2025-07-29,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,24,29
+SIN-TE-00004,Salud Mental,2025-09-11,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,25,31
+SIN-TE-00022,Salud Mental,2025-11-22,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,26,35
+SIN-TE-00240,Salud Mental,2025-12-08,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,27,37
+SIN-TE-00215,Salud Mental,2025-12-09,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,28,38
+SIN-TE-00199,Salud Mental,2026-03-09,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,29,41
+SIN-TE-00019,Salud Mental,2026-03-10,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,30,42
+SIN-TE-00298,Salud Mental,2026-08-23,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,31,45
+SIN-TE-00123,Salud Mental,2026-01-09,baja,baja,False,baja,32,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,32,10
+SIN-TE-00030,Salud Mental,2026-02-14,baja,alta,False,baja,22,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,33,12
+SIN-TE-00207,Salud Mental,2025-04-24,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,34,14
+SIN-TE-00209,Salud Mental,2025-06-09,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,35,16
+SIN-TE-00021,Salud Mental,2025-09-16,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,36,18
+SIN-TE-00275,Salud Mental,2026-08-15,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,37,25
+SIN-TE-00219,Salud Mental,2026-09-22,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,38,27
+SIN-TE-00164,Salud Mental,2025-08-11,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,39,30
+SIN-TE-00139,Salud Mental,2025-09-16,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,40,32
+SIN-TE-00092,Salud Mental,2025-10-23,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,41,33
+SIN-TE-00208,Salud Mental,2025-11-06,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,42,34
+SIN-TE-00088,Salud Mental,2026-01-05,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,43,39
+SIN-TE-00109,Salud Mental,2026-02-07,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,44,40
+SIN-TE-00059,Salud Mental,2026-04-14,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,45,43
+SIN-TE-00072,Salud Mental,2026-07-13,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,46,44
+SIN-TE-00135,Traumatología,2026-06-29,baja,alta,True,alta,100,sube,False,alta,media,"[{""fecha"": ""2026-09-15"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,1,1
+SIN-TE-00198,Traumatología,2025-12-29,baja,alta,True,alta,91,sube,False,alta,media,"[{""fecha"": ""2026-09-24"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,2,2
+SIN-TE-00248,Traumatología,2026-05-03,media,alta,True,alta,91,sube,False,alta,media,"[{""fecha"": ""2026-10-08"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,3,3
+SIN-TE-00152,Traumatología,2026-08-24,media,alta,True,alta,91,sube,False,alta,media,"[{""fecha"": ""2026-09-25"", ""fuente"": ""evento"", ""cita"": ""triage ESI 2""}]","Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,4,4
+SIN-TE-00267,Traumatología,2026-07-24,media,alta,False,alta,74,sube,False,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,5,5
+SIN-TE-00074,Traumatología,2026-06-05,alta,alta,False,baja,24,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,6,9
+SIN-TE-00052,Traumatología,2026-05-07,alta,alta,False,baja,16,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,7,29
+SIN-TE-00273,Traumatología,2025-10-25,alta,alta,False,baja,10,baja,True,alta,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,8,41
+SIN-TE-00295,Traumatología,2025-10-01,media,alta,False,baja,30,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,9,6
+SIN-TE-00279,Traumatología,2025-10-31,media,media,False,baja,24,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,10,8
+SIN-TE-00144,Traumatología,2025-08-06,media,alta,False,baja,22,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,11,10
+SIN-TE-00073,Traumatología,2025-05-09,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,12,13
+SIN-TE-00293,Traumatología,2025-06-10,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,13,16
+SIN-TE-00155,Traumatología,2025-07-08,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,14,17
+SIN-TE-00283,Traumatología,2026-01-09,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,15,20
+SIN-TE-00247,Traumatología,2026-01-25,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,16,22
+SIN-TE-00084,Traumatología,2026-01-30,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,17,23
+SIN-TE-00138,Traumatología,2026-03-14,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,18,25
+SIN-TE-00117,Traumatología,2026-04-11,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,19,26
+SIN-TE-00032,Traumatología,2026-05-23,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,20,30
+SIN-TE-00204,Traumatología,2026-07-27,media,media,False,baja,16,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,21,31
+SIN-TE-00241,Traumatología,2025-06-11,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,22,34
+SIN-TE-00146,Traumatología,2026-04-15,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,23,49
+SIN-TE-00149,Traumatología,2026-05-22,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,24,50
+SIN-TE-00271,Traumatología,2026-09-25,media,media,False,baja,10,baja,True,media,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,25,56
+SIN-TE-00197,Traumatología,2025-10-23,baja,media,False,baja,24,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,26,7
+SIN-TE-00126,Traumatología,2026-02-02,baja,alta,False,baja,22,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,27,11
+SIN-TE-00165,Traumatología,2026-07-08,baja,baja,False,baja,18,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,28,12
+SIN-TE-00108,Traumatología,2025-05-29,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,29,14
+SIN-TE-00229,Traumatología,2025-05-31,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,30,15
+SIN-TE-00194,Traumatología,2025-09-02,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,31,18
+SIN-TE-00253,Traumatología,2025-10-31,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,32,19
+SIN-TE-00183,Traumatología,2026-01-12,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,33,21
+SIN-TE-00158,Traumatología,2026-01-31,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,34,24
+SIN-TE-00078,Traumatología,2026-04-17,baja,media,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,35,27
+SIN-TE-00142,Traumatología,2026-04-29,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,36,28
+SIN-TE-00003,Traumatología,2026-08-15,baja,baja,False,baja,16,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,37,32
+SIN-TE-00033,Traumatología,2025-06-06,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,38,33
+SIN-TE-00217,Traumatología,2025-07-10,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,39,35
+SIN-TE-00085,Traumatología,2025-07-31,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,40,36
+SIN-TE-00274,Traumatología,2025-08-03,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,41,37
+SIN-TE-00023,Traumatología,2025-08-20,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,42,38
+SIN-TE-00018,Traumatología,2025-09-19,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,43,39
+SIN-TE-00099,Traumatología,2025-10-13,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,44,40
+SIN-TE-00160,Traumatología,2025-11-07,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,45,42
+SIN-TE-00184,Traumatología,2025-12-17,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,46,43
+SIN-TE-00086,Traumatología,2026-01-15,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,47,44
+SIN-TE-00213,Traumatología,2026-02-21,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,48,45
+SIN-TE-00107,Traumatología,2026-03-09,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,49,46
+SIN-TE-00044,Traumatología,2026-03-30,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,50,47
+SIN-TE-00104,Traumatología,2026-04-07,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,51,48
+SIN-TE-00005,Traumatología,2026-06-29,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,52,51
+SIN-TE-00007,Traumatología,2026-08-02,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,53,52
+SIN-TE-00282,Traumatología,2026-08-20,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,54,53
+SIN-TE-00173,Traumatología,2026-09-04,baja,baja,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,55,54
+SIN-TE-00284,Traumatología,2026-09-22,baja,media,False,baja,10,igual,False,baja,media,[],"Modo simulado (reglas y palabras clave), sin Bedrock.",simulado,,,,56,55

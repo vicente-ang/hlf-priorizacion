@@ -1,0 +1,91 @@
+# Pesos del PUNTAJE v1 (modo opcional: python priorizar.py --modo puntaje)
+# La regla por defecto del MVP no usa pesos: ver motor/config/regla.yaml
+# ---------------------------------------------------------------
+# Valores INICIALES (v1). Son un punto de partida razonable, no una verdad clínica.
+# Requieren calibración; por eso no son el modo por defecto del MVP.
+# Todo el puntaje sale de este archivo: cambiar un peso aquí cambia la lista,
+# sin tocar código. Eso es lo que permite auditarlo y escalarlo a otras especialidades.
+
+version: v1-inicial
+
+# 1. Prioridad asignada por el médico (la "foto" inicial)
+base_prioridad:
+  alta: 30
+  media: 15
+  baja: 5
+
+# 2. Tiempo de espera: cola de prioridad acumulativa.
+#    Cada clase acumula puntos a su propio ritmo, con tope. Así un paciente "baja"
+#    que espera mucho termina adelantando a un "alta" recién llegado.
+#    OJO: con una lista sobrecargada esto no basta para que los "baja" ESTABLES se
+#    atiendan (los "alta" antiguos siempre van antes). Eso se resuelve en la agenda con
+#    un cupo reservado por antigüedad: ver sim/resultados/sensibilidad_cupo_antiguedad.md
+espera:
+  puntos_por_semana:
+    alta: 0.6
+    media: 0.45
+    baja: 0.35
+  tope: 30
+
+# 3. Eventos clínicos durante la espera. Pierden peso con el tiempo:
+#    puntos x 0.5^(días desde el evento / vida_media_dias)
+eventos:
+  vida_media_dias: 60
+  ventana_max_dias: 365
+  puntos_por_subtipo:
+    ingreso UCI: 30
+    ingreso hospitalario: 20
+    triage ESI 2: 15
+    descompensación grave: 15
+    descompensación: 8
+    resultado alterado: 6
+    aumento dosis: 5
+    buena respuesta: -5
+    estabilización: -5
+    reducción dosis: -3
+    control: 0
+    control crónico: 0
+    control de rutina: 0
+  # Si el evento trae la columna opcional `dias_estadia` (no viene en el dataset
+  # sintético; pedirla al hospital), se suman puntos por día hospitalizado (tipo LACE).
+  puntos_por_dia_hospitalizado: 2
+  tope_dias_hospitalizado: 7
+  piso_total: -10
+
+# 4. Mediciones objetivas (última medición de cada tipo dentro de la ventana)
+mediciones:
+  ventana_dias: 180
+  fuera_de_rango: 5          # por tipo de medición con el último valor fuera de rango
+  tendencia_empeora: 5       # por tipo, si las últimas 3 mediciones empeoran más que el umbral
+  tendencia_mejora: -3
+  tope_total: 15
+  piso_total: -5
+  tipos:
+    presion_sistolica:  {empeora_si: sube, umbral: 10}
+    presion_diastolica: {empeora_si: sube, umbral: 8}
+    HbA1c:              {empeora_si: sube, umbral: 0.5}
+    glicemia:           {empeora_si: sube, umbral: 20}
+    saturacion_o2:      {empeora_si: baja, umbral: 2}
+    peak_flow:          {empeora_si: baja, umbral: 40}
+    escala_dolor_eva:   {empeora_si: sube, umbral: 2}
+    PHQ9:               {empeora_si: sube, umbral: 3}
+
+# 5. Bandera de revisión clínica (inspirada en NEWS2: un solo hallazgo grave gatilla revisión).
+#    No suma puntos ni mueve al paciente sola: avisa al equipo para que valide.
+bandera_revision:
+  ventana_dias: 30
+  severidades: [grave]
+
+# 6. Inasistencias: NO cambian la prioridad clínica (castigaría a los más vulnerables).
+#    Solo generan una alerta de contacto para el equipo de agenda.
+alerta_contacto:
+  inasistencias_para_alerta: 1
+  inasistencias_para_llamada: 2
+
+# 7. Ajustes por especialidad (se mezclan sobre los valores generales). Ejemplo:
+# especialidades:
+#   Salud Mental:
+#     eventos:
+#       puntos_por_subtipo:
+#         aumento dosis: 8
+especialidades: {}

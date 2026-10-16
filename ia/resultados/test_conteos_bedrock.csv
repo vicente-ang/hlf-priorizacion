@@ -1,0 +1,6 @@
+metodo,n,empeoraron,detectados,no_empeoraron,falsas_alarmas,debian_ser_alta,quedaron_en_baja
+fifo,118,23,0,95,0,29,6
+regla,118,23,19,95,36,29,1
+palabras_clave,118,23,11,95,6,29,9
+ia,118,23,22,95,25,29,0
+hibrido,118,23,22,95,25,29,0

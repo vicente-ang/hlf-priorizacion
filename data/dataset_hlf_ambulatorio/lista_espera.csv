@@ -1,0 +1,501 @@
+id_paciente,id_solicitud,especialidad,sub_especialidad,diagnostico_cie10,diagnostico_texto,prioridad_inicial,fecha_ingreso_lista,origen_derivacion,estado
+PAC-HLF-00001,IC-HLF-00001,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-12-15,Urgencia,en_espera
+PAC-HLF-00002,IC-HLF-00002,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2025-11-08,Hospitalización,en_espera
+PAC-HLF-00003,IC-HLF-00003,Endocrinología,Diabetes,E66,Obesidad,media,2025-06-05,CESFAM/APS,en_espera
+PAC-HLF-00004,IC-HLF-00004,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-03-21,CESFAM/APS,en_espera
+PAC-HLF-00005,IC-HLF-00005,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-01-27,Hospitalización,en_espera
+PAC-HLF-00006,IC-HLF-00006,Broncopulmonar,EPOC,J44,EPOC,baja,2025-05-10,Urgencia,atendido
+PAC-HLF-00007,IC-HLF-00007,Broncopulmonar,EPOC,J44,EPOC,baja,2025-07-16,Hospitalización,en_espera
+PAC-HLF-00008,IC-HLF-00008,Traumatología,Columna,M54,Lumbago,media,2026-02-17,CESFAM/APS,en_espera
+PAC-HLF-00009,IC-HLF-00009,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-08-07,CESFAM/APS,fallecido
+PAC-HLF-00010,IC-HLF-00010,Traumatología,Hombro,M75,Lesión del hombro,media,2025-12-15,Urgencia,fallecido
+PAC-HLF-00011,IC-HLF-00011,Traumatología,Columna,M54,Lumbago,media,2026-01-27,CESFAM/APS,en_espera
+PAC-HLF-00012,IC-HLF-00012,Traumatología,Columna,M54,Lumbago,baja,2026-02-06,CESFAM/APS,en_espera
+PAC-HLF-00013,IC-HLF-00013,Endocrinología,Diabetes,E66,Obesidad,media,2025-10-06,CESFAM/APS,en_espera
+PAC-HLF-00014,IC-HLF-00014,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-05-06,CESFAM/APS,fallecido
+PAC-HLF-00015,IC-HLF-00015,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2025-05-14,CESFAM/APS,en_espera
+PAC-HLF-00016,IC-HLF-00016,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-09-03,CESFAM/APS,en_espera
+PAC-HLF-00017,IC-HLF-00017,Endocrinología,Diabetes,E66,Obesidad,media,2026-03-08,CESFAM/APS,en_espera
+PAC-HLF-00018,IC-HLF-00018,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-01-14,CESFAM/APS,en_espera
+PAC-HLF-00019,IC-HLF-00019,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-08-02,CESFAM/APS,en_espera
+PAC-HLF-00020,IC-HLF-00020,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-03-30,Hospitalización,en_espera
+PAC-HLF-00021,IC-HLF-00021,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-07-06,CESFAM/APS,en_espera
+PAC-HLF-00022,IC-HLF-00022,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-08-12,Urgencia,en_espera
+PAC-HLF-00023,IC-HLF-00023,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-06-24,CESFAM/APS,en_espera
+PAC-HLF-00024,IC-HLF-00024,Traumatología,Columna,M54,Lumbago,baja,2025-05-15,CESFAM/APS,en_espera
+PAC-HLF-00025,IC-HLF-00025,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-07-19,Urgencia,en_espera
+PAC-HLF-00026,IC-HLF-00026,Traumatología,Hombro,M75,Lesión del hombro,media,2026-01-29,CESFAM/APS,fallecido
+PAC-HLF-00027,IC-HLF-00027,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-07-09,CESFAM/APS,en_espera
+PAC-HLF-00028,IC-HLF-00028,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-07-30,CESFAM/APS,en_espera
+PAC-HLF-00029,IC-HLF-00029,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2025-09-11,CESFAM/APS,en_espera
+PAC-HLF-00030,IC-HLF-00030,Neurología,Epilepsia,G40,Epilepsia,media,2026-01-26,Urgencia,en_espera
+PAC-HLF-00031,IC-HLF-00031,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-04-29,Urgencia,en_espera
+PAC-HLF-00032,IC-HLF-00032,Broncopulmonar,Asma,J45,Asma,baja,2025-07-03,Otro hospital red,atendido
+PAC-HLF-00033,IC-HLF-00033,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-06-08,CESFAM/APS,en_espera
+PAC-HLF-00034,IC-HLF-00034,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-05-17,Urgencia,en_espera
+PAC-HLF-00035,IC-HLF-00035,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-09-09,CESFAM/APS,en_espera
+PAC-HLF-00036,IC-HLF-00036,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-04-27,CESFAM/APS,en_espera
+PAC-HLF-00037,IC-HLF-00037,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-08-17,CESFAM/APS,fallecido
+PAC-HLF-00038,IC-HLF-00038,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-12-06,Urgencia,en_espera
+PAC-HLF-00039,IC-HLF-00039,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-11-25,CESFAM/APS,en_espera
+PAC-HLF-00040,IC-HLF-00040,Endocrinología,Diabetes,E66,Obesidad,media,2025-06-18,Urgencia,atendido
+PAC-HLF-00041,IC-HLF-00041,Traumatología,Columna,M54,Lumbago,alta,2025-05-07,Otro hospital red,atendido
+PAC-HLF-00042,IC-HLF-00042,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,alta,2026-09-23,CESFAM/APS,en_espera
+PAC-HLF-00043,IC-HLF-00043,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-07-20,CESFAM/APS,en_espera
+PAC-HLF-00044,IC-HLF-00044,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-02-23,CESFAM/APS,en_espera
+PAC-HLF-00045,IC-HLF-00045,Neurología,Epilepsia,G40,Epilepsia,baja,2025-07-06,CESFAM/APS,en_espera
+PAC-HLF-00046,IC-HLF-00046,Broncopulmonar,EPOC,J44,EPOC,media,2025-10-13,Urgencia,en_espera
+PAC-HLF-00047,IC-HLF-00047,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-12-22,CESFAM/APS,en_espera
+PAC-HLF-00048,IC-HLF-00048,Broncopulmonar,EPOC,J44,EPOC,baja,2025-10-13,Otro hospital red,en_espera
+PAC-HLF-00049,IC-HLF-00049,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-05-24,CESFAM/APS,atendido
+PAC-HLF-00050,IC-HLF-00050,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-08-27,CESFAM/APS,en_espera
+PAC-HLF-00051,IC-HLF-00051,Neurología,Epilepsia,G40,Epilepsia,alta,2026-05-04,CESFAM/APS,en_espera
+PAC-HLF-00052,IC-HLF-00052,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-11-08,CESFAM/APS,en_espera
+PAC-HLF-00053,IC-HLF-00053,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-04-22,CESFAM/APS,en_espera
+PAC-HLF-00054,IC-HLF-00054,Neurología,Epilepsia,G40,Epilepsia,alta,2025-05-20,Otro hospital red,en_espera
+PAC-HLF-00055,IC-HLF-00055,Traumatología,Hombro,M75,Lesión del hombro,media,2025-11-28,Urgencia,en_espera
+PAC-HLF-00056,IC-HLF-00056,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-07-06,CESFAM/APS,en_espera
+PAC-HLF-00057,IC-HLF-00057,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-03-23,CESFAM/APS,atendido
+PAC-HLF-00058,IC-HLF-00058,Broncopulmonar,Asma,J45,Asma,baja,2025-10-26,Urgencia,en_espera
+PAC-HLF-00059,IC-HLF-00059,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-08-01,CESFAM/APS,en_espera
+PAC-HLF-00060,IC-HLF-00060,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-05-05,Otro hospital red,en_espera
+PAC-HLF-00061,IC-HLF-00061,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-03-14,CESFAM/APS,atendido
+PAC-HLF-00062,IC-HLF-00062,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2025-11-09,Otro hospital red,en_espera
+PAC-HLF-00063,IC-HLF-00063,Traumatología,Columna,M54,Lumbago,media,2025-06-24,CESFAM/APS,en_espera
+PAC-HLF-00064,IC-HLF-00064,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-07-28,CESFAM/APS,en_espera
+PAC-HLF-00065,IC-HLF-00065,Neurología,Epilepsia,G40,Epilepsia,baja,2025-08-19,Hospitalización,en_espera
+PAC-HLF-00066,IC-HLF-00066,Neurología,Epilepsia,G40,Epilepsia,media,2025-06-04,CESFAM/APS,en_espera
+PAC-HLF-00067,IC-HLF-00067,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-03-25,Otro hospital red,en_espera
+PAC-HLF-00068,IC-HLF-00068,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-11-04,Otro hospital red,en_espera
+PAC-HLF-00069,IC-HLF-00069,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2026-05-13,CESFAM/APS,en_espera
+PAC-HLF-00070,IC-HLF-00070,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2025-06-24,CESFAM/APS,en_espera
+PAC-HLF-00071,IC-HLF-00071,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-03-27,CESFAM/APS,en_espera
+PAC-HLF-00072,IC-HLF-00072,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-12-02,CESFAM/APS,fallecido
+PAC-HLF-00073,IC-HLF-00073,Endocrinología,Diabetes,E66,Obesidad,baja,2025-09-02,Hospitalización,en_espera
+PAC-HLF-00074,IC-HLF-00074,Traumatología,Hombro,M75,Lesión del hombro,media,2025-07-31,Urgencia,en_espera
+PAC-HLF-00075,IC-HLF-00075,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-10-14,Urgencia,en_espera
+PAC-HLF-00076,IC-HLF-00076,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-10-13,Otro hospital red,fallecido
+PAC-HLF-00077,IC-HLF-00077,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-01-11,Hospitalización,en_espera
+PAC-HLF-00078,IC-HLF-00078,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,alta,2025-10-09,CESFAM/APS,en_espera
+PAC-HLF-00079,IC-HLF-00079,Traumatología,Columna,M54,Lumbago,media,2026-03-20,CESFAM/APS,en_espera
+PAC-HLF-00080,IC-HLF-00080,Broncopulmonar,Asma,J45,Asma,media,2025-10-24,Otro hospital red,en_espera
+PAC-HLF-00081,IC-HLF-00081,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-02-01,CESFAM/APS,atendido
+PAC-HLF-00082,IC-HLF-00082,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-02-24,CESFAM/APS,atendido
+PAC-HLF-00083,IC-HLF-00083,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-12-01,CESFAM/APS,en_espera
+PAC-HLF-00084,IC-HLF-00084,Broncopulmonar,EPOC,J44,EPOC,baja,2026-02-08,CESFAM/APS,en_espera
+PAC-HLF-00085,IC-HLF-00085,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-07-24,Urgencia,en_espera
+PAC-HLF-00086,IC-HLF-00086,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-06-09,CESFAM/APS,en_espera
+PAC-HLF-00087,IC-HLF-00087,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2026-02-25,Urgencia,en_espera
+PAC-HLF-00088,IC-HLF-00088,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-12-10,Urgencia,en_espera
+PAC-HLF-00089,IC-HLF-00089,Traumatología,Columna,M54,Lumbago,alta,2025-10-22,CESFAM/APS,fallecido
+PAC-HLF-00090,IC-HLF-00090,Endocrinología,Diabetes,E66,Obesidad,alta,2026-03-03,CESFAM/APS,en_espera
+PAC-HLF-00091,IC-HLF-00091,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-07-13,CESFAM/APS,en_espera
+PAC-HLF-00092,IC-HLF-00092,Broncopulmonar,Asma,J45,Asma,alta,2026-02-24,Urgencia,en_espera
+PAC-HLF-00093,IC-HLF-00093,Neurología,Cefaleas,G43,Migraña,baja,2026-04-30,CESFAM/APS,en_espera
+PAC-HLF-00094,IC-HLF-00094,Traumatología,Columna,M54,Lumbago,alta,2026-05-17,Urgencia,en_espera
+PAC-HLF-00095,IC-HLF-00095,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-04-05,CESFAM/APS,en_espera
+PAC-HLF-00096,IC-HLF-00096,Neurología,Cefaleas,G43,Migraña,media,2026-05-27,Urgencia,en_espera
+PAC-HLF-00097,IC-HLF-00097,Neurología,Cefaleas,G43,Migraña,alta,2026-05-18,CESFAM/APS,en_espera
+PAC-HLF-00098,IC-HLF-00098,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2026-06-26,CESFAM/APS,en_espera
+PAC-HLF-00099,IC-HLF-00099,Broncopulmonar,Asma,J45,Asma,media,2026-05-06,Hospitalización,en_espera
+PAC-HLF-00100,IC-HLF-00100,Broncopulmonar,Asma,J45,Asma,alta,2025-12-17,Urgencia,en_espera
+PAC-HLF-00101,IC-HLF-00101,Traumatología,Columna,M54,Lumbago,media,2025-05-06,Otro hospital red,en_espera
+PAC-HLF-00102,IC-HLF-00102,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-12-11,Otro hospital red,en_espera
+PAC-HLF-00103,IC-HLF-00103,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-09-03,Urgencia,atendido
+PAC-HLF-00104,IC-HLF-00104,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-04-30,Otro hospital red,en_espera
+PAC-HLF-00105,IC-HLF-00105,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-07-07,CESFAM/APS,atendido
+PAC-HLF-00106,IC-HLF-00106,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2025-10-08,CESFAM/APS,en_espera
+PAC-HLF-00107,IC-HLF-00107,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-10-26,CESFAM/APS,en_espera
+PAC-HLF-00108,IC-HLF-00108,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-03-20,CESFAM/APS,en_espera
+PAC-HLF-00109,IC-HLF-00109,Traumatología,Columna,M54,Lumbago,media,2026-05-28,CESFAM/APS,en_espera
+PAC-HLF-00110,IC-HLF-00110,Traumatología,Hombro,M75,Lesión del hombro,alta,2026-04-10,CESFAM/APS,atendido
+PAC-HLF-00111,IC-HLF-00111,Traumatología,Columna,M54,Lumbago,media,2025-12-13,Urgencia,en_espera
+PAC-HLF-00112,IC-HLF-00112,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-08-14,CESFAM/APS,en_espera
+PAC-HLF-00113,IC-HLF-00113,Gastroenterología,Hígado,K70,Enfermedad hepática,baja,2026-03-18,CESFAM/APS,en_espera
+PAC-HLF-00114,IC-HLF-00114,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-05-20,CESFAM/APS,en_espera
+PAC-HLF-00115,IC-HLF-00115,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-07-07,Urgencia,en_espera
+PAC-HLF-00116,IC-HLF-00116,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-02-26,Urgencia,atendido
+PAC-HLF-00117,IC-HLF-00117,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-03-30,Urgencia,fallecido
+PAC-HLF-00118,IC-HLF-00118,Neurología,Epilepsia,G40,Epilepsia,alta,2025-10-15,CESFAM/APS,en_espera
+PAC-HLF-00119,IC-HLF-00119,Neurología,Cefaleas,G43,Migraña,media,2025-06-19,Urgencia,en_espera
+PAC-HLF-00120,IC-HLF-00120,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-10-08,CESFAM/APS,atendido
+PAC-HLF-00121,IC-HLF-00121,Traumatología,Columna,M54,Lumbago,alta,2025-07-27,CESFAM/APS,en_espera
+PAC-HLF-00122,IC-HLF-00122,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2026-05-13,Urgencia,en_espera
+PAC-HLF-00123,IC-HLF-00123,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-12-24,CESFAM/APS,en_espera
+PAC-HLF-00124,IC-HLF-00124,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2026-06-01,CESFAM/APS,atendido
+PAC-HLF-00125,IC-HLF-00125,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2026-01-01,CESFAM/APS,en_espera
+PAC-HLF-00126,IC-HLF-00126,Neurología,Cefaleas,G43,Migraña,media,2025-12-16,Otro hospital red,en_espera
+PAC-HLF-00127,IC-HLF-00127,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-06-10,CESFAM/APS,en_espera
+PAC-HLF-00128,IC-HLF-00128,Traumatología,Hombro,M75,Lesión del hombro,media,2025-05-18,CESFAM/APS,en_espera
+PAC-HLF-00129,IC-HLF-00129,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-05-17,CESFAM/APS,en_espera
+PAC-HLF-00130,IC-HLF-00130,Traumatología,Hombro,M75,Lesión del hombro,media,2025-07-31,Urgencia,en_espera
+PAC-HLF-00131,IC-HLF-00131,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2026-05-18,Urgencia,atendido
+PAC-HLF-00132,IC-HLF-00132,Broncopulmonar,EPOC,J44,EPOC,media,2025-09-23,Urgencia,en_espera
+PAC-HLF-00133,IC-HLF-00133,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-11-08,Urgencia,en_espera
+PAC-HLF-00134,IC-HLF-00134,Neurología,Cefaleas,G43,Migraña,media,2025-07-28,CESFAM/APS,en_espera
+PAC-HLF-00135,IC-HLF-00135,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-07-25,CESFAM/APS,en_espera
+PAC-HLF-00136,IC-HLF-00136,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-05-05,Hospitalización,en_espera
+PAC-HLF-00137,IC-HLF-00137,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-11-30,Urgencia,en_espera
+PAC-HLF-00138,IC-HLF-00138,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-04-27,Urgencia,en_espera
+PAC-HLF-00139,IC-HLF-00139,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-04-22,Hospitalización,en_espera
+PAC-HLF-00140,IC-HLF-00140,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-06-14,CESFAM/APS,en_espera
+PAC-HLF-00141,IC-HLF-00141,Broncopulmonar,EPOC,J44,EPOC,baja,2025-07-08,Urgencia,en_espera
+PAC-HLF-00142,IC-HLF-00142,Traumatología,Columna,M54,Lumbago,media,2026-04-07,Urgencia,en_espera
+PAC-HLF-00143,IC-HLF-00143,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-08-03,CESFAM/APS,en_espera
+PAC-HLF-00144,IC-HLF-00144,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2026-04-09,CESFAM/APS,atendido
+PAC-HLF-00145,IC-HLF-00145,Broncopulmonar,EPOC,J44,EPOC,media,2025-11-19,CESFAM/APS,en_espera
+PAC-HLF-00146,IC-HLF-00146,Neurología,Epilepsia,G40,Epilepsia,alta,2026-03-28,CESFAM/APS,en_espera
+PAC-HLF-00147,IC-HLF-00147,Broncopulmonar,Asma,J45,Asma,alta,2026-07-21,CESFAM/APS,atendido
+PAC-HLF-00148,IC-HLF-00148,Traumatología,Hombro,M75,Lesión del hombro,alta,2026-07-26,Urgencia,en_espera
+PAC-HLF-00149,IC-HLF-00149,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2025-04-27,CESFAM/APS,en_espera
+PAC-HLF-00150,IC-HLF-00150,Neurología,Epilepsia,G40,Epilepsia,media,2025-08-30,CESFAM/APS,en_espera
+PAC-HLF-00151,IC-HLF-00151,Traumatología,Columna,M54,Lumbago,media,2026-03-10,Urgencia,en_espera
+PAC-HLF-00152,IC-HLF-00152,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-05-14,CESFAM/APS,en_espera
+PAC-HLF-00153,IC-HLF-00153,Traumatología,Hombro,M75,Lesión del hombro,alta,2025-11-07,CESFAM/APS,en_espera
+PAC-HLF-00154,IC-HLF-00154,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-07-25,CESFAM/APS,en_espera
+PAC-HLF-00155,IC-HLF-00155,Traumatología,Rodilla,M17,Artrosis de rodilla,alta,2026-07-10,Urgencia,en_espera
+PAC-HLF-00156,IC-HLF-00156,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-05-25,Otro hospital red,en_espera
+PAC-HLF-00157,IC-HLF-00157,Traumatología,Columna,M54,Lumbago,media,2026-06-06,Urgencia,en_espera
+PAC-HLF-00158,IC-HLF-00158,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-02-06,CESFAM/APS,en_espera
+PAC-HLF-00159,IC-HLF-00159,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-09-09,CESFAM/APS,en_espera
+PAC-HLF-00160,IC-HLF-00160,Endocrinología,Diabetes,E66,Obesidad,alta,2026-07-19,CESFAM/APS,en_espera
+PAC-HLF-00161,IC-HLF-00161,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-09-12,CESFAM/APS,en_espera
+PAC-HLF-00162,IC-HLF-00162,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2025-09-24,CESFAM/APS,en_espera
+PAC-HLF-00163,IC-HLF-00163,Broncopulmonar,Asma,J45,Asma,alta,2025-10-11,Urgencia,en_espera
+PAC-HLF-00164,IC-HLF-00164,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-07-13,Hospitalización,en_espera
+PAC-HLF-00165,IC-HLF-00165,Endocrinología,Tiroides,E03,Hipotiroidismo,alta,2025-12-08,CESFAM/APS,fallecido
+PAC-HLF-00166,IC-HLF-00166,Gastroenterología,Hígado,K70,Enfermedad hepática,baja,2026-04-22,Otro hospital red,en_espera
+PAC-HLF-00167,IC-HLF-00167,Endocrinología,Tiroides,E03,Hipotiroidismo,alta,2025-06-10,CESFAM/APS,en_espera
+PAC-HLF-00168,IC-HLF-00168,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-04-21,Hospitalización,en_espera
+PAC-HLF-00169,IC-HLF-00169,Traumatología,Columna,M54,Lumbago,baja,2025-12-18,CESFAM/APS,en_espera
+PAC-HLF-00170,IC-HLF-00170,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2026-07-27,CESFAM/APS,en_espera
+PAC-HLF-00171,IC-HLF-00171,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-01-12,CESFAM/APS,en_espera
+PAC-HLF-00172,IC-HLF-00172,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-02-01,CESFAM/APS,en_espera
+PAC-HLF-00173,IC-HLF-00173,Broncopulmonar,EPOC,J44,EPOC,media,2025-09-11,CESFAM/APS,en_espera
+PAC-HLF-00174,IC-HLF-00174,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-10-06,Otro hospital red,atendido
+PAC-HLF-00175,IC-HLF-00175,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-07-26,Hospitalización,en_espera
+PAC-HLF-00176,IC-HLF-00176,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2025-06-17,CESFAM/APS,en_espera
+PAC-HLF-00177,IC-HLF-00177,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-06-25,Hospitalización,en_espera
+PAC-HLF-00178,IC-HLF-00178,Endocrinología,Diabetes,E66,Obesidad,media,2025-08-21,CESFAM/APS,en_espera
+PAC-HLF-00179,IC-HLF-00179,Traumatología,Columna,M54,Lumbago,media,2026-01-03,Otro hospital red,en_espera
+PAC-HLF-00180,IC-HLF-00180,Neurología,Epilepsia,G40,Epilepsia,baja,2026-03-01,CESFAM/APS,en_espera
+PAC-HLF-00181,IC-HLF-00181,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2026-05-25,CESFAM/APS,en_espera
+PAC-HLF-00182,IC-HLF-00182,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2025-12-13,Urgencia,atendido
+PAC-HLF-00183,IC-HLF-00183,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-04-10,Hospitalización,en_espera
+PAC-HLF-00184,IC-HLF-00184,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-12-30,CESFAM/APS,en_espera
+PAC-HLF-00185,IC-HLF-00185,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-06-11,Urgencia,en_espera
+PAC-HLF-00186,IC-HLF-00186,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-05-01,CESFAM/APS,en_espera
+PAC-HLF-00187,IC-HLF-00187,Broncopulmonar,EPOC,J44,EPOC,baja,2025-11-22,Urgencia,en_espera
+PAC-HLF-00188,IC-HLF-00188,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-09-18,CESFAM/APS,en_espera
+PAC-HLF-00189,IC-HLF-00189,Traumatología,Columna,M54,Lumbago,baja,2025-11-28,CESFAM/APS,en_espera
+PAC-HLF-00190,IC-HLF-00190,Traumatología,Columna,M54,Lumbago,baja,2025-11-02,Hospitalización,en_espera
+PAC-HLF-00191,IC-HLF-00191,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-10-05,CESFAM/APS,en_espera
+PAC-HLF-00192,IC-HLF-00192,Traumatología,Rodilla,M17,Artrosis de rodilla,alta,2025-06-09,Urgencia,en_espera
+PAC-HLF-00193,IC-HLF-00193,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2026-01-09,Hospitalización,en_espera
+PAC-HLF-00194,IC-HLF-00194,Broncopulmonar,EPOC,J44,EPOC,media,2026-02-13,Urgencia,en_espera
+PAC-HLF-00195,IC-HLF-00195,Neurología,Epilepsia,G40,Epilepsia,media,2026-04-15,Otro hospital red,en_espera
+PAC-HLF-00196,IC-HLF-00196,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-06-09,CESFAM/APS,en_espera
+PAC-HLF-00197,IC-HLF-00197,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-02-14,CESFAM/APS,en_espera
+PAC-HLF-00198,IC-HLF-00198,Broncopulmonar,EPOC,J44,EPOC,media,2026-03-01,Urgencia,en_espera
+PAC-HLF-00199,IC-HLF-00199,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-01-22,Urgencia,en_espera
+PAC-HLF-00200,IC-HLF-00200,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-08-19,CESFAM/APS,atendido
+PAC-HLF-00201,IC-HLF-00201,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-06-08,CESFAM/APS,en_espera
+PAC-HLF-00202,IC-HLF-00202,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-04-30,CESFAM/APS,en_espera
+PAC-HLF-00203,IC-HLF-00203,Neurología,Cefaleas,G43,Migraña,media,2025-08-26,Urgencia,en_espera
+PAC-HLF-00204,IC-HLF-00204,Traumatología,Columna,M54,Lumbago,baja,2025-07-25,CESFAM/APS,en_espera
+PAC-HLF-00205,IC-HLF-00205,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-09-25,CESFAM/APS,atendido
+PAC-HLF-00206,IC-HLF-00206,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-06-19,Hospitalización,atendido
+PAC-HLF-00207,IC-HLF-00207,Endocrinología,Diabetes,E66,Obesidad,media,2026-01-11,Urgencia,en_espera
+PAC-HLF-00208,IC-HLF-00208,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-07-06,CESFAM/APS,en_espera
+PAC-HLF-00209,IC-HLF-00209,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-06-28,Urgencia,en_espera
+PAC-HLF-00210,IC-HLF-00210,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-05-21,CESFAM/APS,atendido
+PAC-HLF-00211,IC-HLF-00211,Neurología,Epilepsia,G40,Epilepsia,baja,2026-05-27,Urgencia,atendido
+PAC-HLF-00212,IC-HLF-00212,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-06-05,CESFAM/APS,en_espera
+PAC-HLF-00213,IC-HLF-00213,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2025-12-24,CESFAM/APS,en_espera
+PAC-HLF-00214,IC-HLF-00214,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-06-21,CESFAM/APS,en_espera
+PAC-HLF-00215,IC-HLF-00215,Endocrinología,Tiroides,E03,Hipotiroidismo,alta,2025-06-08,Urgencia,atendido
+PAC-HLF-00216,IC-HLF-00216,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2026-01-06,CESFAM/APS,en_espera
+PAC-HLF-00217,IC-HLF-00217,Broncopulmonar,Asma,J45,Asma,baja,2025-10-12,CESFAM/APS,en_espera
+PAC-HLF-00218,IC-HLF-00218,Broncopulmonar,Asma,J45,Asma,media,2026-07-27,Hospitalización,en_espera
+PAC-HLF-00219,IC-HLF-00219,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2026-07-26,Hospitalización,en_espera
+PAC-HLF-00220,IC-HLF-00220,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2026-03-19,CESFAM/APS,en_espera
+PAC-HLF-00221,IC-HLF-00221,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-02-02,Hospitalización,en_espera
+PAC-HLF-00222,IC-HLF-00222,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-11-22,CESFAM/APS,en_espera
+PAC-HLF-00223,IC-HLF-00223,Neurología,Epilepsia,G40,Epilepsia,media,2025-09-13,Urgencia,en_espera
+PAC-HLF-00224,IC-HLF-00224,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-09-02,CESFAM/APS,atendido
+PAC-HLF-00225,IC-HLF-00225,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-03-23,Otro hospital red,en_espera
+PAC-HLF-00226,IC-HLF-00226,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2025-07-05,CESFAM/APS,atendido
+PAC-HLF-00227,IC-HLF-00227,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2026-05-09,CESFAM/APS,en_espera
+PAC-HLF-00228,IC-HLF-00228,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-08-21,CESFAM/APS,en_espera
+PAC-HLF-00229,IC-HLF-00229,Broncopulmonar,EPOC,J44,EPOC,media,2025-11-19,CESFAM/APS,en_espera
+PAC-HLF-00230,IC-HLF-00230,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-06-15,Hospitalización,en_espera
+PAC-HLF-00231,IC-HLF-00231,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-05-17,Urgencia,en_espera
+PAC-HLF-00232,IC-HLF-00232,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-09-29,CESFAM/APS,en_espera
+PAC-HLF-00233,IC-HLF-00233,Neurología,Epilepsia,G40,Epilepsia,alta,2025-10-10,CESFAM/APS,en_espera
+PAC-HLF-00234,IC-HLF-00234,Endocrinología,Tiroides,E03,Hipotiroidismo,alta,2025-08-02,CESFAM/APS,en_espera
+PAC-HLF-00235,IC-HLF-00235,Endocrinología,Diabetes,E66,Obesidad,baja,2025-05-22,CESFAM/APS,en_espera
+PAC-HLF-00236,IC-HLF-00236,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-09-19,Urgencia,en_espera
+PAC-HLF-00237,IC-HLF-00237,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-11-17,CESFAM/APS,en_espera
+PAC-HLF-00238,IC-HLF-00238,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-07-09,Urgencia,en_espera
+PAC-HLF-00239,IC-HLF-00239,Traumatología,Columna,M54,Lumbago,baja,2025-06-05,Urgencia,en_espera
+PAC-HLF-00240,IC-HLF-00240,Endocrinología,Diabetes,E66,Obesidad,media,2026-04-09,Otro hospital red,en_espera
+PAC-HLF-00241,IC-HLF-00241,Traumatología,Columna,M54,Lumbago,media,2025-09-17,CESFAM/APS,atendido
+PAC-HLF-00242,IC-HLF-00242,Broncopulmonar,Asma,J45,Asma,baja,2025-05-07,CESFAM/APS,en_espera
+PAC-HLF-00243,IC-HLF-00243,Broncopulmonar,EPOC,J44,EPOC,baja,2025-05-26,CESFAM/APS,atendido
+PAC-HLF-00244,IC-HLF-00244,Traumatología,Rodilla,M17,Artrosis de rodilla,alta,2025-10-22,CESFAM/APS,en_espera
+PAC-HLF-00245,IC-HLF-00245,Endocrinología,Diabetes,E66,Obesidad,baja,2025-07-22,CESFAM/APS,en_espera
+PAC-HLF-00246,IC-HLF-00246,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-02-21,Hospitalización,en_espera
+PAC-HLF-00247,IC-HLF-00247,Broncopulmonar,Asma,J45,Asma,baja,2025-11-19,CESFAM/APS,en_espera
+PAC-HLF-00248,IC-HLF-00248,Traumatología,Hombro,M75,Lesión del hombro,media,2025-07-07,Otro hospital red,en_espera
+PAC-HLF-00249,IC-HLF-00249,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-05-02,CESFAM/APS,atendido
+PAC-HLF-00250,IC-HLF-00250,Traumatología,Columna,M54,Lumbago,media,2025-07-10,CESFAM/APS,en_espera
+PAC-HLF-00251,IC-HLF-00251,Broncopulmonar,Asma,J45,Asma,media,2025-04-25,Otro hospital red,en_espera
+PAC-HLF-00252,IC-HLF-00252,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2025-08-09,Hospitalización,en_espera
+PAC-HLF-00253,IC-HLF-00253,Traumatología,Columna,M54,Lumbago,alta,2026-01-09,Otro hospital red,en_espera
+PAC-HLF-00254,IC-HLF-00254,Gastroenterología,Hígado,K70,Enfermedad hepática,alta,2025-06-08,Otro hospital red,en_espera
+PAC-HLF-00255,IC-HLF-00255,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-06-08,Urgencia,en_espera
+PAC-HLF-00256,IC-HLF-00256,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-05-06,CESFAM/APS,en_espera
+PAC-HLF-00257,IC-HLF-00257,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-06-09,CESFAM/APS,en_espera
+PAC-HLF-00258,IC-HLF-00258,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-04-08,CESFAM/APS,en_espera
+PAC-HLF-00259,IC-HLF-00259,Broncopulmonar,Asma,J45,Asma,media,2026-04-14,CESFAM/APS,atendido
+PAC-HLF-00260,IC-HLF-00260,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-10-07,CESFAM/APS,en_espera
+PAC-HLF-00261,IC-HLF-00261,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-07-31,CESFAM/APS,atendido
+PAC-HLF-00262,IC-HLF-00262,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-02-27,CESFAM/APS,en_espera
+PAC-HLF-00263,IC-HLF-00263,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-03-15,CESFAM/APS,atendido
+PAC-HLF-00264,IC-HLF-00264,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-03-02,Urgencia,en_espera
+PAC-HLF-00265,IC-HLF-00265,Traumatología,Hombro,M75,Lesión del hombro,alta,2025-12-12,Urgencia,en_espera
+PAC-HLF-00266,IC-HLF-00266,Neurología,Cefaleas,G43,Migraña,baja,2025-07-04,CESFAM/APS,en_espera
+PAC-HLF-00267,IC-HLF-00267,Gastroenterología,Hígado,K70,Enfermedad hepática,baja,2025-08-05,Hospitalización,en_espera
+PAC-HLF-00268,IC-HLF-00268,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-07-06,Hospitalización,en_espera
+PAC-HLF-00269,IC-HLF-00269,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-08-14,CESFAM/APS,en_espera
+PAC-HLF-00270,IC-HLF-00270,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-10-26,CESFAM/APS,atendido
+PAC-HLF-00271,IC-HLF-00271,Neurología,Epilepsia,G40,Epilepsia,alta,2026-04-21,Hospitalización,en_espera
+PAC-HLF-00272,IC-HLF-00272,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2026-02-05,CESFAM/APS,en_espera
+PAC-HLF-00273,IC-HLF-00273,Broncopulmonar,EPOC,J44,EPOC,baja,2025-10-02,CESFAM/APS,en_espera
+PAC-HLF-00274,IC-HLF-00274,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2025-09-01,Hospitalización,en_espera
+PAC-HLF-00275,IC-HLF-00275,Neurología,Cefaleas,G43,Migraña,media,2025-12-20,Hospitalización,en_espera
+PAC-HLF-00276,IC-HLF-00276,Broncopulmonar,Asma,J45,Asma,media,2026-04-14,CESFAM/APS,en_espera
+PAC-HLF-00277,IC-HLF-00277,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-04-12,Hospitalización,en_espera
+PAC-HLF-00278,IC-HLF-00278,Traumatología,Hombro,M75,Lesión del hombro,media,2025-08-02,CESFAM/APS,en_espera
+PAC-HLF-00279,IC-HLF-00279,Broncopulmonar,EPOC,J44,EPOC,baja,2025-06-13,Otro hospital red,atendido
+PAC-HLF-00280,IC-HLF-00280,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-10-24,CESFAM/APS,atendido
+PAC-HLF-00281,IC-HLF-00281,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-11-12,CESFAM/APS,en_espera
+PAC-HLF-00282,IC-HLF-00282,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-04-22,Urgencia,en_espera
+PAC-HLF-00283,IC-HLF-00283,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-10-13,CESFAM/APS,en_espera
+PAC-HLF-00284,IC-HLF-00284,Broncopulmonar,Asma,J45,Asma,media,2026-06-26,CESFAM/APS,en_espera
+PAC-HLF-00285,IC-HLF-00285,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-06-19,CESFAM/APS,en_espera
+PAC-HLF-00286,IC-HLF-00286,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-03-06,Hospitalización,atendido
+PAC-HLF-00287,IC-HLF-00287,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-08-25,CESFAM/APS,atendido
+PAC-HLF-00288,IC-HLF-00288,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-05-15,CESFAM/APS,en_espera
+PAC-HLF-00289,IC-HLF-00289,Endocrinología,Diabetes,E66,Obesidad,media,2026-02-07,Hospitalización,en_espera
+PAC-HLF-00290,IC-HLF-00290,Broncopulmonar,Asma,J45,Asma,media,2026-01-28,CESFAM/APS,en_espera
+PAC-HLF-00291,IC-HLF-00291,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-06-25,CESFAM/APS,en_espera
+PAC-HLF-00292,IC-HLF-00292,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-10-12,CESFAM/APS,en_espera
+PAC-HLF-00293,IC-HLF-00293,Endocrinología,Diabetes,E66,Obesidad,media,2025-12-29,Urgencia,atendido
+PAC-HLF-00294,IC-HLF-00294,Neurología,Epilepsia,G40,Epilepsia,media,2026-03-29,CESFAM/APS,atendido
+PAC-HLF-00295,IC-HLF-00295,Endocrinología,Diabetes,E66,Obesidad,media,2026-04-21,Hospitalización,en_espera
+PAC-HLF-00296,IC-HLF-00296,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-10-09,CESFAM/APS,atendido
+PAC-HLF-00297,IC-HLF-00297,Neurología,Cefaleas,G43,Migraña,media,2025-06-13,CESFAM/APS,atendido
+PAC-HLF-00298,IC-HLF-00298,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-04-25,Hospitalización,atendido
+PAC-HLF-00299,IC-HLF-00299,Endocrinología,Diabetes,E66,Obesidad,alta,2025-07-05,Otro hospital red,en_espera
+PAC-HLF-00300,IC-HLF-00300,Broncopulmonar,Asma,J45,Asma,baja,2025-05-18,Urgencia,en_espera
+PAC-HLF-00301,IC-HLF-00301,Broncopulmonar,EPOC,J44,EPOC,alta,2025-09-09,CESFAM/APS,en_espera
+PAC-HLF-00302,IC-HLF-00302,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-09-16,CESFAM/APS,en_espera
+PAC-HLF-00303,IC-HLF-00303,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2025-11-12,Otro hospital red,en_espera
+PAC-HLF-00304,IC-HLF-00304,Endocrinología,Diabetes,E66,Obesidad,media,2026-08-03,CESFAM/APS,en_espera
+PAC-HLF-00305,IC-HLF-00305,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-12-30,Urgencia,en_espera
+PAC-HLF-00306,IC-HLF-00306,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-12-18,CESFAM/APS,fallecido
+PAC-HLF-00307,IC-HLF-00307,Gastroenterología,Hígado,K70,Enfermedad hepática,baja,2026-02-23,CESFAM/APS,en_espera
+PAC-HLF-00308,IC-HLF-00308,Neurología,Cefaleas,G43,Migraña,alta,2026-07-06,CESFAM/APS,en_espera
+PAC-HLF-00309,IC-HLF-00309,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-05-15,CESFAM/APS,en_espera
+PAC-HLF-00310,IC-HLF-00310,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-08-28,Urgencia,en_espera
+PAC-HLF-00311,IC-HLF-00311,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-05-19,CESFAM/APS,en_espera
+PAC-HLF-00312,IC-HLF-00312,Traumatología,Columna,M54,Lumbago,baja,2025-12-28,CESFAM/APS,atendido
+PAC-HLF-00313,IC-HLF-00313,Broncopulmonar,Asma,J45,Asma,media,2026-09-24,CESFAM/APS,atendido
+PAC-HLF-00314,IC-HLF-00314,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-11-20,CESFAM/APS,en_espera
+PAC-HLF-00315,IC-HLF-00315,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-10-17,CESFAM/APS,atendido
+PAC-HLF-00316,IC-HLF-00316,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2025-10-23,Otro hospital red,fallecido
+PAC-HLF-00317,IC-HLF-00317,Broncopulmonar,Asma,J45,Asma,media,2025-08-17,Otro hospital red,fallecido
+PAC-HLF-00318,IC-HLF-00318,Broncopulmonar,EPOC,J44,EPOC,alta,2025-07-09,CESFAM/APS,en_espera
+PAC-HLF-00319,IC-HLF-00319,Neurología,Cefaleas,G43,Migraña,baja,2025-09-12,CESFAM/APS,en_espera
+PAC-HLF-00320,IC-HLF-00320,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2026-06-22,CESFAM/APS,en_espera
+PAC-HLF-00321,IC-HLF-00321,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-03-17,CESFAM/APS,en_espera
+PAC-HLF-00322,IC-HLF-00322,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-05-28,CESFAM/APS,en_espera
+PAC-HLF-00323,IC-HLF-00323,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-07-05,CESFAM/APS,en_espera
+PAC-HLF-00324,IC-HLF-00324,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-04-08,CESFAM/APS,en_espera
+PAC-HLF-00325,IC-HLF-00325,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-03-29,CESFAM/APS,en_espera
+PAC-HLF-00326,IC-HLF-00326,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-04-28,CESFAM/APS,atendido
+PAC-HLF-00327,IC-HLF-00327,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2025-06-17,Urgencia,en_espera
+PAC-HLF-00328,IC-HLF-00328,Endocrinología,Diabetes,E66,Obesidad,baja,2025-07-22,CESFAM/APS,atendido
+PAC-HLF-00329,IC-HLF-00329,Endocrinología,Diabetes,E66,Obesidad,media,2026-08-04,CESFAM/APS,en_espera
+PAC-HLF-00330,IC-HLF-00330,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-05-06,Urgencia,en_espera
+PAC-HLF-00331,IC-HLF-00331,Broncopulmonar,Asma,J45,Asma,media,2026-04-24,CESFAM/APS,en_espera
+PAC-HLF-00332,IC-HLF-00332,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-07-24,Otro hospital red,en_espera
+PAC-HLF-00333,IC-HLF-00333,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-12-19,Urgencia,en_espera
+PAC-HLF-00334,IC-HLF-00334,Endocrinología,Diabetes,E66,Obesidad,baja,2025-08-20,CESFAM/APS,en_espera
+PAC-HLF-00335,IC-HLF-00335,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-05-06,Otro hospital red,en_espera
+PAC-HLF-00336,IC-HLF-00336,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2026-07-18,CESFAM/APS,en_espera
+PAC-HLF-00337,IC-HLF-00337,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-12-08,Urgencia,en_espera
+PAC-HLF-00338,IC-HLF-00338,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2026-08-07,CESFAM/APS,en_espera
+PAC-HLF-00339,IC-HLF-00339,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-05-01,CESFAM/APS,en_espera
+PAC-HLF-00340,IC-HLF-00340,Endocrinología,Diabetes,E66,Obesidad,alta,2025-12-10,Hospitalización,en_espera
+PAC-HLF-00341,IC-HLF-00341,Broncopulmonar,Asma,J45,Asma,media,2026-05-07,CESFAM/APS,atendido
+PAC-HLF-00342,IC-HLF-00342,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-03-11,Hospitalización,en_espera
+PAC-HLF-00343,IC-HLF-00343,Neurología,Cefaleas,G43,Migraña,baja,2026-07-25,CESFAM/APS,atendido
+PAC-HLF-00344,IC-HLF-00344,Traumatología,Columna,M54,Lumbago,media,2025-12-25,Urgencia,atendido
+PAC-HLF-00345,IC-HLF-00345,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2026-02-27,CESFAM/APS,en_espera
+PAC-HLF-00346,IC-HLF-00346,Traumatología,Columna,M54,Lumbago,media,2025-09-17,CESFAM/APS,en_espera
+PAC-HLF-00347,IC-HLF-00347,Neurología,Cefaleas,G43,Migraña,media,2025-11-14,Urgencia,en_espera
+PAC-HLF-00348,IC-HLF-00348,Broncopulmonar,Asma,J45,Asma,media,2026-06-20,CESFAM/APS,en_espera
+PAC-HLF-00349,IC-HLF-00349,Neurología,Cefaleas,G43,Migraña,media,2025-10-01,Urgencia,en_espera
+PAC-HLF-00350,IC-HLF-00350,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-02-19,CESFAM/APS,en_espera
+PAC-HLF-00351,IC-HLF-00351,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2025-06-19,CESFAM/APS,en_espera
+PAC-HLF-00352,IC-HLF-00352,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-08-13,Hospitalización,atendido
+PAC-HLF-00353,IC-HLF-00353,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-01-19,CESFAM/APS,en_espera
+PAC-HLF-00354,IC-HLF-00354,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-11-29,CESFAM/APS,en_espera
+PAC-HLF-00355,IC-HLF-00355,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2025-05-16,CESFAM/APS,en_espera
+PAC-HLF-00356,IC-HLF-00356,Traumatología,Hombro,M75,Lesión del hombro,media,2026-01-10,Urgencia,en_espera
+PAC-HLF-00357,IC-HLF-00357,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-05-23,CESFAM/APS,en_espera
+PAC-HLF-00358,IC-HLF-00358,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-11-02,CESFAM/APS,en_espera
+PAC-HLF-00359,IC-HLF-00359,Traumatología,Columna,M54,Lumbago,alta,2025-10-20,CESFAM/APS,en_espera
+PAC-HLF-00360,IC-HLF-00360,Broncopulmonar,Asma,J45,Asma,media,2025-05-22,CESFAM/APS,atendido
+PAC-HLF-00361,IC-HLF-00361,Broncopulmonar,EPOC,J44,EPOC,alta,2025-04-28,CESFAM/APS,en_espera
+PAC-HLF-00362,IC-HLF-00362,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2025-09-05,CESFAM/APS,en_espera
+PAC-HLF-00363,IC-HLF-00363,Gastroenterología,Hígado,K70,Enfermedad hepática,baja,2025-08-22,Urgencia,en_espera
+PAC-HLF-00364,IC-HLF-00364,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-11-02,Urgencia,en_espera
+PAC-HLF-00365,IC-HLF-00365,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-04-25,CESFAM/APS,en_espera
+PAC-HLF-00366,IC-HLF-00366,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-08-04,CESFAM/APS,en_espera
+PAC-HLF-00367,IC-HLF-00367,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-11-14,CESFAM/APS,en_espera
+PAC-HLF-00368,IC-HLF-00368,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-04-23,CESFAM/APS,atendido
+PAC-HLF-00369,IC-HLF-00369,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-08-24,Hospitalización,en_espera
+PAC-HLF-00370,IC-HLF-00370,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2025-11-13,Urgencia,en_espera
+PAC-HLF-00371,IC-HLF-00371,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-09-15,CESFAM/APS,en_espera
+PAC-HLF-00372,IC-HLF-00372,Endocrinología,Diabetes,E66,Obesidad,baja,2025-05-07,CESFAM/APS,en_espera
+PAC-HLF-00373,IC-HLF-00373,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-04-09,CESFAM/APS,atendido
+PAC-HLF-00374,IC-HLF-00374,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-09-23,CESFAM/APS,atendido
+PAC-HLF-00375,IC-HLF-00375,Neurología,Epilepsia,G40,Epilepsia,media,2026-02-01,CESFAM/APS,en_espera
+PAC-HLF-00376,IC-HLF-00376,Broncopulmonar,EPOC,J44,EPOC,alta,2026-06-23,CESFAM/APS,en_espera
+PAC-HLF-00377,IC-HLF-00377,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-07-27,CESFAM/APS,en_espera
+PAC-HLF-00378,IC-HLF-00378,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-09-07,Otro hospital red,en_espera
+PAC-HLF-00379,IC-HLF-00379,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-10-16,Urgencia,en_espera
+PAC-HLF-00380,IC-HLF-00380,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-05-21,CESFAM/APS,en_espera
+PAC-HLF-00381,IC-HLF-00381,Neurología,Cefaleas,G43,Migraña,media,2026-08-14,CESFAM/APS,en_espera
+PAC-HLF-00382,IC-HLF-00382,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-06-10,CESFAM/APS,en_espera
+PAC-HLF-00383,IC-HLF-00383,Endocrinología,Diabetes,E66,Obesidad,baja,2025-12-31,CESFAM/APS,en_espera
+PAC-HLF-00384,IC-HLF-00384,Traumatología,Hombro,M75,Lesión del hombro,media,2026-09-20,CESFAM/APS,en_espera
+PAC-HLF-00385,IC-HLF-00385,Traumatología,Columna,M54,Lumbago,baja,2025-07-28,Hospitalización,en_espera
+PAC-HLF-00386,IC-HLF-00386,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-05-25,CESFAM/APS,en_espera
+PAC-HLF-00387,IC-HLF-00387,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-05-25,CESFAM/APS,en_espera
+PAC-HLF-00388,IC-HLF-00388,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-04-09,CESFAM/APS,en_espera
+PAC-HLF-00389,IC-HLF-00389,Endocrinología,Diabetes,E66,Obesidad,alta,2026-03-17,CESFAM/APS,en_espera
+PAC-HLF-00390,IC-HLF-00390,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2026-02-07,Hospitalización,en_espera
+PAC-HLF-00391,IC-HLF-00391,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-04-06,CESFAM/APS,atendido
+PAC-HLF-00392,IC-HLF-00392,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-12-24,CESFAM/APS,en_espera
+PAC-HLF-00393,IC-HLF-00393,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-07-26,Urgencia,en_espera
+PAC-HLF-00394,IC-HLF-00394,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-09-30,Otro hospital red,en_espera
+PAC-HLF-00395,IC-HLF-00395,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2025-04-24,CESFAM/APS,en_espera
+PAC-HLF-00396,IC-HLF-00396,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-06-03,Hospitalización,atendido
+PAC-HLF-00397,IC-HLF-00397,Gastroenterología,Hígado,K70,Enfermedad hepática,baja,2025-12-08,CESFAM/APS,en_espera
+PAC-HLF-00398,IC-HLF-00398,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-03-29,CESFAM/APS,en_espera
+PAC-HLF-00399,IC-HLF-00399,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-01-27,CESFAM/APS,en_espera
+PAC-HLF-00400,IC-HLF-00400,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-02-11,CESFAM/APS,en_espera
+PAC-HLF-00401,IC-HLF-00401,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-10-30,Urgencia,en_espera
+PAC-HLF-00402,IC-HLF-00402,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-02-04,Urgencia,en_espera
+PAC-HLF-00403,IC-HLF-00403,Broncopulmonar,EPOC,J44,EPOC,baja,2026-05-18,Otro hospital red,en_espera
+PAC-HLF-00404,IC-HLF-00404,Neurología,Cefaleas,G43,Migraña,baja,2025-10-22,CESFAM/APS,atendido
+PAC-HLF-00405,IC-HLF-00405,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-02-09,Urgencia,en_espera
+PAC-HLF-00406,IC-HLF-00406,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-02-22,CESFAM/APS,en_espera
+PAC-HLF-00407,IC-HLF-00407,Traumatología,Columna,M54,Lumbago,media,2026-04-01,Urgencia,en_espera
+PAC-HLF-00408,IC-HLF-00408,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-03-17,CESFAM/APS,en_espera
+PAC-HLF-00409,IC-HLF-00409,Neurología,Epilepsia,G40,Epilepsia,media,2025-07-19,Urgencia,atendido
+PAC-HLF-00410,IC-HLF-00410,Traumatología,Columna,M54,Lumbago,media,2026-01-12,CESFAM/APS,en_espera
+PAC-HLF-00411,IC-HLF-00411,Broncopulmonar,Asma,J45,Asma,media,2025-07-30,Hospitalización,en_espera
+PAC-HLF-00412,IC-HLF-00412,Broncopulmonar,Asma,J45,Asma,media,2026-08-06,CESFAM/APS,en_espera
+PAC-HLF-00413,IC-HLF-00413,Traumatología,Hombro,M75,Lesión del hombro,media,2025-06-09,Otro hospital red,en_espera
+PAC-HLF-00414,IC-HLF-00414,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-05-11,Urgencia,atendido
+PAC-HLF-00415,IC-HLF-00415,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-05-23,CESFAM/APS,en_espera
+PAC-HLF-00416,IC-HLF-00416,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-06-09,CESFAM/APS,atendido
+PAC-HLF-00417,IC-HLF-00417,Broncopulmonar,Asma,J45,Asma,media,2026-07-11,CESFAM/APS,en_espera
+PAC-HLF-00418,IC-HLF-00418,Neurología,Cefaleas,G43,Migraña,media,2026-01-24,Urgencia,en_espera
+PAC-HLF-00419,IC-HLF-00419,Traumatología,Columna,M54,Lumbago,alta,2025-08-03,CESFAM/APS,atendido
+PAC-HLF-00420,IC-HLF-00420,Gastroenterología,Hígado,K70,Enfermedad hepática,alta,2026-03-10,CESFAM/APS,fallecido
+PAC-HLF-00421,IC-HLF-00421,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-06-09,Otro hospital red,en_espera
+PAC-HLF-00422,IC-HLF-00422,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-12-18,CESFAM/APS,en_espera
+PAC-HLF-00423,IC-HLF-00423,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-12-29,Hospitalización,en_espera
+PAC-HLF-00424,IC-HLF-00424,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-02-11,CESFAM/APS,en_espera
+PAC-HLF-00425,IC-HLF-00425,Neurología,Epilepsia,G40,Epilepsia,baja,2026-02-19,Hospitalización,en_espera
+PAC-HLF-00426,IC-HLF-00426,Neurología,Cefaleas,G43,Migraña,media,2025-07-04,Otro hospital red,en_espera
+PAC-HLF-00427,IC-HLF-00427,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-12-31,CESFAM/APS,en_espera
+PAC-HLF-00428,IC-HLF-00428,Broncopulmonar,EPOC,J44,EPOC,baja,2026-07-16,CESFAM/APS,en_espera
+PAC-HLF-00429,IC-HLF-00429,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-04-27,CESFAM/APS,en_espera
+PAC-HLF-00430,IC-HLF-00430,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2025-05-13,CESFAM/APS,en_espera
+PAC-HLF-00431,IC-HLF-00431,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2025-08-26,Hospitalización,en_espera
+PAC-HLF-00432,IC-HLF-00432,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2026-01-14,CESFAM/APS,en_espera
+PAC-HLF-00433,IC-HLF-00433,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2025-10-29,Otro hospital red,en_espera
+PAC-HLF-00434,IC-HLF-00434,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-08-05,CESFAM/APS,en_espera
+PAC-HLF-00435,IC-HLF-00435,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2026-04-21,Hospitalización,en_espera
+PAC-HLF-00436,IC-HLF-00436,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-07-25,CESFAM/APS,en_espera
+PAC-HLF-00437,IC-HLF-00437,Traumatología,Columna,M54,Lumbago,alta,2026-07-19,CESFAM/APS,en_espera
+PAC-HLF-00438,IC-HLF-00438,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-05-21,Hospitalización,en_espera
+PAC-HLF-00439,IC-HLF-00439,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-07-22,CESFAM/APS,atendido
+PAC-HLF-00440,IC-HLF-00440,Broncopulmonar,EPOC,J44,EPOC,baja,2025-08-26,Hospitalización,atendido
+PAC-HLF-00441,IC-HLF-00441,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-12-28,Urgencia,atendido
+PAC-HLF-00442,IC-HLF-00442,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2026-03-31,CESFAM/APS,en_espera
+PAC-HLF-00443,IC-HLF-00443,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-08-29,Otro hospital red,atendido
+PAC-HLF-00444,IC-HLF-00444,Traumatología,Columna,M54,Lumbago,media,2026-04-05,Urgencia,en_espera
+PAC-HLF-00445,IC-HLF-00445,Traumatología,Columna,M54,Lumbago,media,2025-10-04,CESFAM/APS,en_espera
+PAC-HLF-00446,IC-HLF-00446,Neurología,Cefaleas,G43,Migraña,baja,2026-06-07,Hospitalización,en_espera
+PAC-HLF-00447,IC-HLF-00447,Broncopulmonar,EPOC,J44,EPOC,alta,2026-08-07,Urgencia,en_espera
+PAC-HLF-00448,IC-HLF-00448,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-02-06,CESFAM/APS,en_espera
+PAC-HLF-00449,IC-HLF-00449,Gastroenterología,Hígado,K70,Enfermedad hepática,alta,2025-08-20,CESFAM/APS,en_espera
+PAC-HLF-00450,IC-HLF-00450,Neurología,Cefaleas,G43,Migraña,media,2026-02-28,CESFAM/APS,en_espera
+PAC-HLF-00451,IC-HLF-00451,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-03-18,CESFAM/APS,en_espera
+PAC-HLF-00452,IC-HLF-00452,Endocrinología,Diabetes,E66,Obesidad,alta,2026-01-02,CESFAM/APS,en_espera
+PAC-HLF-00453,IC-HLF-00453,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-09-07,Urgencia,en_espera
+PAC-HLF-00454,IC-HLF-00454,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-02-05,CESFAM/APS,en_espera
+PAC-HLF-00455,IC-HLF-00455,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-10-04,CESFAM/APS,atendido
+PAC-HLF-00456,IC-HLF-00456,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2025-09-13,CESFAM/APS,atendido
+PAC-HLF-00457,IC-HLF-00457,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-04-28,Urgencia,en_espera
+PAC-HLF-00458,IC-HLF-00458,Traumatología,Columna,M54,Lumbago,baja,2025-09-14,CESFAM/APS,en_espera
+PAC-HLF-00459,IC-HLF-00459,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-07-31,Urgencia,en_espera
+PAC-HLF-00460,IC-HLF-00460,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2026-07-13,Otro hospital red,en_espera
+PAC-HLF-00461,IC-HLF-00461,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-03-17,CESFAM/APS,en_espera
+PAC-HLF-00462,IC-HLF-00462,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-03-26,CESFAM/APS,en_espera
+PAC-HLF-00463,IC-HLF-00463,Endocrinología,Diabetes,E66,Obesidad,alta,2026-03-02,CESFAM/APS,en_espera
+PAC-HLF-00464,IC-HLF-00464,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2025-07-17,CESFAM/APS,en_espera
+PAC-HLF-00465,IC-HLF-00465,Broncopulmonar,EPOC,J44,EPOC,media,2025-07-19,Urgencia,en_espera
+PAC-HLF-00466,IC-HLF-00466,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-01-04,CESFAM/APS,en_espera
+PAC-HLF-00467,IC-HLF-00467,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2026-04-26,CESFAM/APS,atendido
+PAC-HLF-00468,IC-HLF-00468,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-04-26,CESFAM/APS,en_espera
+PAC-HLF-00469,IC-HLF-00469,Endocrinología,Tiroides,E03,Hipotiroidismo,alta,2026-08-12,Urgencia,en_espera
+PAC-HLF-00470,IC-HLF-00470,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-04-28,CESFAM/APS,en_espera
+PAC-HLF-00471,IC-HLF-00471,Traumatología,Columna,M54,Lumbago,alta,2025-12-19,CESFAM/APS,atendido
+PAC-HLF-00472,IC-HLF-00472,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-08-23,CESFAM/APS,en_espera
+PAC-HLF-00473,IC-HLF-00473,Traumatología,Hombro,M75,Lesión del hombro,media,2026-06-22,CESFAM/APS,en_espera
+PAC-HLF-00474,IC-HLF-00474,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-05-20,CESFAM/APS,en_espera
+PAC-HLF-00475,IC-HLF-00475,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-05-11,Urgencia,en_espera
+PAC-HLF-00476,IC-HLF-00476,Broncopulmonar,EPOC,J44,EPOC,media,2026-01-06,CESFAM/APS,atendido
+PAC-HLF-00477,IC-HLF-00477,Broncopulmonar,Asma,J45,Asma,baja,2025-12-16,CESFAM/APS,en_espera
+PAC-HLF-00478,IC-HLF-00478,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2025-08-27,CESFAM/APS,en_espera
+PAC-HLF-00479,IC-HLF-00479,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-06-26,CESFAM/APS,en_espera
+PAC-HLF-00480,IC-HLF-00480,Endocrinología,Diabetes,E66,Obesidad,alta,2026-01-24,CESFAM/APS,en_espera
+PAC-HLF-00481,IC-HLF-00481,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-09-16,Urgencia,atendido
+PAC-HLF-00482,IC-HLF-00482,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-07-12,Urgencia,en_espera
+PAC-HLF-00483,IC-HLF-00483,Traumatología,Columna,M54,Lumbago,alta,2026-02-15,CESFAM/APS,en_espera
+PAC-HLF-00484,IC-HLF-00484,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2026-03-17,CESFAM/APS,en_espera
+PAC-HLF-00485,IC-HLF-00485,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-10-10,Hospitalización,en_espera
+PAC-HLF-00486,IC-HLF-00486,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-08-11,Hospitalización,en_espera
+PAC-HLF-00487,IC-HLF-00487,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-02-16,Hospitalización,en_espera
+PAC-HLF-00488,IC-HLF-00488,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2025-07-18,Urgencia,fallecido
+PAC-HLF-00489,IC-HLF-00489,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-11-17,CESFAM/APS,en_espera
+PAC-HLF-00490,IC-HLF-00490,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2026-07-22,CESFAM/APS,en_espera
+PAC-HLF-00491,IC-HLF-00491,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-05-09,CESFAM/APS,en_espera
+PAC-HLF-00492,IC-HLF-00492,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2026-07-25,CESFAM/APS,en_espera
+PAC-HLF-00493,IC-HLF-00493,Traumatología,Hombro,M75,Lesión del hombro,alta,2026-08-05,CESFAM/APS,en_espera
+PAC-HLF-00494,IC-HLF-00494,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-02-08,Otro hospital red,en_espera
+PAC-HLF-00495,IC-HLF-00495,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-04-23,CESFAM/APS,en_espera
+PAC-HLF-00496,IC-HLF-00496,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2026-07-13,Urgencia,en_espera
+PAC-HLF-00497,IC-HLF-00497,Neurología,Cefaleas,G43,Migraña,baja,2026-02-26,CESFAM/APS,en_espera
+PAC-HLF-00498,IC-HLF-00498,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-05-04,CESFAM/APS,en_espera
+PAC-HLF-00499,IC-HLF-00499,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-04-29,Urgencia,atendido
+PAC-HLF-00500,IC-HLF-00500,Endocrinología,Diabetes,E66,Obesidad,media,2025-06-10,Urgencia,atendido

@@ -1,0 +1,5 @@
+iteracion,version,aceptada,cambios,rechazos,dev_n,dev_kappa,dev_sens_deterioro,dev_falsas_alarmas,dev_subtriage_alta,dev_ndcg10,dev_kendall,dev_recall_top10,dev_objetivo,dev_objetivo_candidata
+0,v0,True,,,295,0.559,0.905,0.154,0.0,0.812,0.605,0.419,0.759,
+1,v0,False,"Regla: dos o más notas seguidas que describen empeoramiento equivalen a deterioro claro, aunque no haya eventos.",,295,0.559,0.905,0.154,0.0,0.812,0.605,0.419,0.759,0.754
+2,v0,False,Regla: una medición fuera de rango y en alza en las últimas tres tomas indica descompensación (al menos media).,,295,0.559,0.905,0.154,0.0,0.812,0.605,0.419,0.759,0.75
+3,v0,False,,sin propuestas,295,0.559,0.905,0.154,0.0,0.812,0.605,0.419,0.759,

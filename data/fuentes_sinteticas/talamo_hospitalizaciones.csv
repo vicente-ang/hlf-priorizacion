@@ -1,0 +1,71 @@
+id_paciente,fecha_ingreso,fecha_egreso,dias_estada,tipo_cama,dias_uci,cirugia,tipo_ingreso,diagnostico_egreso_cie10,servicio
+PAC-HLF-00002,2026-08-06,2026-08-16,10,SALA,0,no,electivo,I50.0,Cardiología
+PAC-HLF-00003,2026-07-06,2026-07-07,1,SALA,0,no,urgente,E11.6,Endocrinología
+PAC-HLF-00006,2026-06-30,2026-07-04,4,MEDIO,0,no,urgente,J45.9,Broncopulmonar
+PAC-HLF-00009,2026-09-04,2026-09-14,10,UCI,3,no,urgente,E11.5,Endocrinología
+PAC-HLF-00010,2026-03-07,2026-03-14,7,UCI,6,si,urgente,M17.1,Traumatología
+PAC-HLF-00014,2026-08-13,2026-08-18,5,UCI,4,no,urgente,X84,Salud Mental
+PAC-HLF-00021,2026-07-12,2026-07-14,2,SALA,0,si,urgente,I50.0,Cardiología
+PAC-HLF-00026,2026-03-27,2026-04-08,12,UCI,5,si,urgente,S32.0,Traumatología
+PAC-HLF-00033,2026-07-06,2026-07-10,4,SALA,0,no,urgente,F32.2,Salud Mental
+PAC-HLF-00037,2026-02-07,2026-02-14,7,UCI,6,si,urgente,I21.4,Cardiología
+PAC-HLF-00046,2026-08-01,2026-08-04,3,SALA,0,no,urgente,J45.9,Broncopulmonar
+PAC-HLF-00055,2026-08-10,2026-08-12,2,SALA,0,si,urgente,S32.0,Traumatología
+PAC-HLF-00063,2026-07-09,2026-07-16,7,SALA,0,si,electivo,S32.0,Traumatología
+PAC-HLF-00069,2026-09-12,2026-09-30,18,SALA,0,no,urgente,I48.9,Cardiología
+PAC-HLF-00072,2026-01-08,2026-01-23,15,UCI,2,si,electivo,K85.9,Gastroenterología
+PAC-HLF-00076,2025-11-15,2025-11-28,13,UCI,4,no,urgente,X84,Salud Mental
+PAC-HLF-00079,2026-09-01,2026-09-04,3,SALA,0,si,urgente,S32.0,Traumatología
+PAC-HLF-00086,2026-09-17,2026-09-24,7,MEDIO,0,no,urgente,I50.0,Cardiología
+PAC-HLF-00089,2026-02-07,2026-02-22,15,UCI,5,no,urgente,M17.1,Traumatología
+PAC-HLF-00091,2026-07-13,2026-07-20,7,MEDIO,0,no,urgente,E11.6,Endocrinología
+PAC-HLF-00113,2026-09-01,2026-09-10,9,SALA,0,no,urgente,K92.2,Gastroenterología
+PAC-HLF-00114,2026-09-13,2026-09-14,1,SALA,0,no,urgente,S72.0,Traumatología
+PAC-HLF-00117,2026-09-02,2026-09-08,6,UCI,5,no,urgente,I20.0,Cardiología
+PAC-HLF-00119,2026-07-08,2026-07-09,1,SALA,0,no,urgente,G43.9,Neurología
+PAC-HLF-00131,2026-09-13,2026-09-21,8,SALA,0,no,urgente,I20.0,Cardiología
+PAC-HLF-00159,2026-07-25,2026-08-03,9,MEDIO,0,no,urgente,F41.1,Salud Mental
+PAC-HLF-00160,2026-09-25,2026-09-26,1,MEDIO,0,no,urgente,E11.6,Endocrinología
+PAC-HLF-00165,2026-08-17,2026-08-31,14,UCI,4,no,urgente,E11.5,Endocrinología
+PAC-HLF-00167,2026-07-07,2026-07-08,1,MEDIO,0,no,urgente,E11.5,Endocrinología
+PAC-HLF-00168,2026-06-27,2026-06-28,1,SALA,0,no,urgente,I50.0,Cardiología
+PAC-HLF-00176,2026-07-08,2026-07-09,1,MEDIO,0,no,urgente,K70.4,Gastroenterología
+PAC-HLF-00184,2026-08-16,2026-08-17,1,MEDIO,0,no,urgente,F41.1,Salud Mental
+PAC-HLF-00194,2026-08-25,2026-08-27,2,SALA,0,no,electivo,J18.9,Broncopulmonar
+PAC-HLF-00195,2026-09-06,2026-09-11,5,SALA,0,si,urgente,G40.9,Neurología
+PAC-HLF-00209,2026-09-21,2026-09-25,4,MEDIO,0,si,urgente,F41.1,Salud Mental
+PAC-HLF-00229,2026-08-08,2026-08-09,1,SALA,0,no,urgente,J44.1,Broncopulmonar
+PAC-HLF-00240,2026-09-05,2026-09-06,1,SALA,0,no,urgente,E87.1,Endocrinología
+PAC-HLF-00275,2026-08-14,2026-08-19,5,SALA,0,no,urgente,G40.9,Neurología
+PAC-HLF-00294,2026-09-03,2026-09-04,1,MEDIO,0,no,urgente,G43.9,Neurología
+PAC-HLF-00306,2026-03-20,2026-04-04,15,UCI,6,no,electivo,F32.2,Salud Mental
+PAC-HLF-00311,2026-07-02,2026-07-08,6,SALA,0,si,urgente,F41.1,Salud Mental
+PAC-HLF-00314,2026-08-08,2026-08-16,8,MEDIO,0,si,electivo,K70.4,Gastroenterología
+PAC-HLF-00316,2026-05-16,2026-05-23,7,UCI,3,no,urgente,F41.1,Salud Mental
+PAC-HLF-00317,2025-11-11,2025-11-16,5,UCI,4,no,urgente,J18.9,Broncopulmonar
+PAC-HLF-00324,2026-09-05,2026-09-06,1,MEDIO,0,no,urgente,X84,Salud Mental
+PAC-HLF-00326,2026-06-28,2026-07-02,4,SALA,0,no,urgente,E11.5,Endocrinología
+PAC-HLF-00329,2026-09-29,2026-10-05,6,SALA,0,no,urgente,E11.5,Endocrinología
+PAC-HLF-00334,2026-07-21,2026-07-24,3,SALA,0,no,urgente,E11.5,Endocrinología
+PAC-HLF-00353,2026-08-20,2026-08-28,8,SALA,0,no,urgente,I48.9,Cardiología
+PAC-HLF-00363,2026-07-21,2026-07-22,1,SALA,0,no,electivo,K85.9,Gastroenterología
+PAC-HLF-00369,2026-07-22,2026-07-23,1,SALA,0,no,urgente,I20.0,Cardiología
+PAC-HLF-00378,2026-07-24,2026-07-31,7,MEDIO,0,no,urgente,F32.2,Salud Mental
+PAC-HLF-00406,2026-08-27,2026-09-04,8,SALA,0,si,urgente,S32.0,Traumatología
+PAC-HLF-00407,2026-09-04,2026-09-07,3,SALA,0,si,urgente,S32.0,Traumatología
+PAC-HLF-00417,2026-09-24,2026-09-28,4,SALA,0,no,urgente,J18.9,Broncopulmonar
+PAC-HLF-00420,2026-07-09,2026-07-24,15,UCI,2,no,electivo,K92.2,Gastroenterología
+PAC-HLF-00422,2026-08-14,2026-08-17,3,SALA,0,no,urgente,I21.4,Cardiología
+PAC-HLF-00425,2026-08-26,2026-09-03,8,MEDIO,0,no,urgente,G40.9,Neurología
+PAC-HLF-00430,2026-07-01,2026-07-09,8,SALA,0,no,urgente,I21.4,Cardiología
+PAC-HLF-00435,2026-09-08,2026-09-09,1,SALA,0,si,urgente,I50.0,Cardiología
+PAC-HLF-00446,2026-09-17,2026-09-25,8,SALA,0,no,urgente,G43.9,Neurología
+PAC-HLF-00456,2026-07-26,2026-07-29,3,SALA,0,no,urgente,I20.0,Cardiología
+PAC-HLF-00464,2026-07-14,2026-07-20,6,SALA,0,no,urgente,I48.9,Cardiología
+PAC-HLF-00473,2026-09-20,2026-09-27,7,MEDIO,0,si,urgente,M17.1,Traumatología
+PAC-HLF-00477,2026-08-13,2026-08-14,1,MEDIO,0,no,urgente,J45.9,Broncopulmonar
+PAC-HLF-00480,2026-08-21,2026-08-23,2,SALA,0,no,urgente,E87.1,Endocrinología
+PAC-HLF-00485,2026-07-31,2026-08-02,2,MEDIO,0,no,urgente,I50.0,Cardiología
+PAC-HLF-00486,2026-07-19,2026-07-22,3,MEDIO,0,no,urgente,F41.1,Salud Mental
+PAC-HLF-00488,2026-03-09,2026-03-17,8,UCI,3,no,urgente,E11.6,Endocrinología
+PAC-HLF-00494,2026-08-24,2026-08-26,2,MEDIO,0,si,urgente,E87.1,Endocrinología

@@ -1,0 +1,7 @@
+[
+  {
+    "Source": "hlf.registro-clinico",
+    "DetailType": "EventoClinico",
+    "Detail": "{\"id_paciente\": \"PAC-HLF-00136\", \"corte\": \"2026-10-13\", \"evento\": {\"fecha_evento\": \"2026-10-13\", \"tipo_evento\": \"hospitalizacion\", \"subtipo\": \"ingreso hospitalario\", \"severidad\": \"grave\"}}"
+  }
+]

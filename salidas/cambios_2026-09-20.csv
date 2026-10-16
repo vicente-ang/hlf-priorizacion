@@ -1,0 +1,61 @@
+tipo,especialidad,id_paciente,prioridad_inicial,puesto_antes,puesto_ahora,en_especialidad,detalle,llego
+Entró al carril rápido,Broncopulmonar,PAC-HLF-00417,media,41.0,2.0,44.0,Urgencia (triage ESI 2) ayer,Urgencia (triage ESI 2) (19-09); Peak flow 235 fuera de rango (19-09)
+Entró al carril rápido,Salud Mental,PAC-HLF-00209,media,61.0,2.0,64.0,Urgencia (triage ESI 2) hace 4 días,Urgencia (triage ESI 2) (16-09)
+Entró al carril rápido,Traumatología,PAC-HLF-00473,media,85.0,4.0,90.0,Hospitalización hoy,Urgencia (triage ESI 2) (14-09); Hospitalización (20-09); Dolor (EVA) 9 fuera de rango (20-09)
+Salió de la lista,Broncopulmonar,PAC-HLF-00341,media,35.0,,,fue atendido,Examen alterado (19-09); Peak flow 337 fuera de rango (14-09)
+Salió de la lista,Cardiología,PAC-HLF-00117,baja,1.0,,,falleció,
+Salió de la lista,Endocrinología,PAC-HLF-00081,baja,62.0,,,fue atendido,Glicemia 169 fuera de rango (19-09)
+Salió de la lista,Endocrinología,PAC-HLF-00165,alta,1.0,,,falleció,
+Salió de la lista,Gastroenterología,PAC-HLF-00368,media,21.0,,,fue atendido,
+Salió de la lista,Neurología,PAC-HLF-00294,media,2.0,,,fue atendido,
+Salió de la lista,Salud Mental,PAC-HLF-00144,alta,19.0,,,fue atendido,
+Salió de la lista,Salud Mental,PAC-HLF-00200,alta,9.0,,,fue atendido,
+Salió de la lista,Salud Mental,PAC-HLF-00416,baja,63.0,,,fue atendido,
+Salió de la lista,Traumatología,PAC-HLF-00061,baja,81.0,,,fue atendido,
+Salió de la lista,Traumatología,PAC-HLF-00261,media,89.0,,,fue atendido,Dolor (EVA) 0 (18-09)
+Subió,Cardiología,PAC-HLF-00430,baja,24.0,13.0,89.0,Otros salieron de la lista o bajaron. Plazo vigente: 14 días desde hospitalización (01-07-2026),
+Subió,Cardiología,PAC-HLF-00021,baja,29.0,24.0,89.0,Otros salieron de la lista o bajaron. Plazo vigente: 14 días desde hospitalización (12-07-2026),
+Subió,Cardiología,PAC-HLF-00227,alta,34.0,28.0,89.0,"Nuevo: Examen alterado (19-09). Plazo vigente: 30 días desde el ingreso, por prioridad alta",Examen alterado (19-09)
+Subió,Cardiología,PAC-HLF-00002,baja,46.0,35.0,89.0,Otros salieron de la lista o bajaron. Plazo vigente: 14 días desde hospitalización (06-08-2026),
+Subió,Cardiología,PAC-HLF-00492,alta,67.0,61.0,89.0,"Otros salieron de la lista o bajaron. Plazo vigente: 30 días desde el ingreso, por prioridad alta",Presión sistólica 94 (16-09)
+Subió,Endocrinología,PAC-HLF-00170,alta,57.0,52.0,70.0,"Otros salieron de la lista o bajaron. Plazo vigente: 30 días desde el ingreso, por prioridad alta",Reducción de dosis (19-09); Glicemia 77 (20-09)
+Subió,Neurología,PAC-HLF-00266,baja,20.0,10.0,37.0,Otros salieron de la lista o bajaron. Plazo vigente: 45 días desde urgencia por descompensación (09-04-2026),
+Subió,Neurología,PAC-HLF-00045,baja,27.0,20.0,37.0,"Otros salieron de la lista o bajaron. Plazo vigente: 180 días desde el ingreso, por prioridad baja",
+Subió,Salud Mental,PAC-HLF-00033,baja,24.0,19.0,64.0,Otros salieron de la lista o bajaron. Plazo vigente: 14 días desde hospitalización (06-07-2026),
+Subió,Traumatología,PAC-HLF-00155,alta,49.0,44.0,90.0,"Otros salieron de la lista o bajaron. Plazo vigente: 30 días desde el ingreso, por prioridad alta",
+Nueva señal de deterioro,Broncopulmonar,PAC-HLF-00412,media,43.0,42.0,44.0,Urgencia por descompensación (15-09),Urgencia por descompensación (15-09); Peak flow 481 (20-09)
+Nueva señal de deterioro,Cardiología,PAC-HLF-00086,media,6.0,3.0,89.0,"Hospitalización (17-09); Presión sistólica pasó a fuera de rango (172, 17-09)",Hospitalización (17-09); Presión sistólica 172 fuera de rango (17-09)
+Nueva señal de deterioro,Cardiología,PAC-HLF-00082,media,52.0,51.0,89.0,"Presión sistólica pasó a fuera de rango (145, 17-09)",Presión sistólica 145 fuera de rango (17-09)
+Nueva señal de deterioro,Cardiología,PAC-HLF-00391,media,62.0,62.0,89.0,"Examen alterado (14-09); Presión diastólica pasó a fuera de rango (98, 15-09)",Examen alterado (14-09); Presión diastólica 98 fuera de rango (15-09)
+Nueva señal de deterioro,Cardiología,PAC-HLF-00039,baja,68.0,67.0,89.0,"Presión diastólica pasó a fuera de rango (90, 18-09)",Presión diastólica 90 fuera de rango (18-09)
+Nueva señal de deterioro,Endocrinología,PAC-HLF-00295,media,54.0,54.0,70.0,Examen alterado (16-09),Examen alterado (16-09); Glicemia 121 (19-09)
+Nueva señal de deterioro,Endocrinología,PAC-HLF-00139,media,55.0,55.0,70.0,Examen alterado (16-09),Examen alterado (16-09); HbA1c 9.4 fuera de rango (19-09)
+Nueva señal de deterioro,Endocrinología,PAC-HLF-00282,media,56.0,56.0,70.0,"HbA1c pasó a fuera de rango (3, 14-09)",HbA1c 3 fuera de rango (14-09)
+Nueva señal de deterioro,Endocrinología,PAC-HLF-00469,alta,65.0,61.0,70.0,Aumento de dosis (18-09),Aumento de dosis (18-09); HbA1c 8.4 fuera de rango (15-09); HbA1c 8.4 fuera de rango (19-09)
+Nueva señal de deterioro,Endocrinología,PAC-HLF-00304,media,69.0,67.0,70.0,"Aumento de dosis (14-09); Glicemia pasó a fuera de rango (154, 14-09)",Aumento de dosis (14-09); Glicemia 154 fuera de rango (14-09); Glicemia 168 fuera de rango (19-09)
+Nueva señal de deterioro,Gastroenterología,PAC-HLF-00307,baja,24.0,23.0,31.0,"Glicemia pasó a fuera de rango (153, 14-09)",Glicemia 153 fuera de rango (14-09)
+Nueva señal de deterioro,Gastroenterología,PAC-HLF-00231,baja,28.0,28.0,31.0,"Examen alterado (20-09); Glicemia pasó a fuera de rango (168, 18-09)",Examen alterado (20-09); Glicemia 168 fuera de rango (18-09)
+Nueva señal de deterioro,Neurología,PAC-HLF-00446,baja,5.0,3.0,37.0,Hospitalización (17-09),Hospitalización (17-09)
+Nueva señal de deterioro,Neurología,PAC-HLF-00051,alta,15.0,14.0,37.0,Examen alterado (18-09),Examen alterado (18-09)
+Nueva señal de deterioro,Neurología,PAC-HLF-00097,alta,19.0,17.0,37.0,Examen alterado (20-09),Examen alterado (20-09)
+Nueva señal de deterioro,Neurología,PAC-HLF-00381,media,37.0,36.0,37.0,Aumento de dosis (19-09),Aumento de dosis (19-09); Dolor (EVA) 7 fuera de rango (15-09); Dolor (EVA) 6 fuera de rango (19-09)
+Nueva señal de deterioro,Traumatología,PAC-HLF-00179,media,34.0,36.0,90.0,"Dolor (EVA) pasó a fuera de rango (7, 14-09)",Dolor (EVA) 7 fuera de rango (14-09)
+Nueva señal de deterioro,Traumatología,PAC-HLF-00444,media,58.0,59.0,90.0,Examen alterado (14-09),Examen alterado (14-09); Dolor (EVA) 7 fuera de rango (17-09)
+Nueva señal de deterioro,Traumatología,PAC-HLF-00142,media,59.0,62.0,90.0,Examen alterado (14-09),Examen alterado (14-09)
+Nueva señal de deterioro,Traumatología,PAC-HLF-00277,media,62.0,64.0,90.0,Examen alterado (15-09),Examen alterado (15-09)
+Nueva señal de deterioro,Traumatología,PAC-HLF-00258,baja,82.0,83.0,90.0,Examen alterado (14-09),Examen alterado (14-09); Dolor (EVA) 8 fuera de rango (16-09)
+Nueva señal de deterioro,Traumatología,PAC-HLF-00388,baja,83.0,84.0,90.0,Examen alterado (14-09),Examen alterado (14-09); Dolor (EVA) 8 fuera de rango (16-09)
+Sin datos recientes,Cardiología,PAC-HLF-00050,media,33.0,31.0,89.0,183 días sin eventos ni mediciones,
+Sin datos recientes,Cardiología,PAC-HLF-00057,baja,79.0,79.0,89.0,181 días sin eventos ni mediciones,
+Sin datos recientes,Traumatología,PAC-HLF-00310,baja,51.0,52.0,90.0,183 días sin eventos ni mediciones,
+Entró a la lista,Broncopulmonar,PAC-HLF-00509,media,,44.0,44.0,Prioridad médica media,
+Entró a la lista,Cardiología,PAC-HLF-00503,media,,89.0,89.0,Prioridad médica media,
+Entró a la lista,Endocrinología,PAC-HLF-00511,media,,70.0,70.0,Prioridad médica media,
+Entró a la lista,Gastroenterología,PAC-HLF-00513,media,,31.0,31.0,Prioridad médica media,
+Entró a la lista,Salud Mental,PAC-HLF-00188,baja,,63.0,64.0,Prioridad médica baja,
+Entró a la lista,Salud Mental,PAC-HLF-00505,media,,64.0,64.0,Prioridad médica media,
+Entró a la lista,Traumatología,PAC-HLF-00384,media,,90.0,90.0,Prioridad médica media,
+Salió del carril rápido,Cardiología,PAC-HLF-00422,media,4.0,38.0,89.0,Pasaron 30 días desde el evento grave,
+Salió del carril rápido,Cardiología,PAC-HLF-00353,media,5.0,45.0,89.0,Pasaron 30 días desde el evento grave,
+Salió del carril rápido,Neurología,PAC-HLF-00275,media,1.0,23.0,37.0,Pasaron 30 días desde el evento grave,
+Salió del carril rápido,Salud Mental,PAC-HLF-00184,media,1.0,33.0,64.0,Pasaron 30 días desde el evento grave,

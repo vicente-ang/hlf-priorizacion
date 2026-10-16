@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10          # requerido por pandas .corr(method="kendall") en ia/evaluar.py
+pyyaml>=6.0
+streamlit>=1.50    # interfaz (app.py); trae altair
+matplotlib>=3.7     # solo para sim/graficos.py
+pytest>=7.0         # solo para tests
+boto3               # opcional localmente: tests de Bedrock y explicaciones con Bedrock
+moto[s3]            # opcional: test de la Lambda diaria contra S3 simulado
+tabulate            # tablas en Markdown de ia/ciclo.py

@@ -1,0 +1,18 @@
+# Imagen de las Lambdas: recálculo por evento (api/handler.py) y carga diaria (api/diario.py).
+# Construir desde la raíz del repositorio:
+#   docker build -f infra/Dockerfile.lambda -t hlf-recalculo .
+FROM public.ecr.aws/lambda/python:3.12
+
+COPY infra/requirements-lambda.txt .
+RUN pip install --no-cache-dir -r requirements-lambda.txt
+
+COPY motor/ ${LAMBDA_TASK_ROOT}/motor/
+COPY api/ ${LAMBDA_TASK_ROOT}/api/
+COPY ingesta.py validar_datos.py ${LAMBDA_TASK_ROOT}/
+COPY data/dataset_hlf_ambulatorio/ ${LAMBDA_TASK_ROOT}/data/dataset_hlf_ambulatorio/
+# Fuentes SINTÉTICAS (Tálamo hospitalizado/urgencia, ACG, Rayen, interconsultas) para la demo.
+# Con datos reales: quitar esta línea; las fuentes llegan en los reportes diarios y quedan en almacen/fuentes/.
+COPY data/fuentes_sinteticas/ ${LAMBDA_TASK_ROOT}/data/fuentes_sinteticas/
+ENV DATA_DIR=${LAMBDA_TASK_ROOT}/data/dataset_hlf_ambulatorio
+
+CMD ["api.handler.lambda_handler"]

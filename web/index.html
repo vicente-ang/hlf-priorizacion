@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Pulso · Lista de espera HLF</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Ir al contenido</a>
+<aside class="sidebar">
+ <a class="logo" href="#resumen" aria-label="Pulso, inicio"><svg viewBox="0 0 38 28" aria-hidden="true"><path d="M1 15h8l5-11 9 21 5-10h9"/></svg><span>pulso<span class="logo-period">.</span></span></a>
+ <div class="workspace"><span class="workspace-mark">H</span><div><b>Hospital La Florida</b><small>Dra. Eloísa Díaz · gestión de lista</small></div></div>
+ <p class="nav-label">ESPACIO DE TRABAJO</p>
+ <nav aria-label="Navegación principal">
+  <button class="nav-button selected" data-page="overview" title="Resumen"><span class="nav-icon" data-icon="overview"></span><span class="nav-text">Resumen</span></button>
+  <button class="nav-button" data-page="list" title="Lista de espera"><span class="nav-icon" data-icon="list"></span><span class="nav-text">Lista de espera</span><span class="nav-count" id="nav-list-count"></span></button>
+  <button class="nav-button" data-page="intake" title="Nuevos ingresos"><span class="nav-icon" data-icon="inbox"></span><span class="nav-text">Nuevos ingresos</span><span class="nav-count intake-count" id="nav-intake-count"></span></button>
+  <button class="nav-button" data-page="ia" title="Agente IA"><span class="nav-icon" data-icon="spark"></span><span class="nav-text">Agente IA</span><span class="nav-count" id="nav-ia-count"></span></button>
+ </nav>
+ <div class="sidebar-bottom">
+  <div class="mockup-label"><span></span> DATOS SINTÉTICOS DEL DESAFÍO</div>
+  <p>El contexto de cada persona,<br>en el momento de decidir.</p>
+  <button class="account profile-switch" id="profile-switch" title="Cambiar de perfil">
+   <span class="account-avatar" id="profile-avatar">GD</span>
+   <div><b id="profile-name">Gestora de demanda</b><small>Cambiar a jefe de especialidad</small></div>
+  </button>
+ </div>
+</aside>
+<main id="main-content" tabindex="-1">
+ <header class="topbar">
+  <div class="breadcrumb"><span>HLF</span><span class="slash">/</span><b id="breadcrumb-page">Resumen</b></div>
+  <div class="update-info" title="La lista se reprioriza un día fijo a la semana; entre cortes llegan alertas"><span data-icon="calendar"></span><span>Próximo corte <b id="next-update"></b></span></div>
+ </header>
+ <div class="demo-context"><span class="demo-dot"></span> <span id="context-left"></span> <span class="context-date" id="reference-date"></span></div>
+
+ <!-- ============================================================ RESUMEN -->
+ <section class="page" id="overview-page">
+  <div class="page-heading"><div><p class="eyebrow">PANORAMA HOSPITALARIO</p><h1>La lista, en perspectiva.</h1><p class="page-description">Antigüedad, necesidad clínica y nuevos antecedentes en un solo lugar.</p></div><button class="button primary" data-goto="list">Explorar la lista <span data-icon="arrow-right"></span></button></div>
+  <div class="metrics-grid" id="metrics"></div>
+  <div class="overview-grid">
+   <section class="panel histogram-panel"><div class="panel-heading"><div><h2>¿Cuánto tiempo llevan esperando?</h2><p>Distribución de los días de espera · lista vigente del hospital</p></div><span class="neutral-tag" id="histogram-tag"></span></div><div class="histogram-legend"><span><i class="legend-dot green"></i>Hasta el umbral</span><span><i class="legend-dot amber"></i>Mayor espera</span><span class="histogram-unit">Personas</span></div><div id="histogram"></div><div class="histogram-footer" id="histogram-footer"></div></section>
+   <section class="panel specialty-panel"><div class="panel-heading"><div><h2>Por especialidad</h2><p id="specialty-subtitle"></p></div></div><div id="specialty-breakdown"></div><div class="soft-note"><span data-icon="info"></span><p>El umbral del 90% se calcula a nivel de hospital. Cada solicitud se ordena y se cita en su especialidad.</p></div></section>
+  </div>
+  <div class="overview-bottom">
+   <section class="panel changes-panel"><div class="panel-heading"><div><h2>El contexto cambió</h2><p>Antecedentes nuevos desde el corte anterior</p></div><span class="neutral-tag" id="changes-tag"></span></div><div id="recent-changes"></div></section>
+   <section class="intake-preview"><span class="large-inbox" data-icon="inbox"></span><div><p class="eyebrow">ANTES DE ENTRAR A LA LISTA</p><h2 id="intake-preview-title"></h2><p>Interconsultas sin prioridad del especialista: esperan con plazo provisorio y la guía propone una prioridad.</p><button class="button secondary" data-goto="intake">Ver bandeja de ingresos <span data-icon="arrow-right"></span></button></div></section>
+  </div>
+  <section class="panel ia-preview" id="ia-preview"></section>
+ </section>
+
+ <!-- ============================================================ LISTA -->
+ <section class="page" id="list-page" hidden>
+  <div class="page-heading"><div><p class="eyebrow">GESTIÓN DE SOLICITUDES</p><h1>Cada persona tiene contexto.</h1><p class="page-description">Revisa su posición, los antecedentes y el motivo de la propuesta.</p></div><button class="button secondary" id="export-list"><span data-icon="download"></span> Exportar vista</button></div>
+  <div class="list-summary" id="list-summary"></div>
+  <section class="panel list-panel">
+   <div class="list-toolbar"><label class="search"><span data-icon="search"></span><input type="search" id="patient-search" aria-label="Buscar paciente" placeholder="Buscar por nombre, código o diagnóstico"></label><label class="select-label"><span>Especialidad</span><select id="specialty-filter" aria-label="Filtrar por especialidad"><option value="">Todas las especialidades</option></select></label></div>
+   <div class="appointment-toolbar"><div class="chart-toggle" role="group" aria-label="Orden de la lista"><button class="active" data-order="regla" aria-pressed="true">Lista vigente</button><button data-order="ia" aria-pressed="false">Propuesta IA</button></div><p id="order-summary"></p></div>
+   <div class="list-tabs" role="group" aria-label="Filtrar"><button class="list-tab active" data-filter="all">Todas <span id="tab-all"></span></button><button class="list-tab" data-filter="carril">Carril rápido <span id="tab-carril"></span></button><button class="list-tab" data-filter="p90">Mayor espera <span id="tab-p90"></span></button><button class="list-tab" data-filter="alta">Prioridad alta</button><button class="list-tab" data-filter="media">Prioridad media</button><button class="list-tab" data-filter="baja">Prioridad baja</button><button class="list-tab" data-filter="revisar">Por revisar <span id="tab-revisar"></span></button></div>
+   <div class="table-scroll"><table><thead><tr><th>Posición</th><th>Paciente</th><th>Especialidad / diagnóstico</th><th>Espera</th><th>Prioridad hoy</th><th>Agente IA</th><th>Antigüedad</th><th><span class="sr-only">Abrir ficha</span></th></tr></thead><tbody id="patient-rows"></tbody></table></div>
+   <div class="pagination"><span id="list-result-count" aria-live="polite"></span><div><button id="previous-page" class="icon-button" aria-label="Página anterior"><span data-icon="chevron-left"></span></button><span id="page-number"></span><button id="next-page" class="icon-button" aria-label="Página siguiente"><span data-icon="chevron-right"></span></button></div></div>
+  </section>
+  <p class="below-table-note">Cada especialidad tiene su propia lista y sus posiciones. La lista vigente es la del último corte (lunes): lo que llega entre cortes se ve como alerta y entra el lunes siguiente, salvo que alguien lo adelante con un motivo. La propuesta IA ordena por la categoría y el puntaje del agente, con el piso de la regla; bajar de categoría lo confirma el jefe de especialidad.</p>
+ </section>
+
+ <!-- ============================================================ FICHA -->
+ <section class="page" id="patient-page" hidden><div id="patient-detail"></div></section>
+
+ <!-- ============================================================ INGRESOS -->
+ <section class="page" id="intake-page" hidden>
+  <div class="page-heading"><div><p class="eyebrow">BANDEJA DE ENTRADA</p><h1>Antes de entrar a la lista.</h1><p class="page-description">Interconsultas que llegaron sin prioridad del especialista o después del último corte.</p></div><span class="count-pill" id="intake-pill"></span></div>
+  <div class="intake-notice"><span data-icon="calendar"></span><div><b>Próximo corte: <span id="intake-next-update"></span></b><p>Mientras nadie la prioriza, la interconsulta espera con plazo medio. A las 3 semanas usa la prioridad que propone la guía al leer lo que escribió quien derivó; si nadie está seguro, queda para el especialista.</p></div></div>
+  <div class="intake-metrics" id="intake-metrics"></div>
+  <section class="panel"><div class="table-scroll"><table class="intake-table"><thead><tr><th>Solicitud / persona</th><th>Destino</th><th>Recibida</th><th>Antecedentes</th><th>Propuesta de la guía</th><th></th></tr></thead><tbody id="intake-rows"></tbody></table></div></section>
+  <p class="below-table-note">La guía usada es un EJEMPLO (motor/config/guias.yaml): la reemplazan las guías del hospital por diagnóstico. Las reglas leen primero; Bedrock solo se usa para decir qué criterios de la guía aparecen en el texto cuando las reglas dudan. La información limitada no implica prioridad baja.</p>
+ </section>
+
+ <!-- ============================================================ AGENTE IA -->
+ <section class="page" id="ia-page" hidden>
+  <div class="page-heading"><div><p class="eyebrow">AGENTE CLÍNICO EN AMAZON BEDROCK</p><h1>La IA propone, el equipo decide.</h1><p class="page-description" id="ia-description"></p></div><button class="button secondary" id="export-decisions"><span data-icon="download"></span> Exportar decisiones</button></div>
+  <div class="metrics-grid" id="ia-metrics"></div>
+  <div class="overview-grid ia-grid">
+   <section class="panel"><div class="panel-heading"><div><h2>¿Funciona? Pacientes que nunca vio</h2><p id="ia-test-subtitle"></p></div><span class="neutral-tag">Mundo sintético con verdad conocida</span></div><div class="table-scroll"><table class="compact-table" id="ia-test"></table></div><p class="chart-footnote" id="ia-test-note"></p></section>
+   <section class="panel specialty-panel"><div class="panel-heading"><div><h2>Aprendizaje del regulador</h2><p>Reglas propuestas por un segundo agente; solo se aceptan si mejoran en validación</p></div></div><div id="ia-cycle"></div></section>
+  </div>
+  <section class="panel history-panel"><div class="panel-heading"><div><h2>Decisiones de esta sesión</h2><p>Quedan en este navegador y, si la app corre con <code>python -m web.servidor</code>, en salidas/registro_decisiones.csv</p></div><span class="neutral-tag" id="decisions-tag"></span></div><div id="decisions-list"></div></section>
+ </section>
+
+ <footer><span>pulso. <span class="footer-separator">/</span> Lista de espera dinámica · HLF</span><span id="footer-right"></span></footer>
+</main>
+<dialog id="intake-dialog" aria-labelledby="intake-dialog-title"><button class="dialog-close icon-button" aria-label="Cerrar" id="close-intake"><span data-icon="close"></span></button><div id="intake-dialog-content"></div></dialog>
+<script src="datos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

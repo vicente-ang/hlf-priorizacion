@@ -1,0 +1,31 @@
+id_nota,texto,continua_control,plazo_dias,prioritario,requiere_examen,examenes,comentario
+N01,Control en 3 meses con ecografía de hombro derecho.,si,90,no,si,ecografía,
+N02,Citar en 6 semanas. Prioritario.,si,42,si,no,,
+N03,Alta de especialidad. Contrarreferencia a APS con indicaciones.,no,,no,no,,
+N04,Ctrl 6m con Rx rodilla bilateral,si,180,no,si,radiografía,abreviaturas
+N05,Volver a control en un año.,si,365,no,no,,número en palabras
+N06,Control en 15 días con resultado de TAC de tórax,si,15,no,si,TAC,
+N07,"Control en 2-3 meses, solicitar perfil lipídico y HbA1c previo",si,60,no,si,perfil lipídico;HbA1c,rango: se toma el plazo más corto
+N08,"Paciente estable, control en 6 meses.",si,180,no,no,,
+N09,Se da de alta. No requiere nuevo control.,no,,no,no,,
+N10,Control preferente en 1 mes con holter de ritmo.,si,30,si,si,holter,
+N11,contol en 3 mese con eco abdominal,si,90,no,si,ecografía,errores de tipeo
+N12,Ver en 4 semanas con resultado de RNM columna lumbar,si,28,no,si,resonancia,
+N13,Control en dos meses.,si,60,no,no,,
+N14,Control a la brevedad con ECG.,si,,si,si,ECG,sin plazo explícito: revisar
+N15,"Mantener tratamiento, control en 9 meses",si,270,no,no,,
+N16,Derivar a cirugía. Control post operatorio en 1 mes.,si,30,no,no,,
+N17,Control anual con espirometría.,si,365,no,si,espirometría,
+N18,SOS. Consultar en urgencia si empeora.,no,,no,no,,control solo si lo necesita
+N19,Nos vemos después de tener el resultado de la colonoscopía.,si,,no,si,colonoscopía,plazo depende del examen: revisar
+N20,"Control en 8 semanas, hemograma y perfil hepático previo.",si,56,no,si,hemograma;perfil hepático,
+N21,Control con resultados de exámenes en 3 meses.,si,90,no,si,,examen sin nombre
+N22,Seguimiento en APS. Alta de nivel secundario.,no,,no,no,,
+N23,Control prioritario en 2 semanas por dolor torácico atípico.,si,14,si,no,,
+N24,Control en 1 año más con ecocardiograma.,si,365,no,si,ecocardiograma,
+N25,Ajusto dosis de levotiroxina. Control en 6 semanas con TSH.,si,42,no,si,TSH,
+N26,Control 3m,si,90,no,no,,mínimo
+N27,"Pendiente EEG. Control al tener resultado, idealmente en 2 meses.",si,60,no,si,EEG,
+N28,Control después del verano.,si,,no,no,,plazo ambiguo: revisar
+N29,Cita en 10 días para curación y retiro de puntos.,si,10,no,no,,
+N30,"Control en 12 meses, sin exámenes.",si,365,no,no,,negación

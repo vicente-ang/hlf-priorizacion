@@ -1,0 +1,50 @@
+# Guía para proponer la prioridad de una interconsulta que nadie priorizó (motor/guias.py)
+# ------------------------------------------------------------------------------------------------
+# GUÍA DE EJEMPLO. La armó el equipo con signos de alarma de uso común en derivación a especialidad, para
+# mostrar el mecanismo. El hospital tiene guías por diagnóstico (por ejemplo, la de cataratas: "prioridad alta
+# debe verse en menos de 3 meses" y qué condiciones califican como alta). Esas guías reemplazan este archivo:
+# es configuración, no código.
+#
+# Cómo se usa: se lee el texto de la interconsulta.
+#   - Si aparece un criterio de "alta" (y no está negado: "sin", "niega", "descarta"...) -> alta.
+#   - Si no, y aparece un criterio de "baja" -> baja.
+#   - Si no aparece ninguno y hay texto -> se pregunta a Bedrock QUÉ CRITERIOS DE ESTA LISTA aparecen
+#     (la IA no inventa la prioridad: solo lee; la tabla decide).
+#   - Si nadie está seguro -> "revisar": sigue con la prioridad provisoria y queda en la cola del especialista.
+version: guia-ejemplo-1
+
+general:
+  alta: [riesgo vital, deterioro rapido, hospitalizacion reciente, consultas repetidas en urgencia,
+         baja de peso no explicada, sospecha de cancer, sospecha de neoplasia]
+  baja: [control de rutina, asintomatico, estable, sin cambios, cuadro leve, solo para evaluacion,
+         segunda opinion]
+
+especialidades:
+  Cardiología:
+    alta: [angina de reposo, angina inestable, angina progresiva, sincope, insuficiencia cardiaca descompensada,
+           capacidad funcional iii, capacidad funcional iv, cf iii, cf iv, fevi menor a 35, fevi < 35,
+           arritmia con compromiso, bloqueo av completo]
+    baja: [hta controlada, soplo funcional, palpitaciones aisladas]
+  Traumatología:
+    alta: [deficit neurologico, perdida de fuerza, incontinencia, cauda equina, fiebre, fractura,
+           imposibilidad de marcha, bloqueo articular, antecedente de cancer, dolor nocturno intenso]
+    baja: [dolor mecanico leve, lumbago simple, gonalgia leve, responde a analgesia]
+  Salud Mental:
+    alta: [ideacion suicida, intento suicida, riesgo suicida, autolesiones, psicosis, alucinaciones,
+           sintomas psicoticos, agitacion]
+    baja: [sintomas leves, buena red de apoyo, responde a tratamiento]
+  Neurología:
+    alta: [crisis frecuentes, crisis a repeticion, status, focalidad, deficit neurologico, cefalea en trueno,
+           cefalea de inicio subito, cefalea con signos de alarma]
+    baja: [cefalea tensional, migrana sin aura controlada, crisis controladas]
+  Broncopulmonar:
+    alta: [hemoptisis, exacerbaciones frecuentes, hospitalizacion por exacerbacion, oxigeno domiciliario,
+           disnea de reposo, saturacion menor a 90, saturacion bajo 90]
+    baja: [asma controlada, tos cronica sin alarma]
+  Endocrinología:
+    alta: [pie diabetico, hba1c mayor a 10, hba1c > 10, cetoacidosis, hipoglicemias severas,
+           nodulo tiroideo sospechoso, bocio compresivo]
+    baja: [hipotiroidismo compensado, diabetes compensada, obesidad sin comorbilidad]
+  Gastroenterología:
+    alta: [hemorragia digestiva, melena, hematemesis, ictericia, ascitis, disfagia progresiva, anemia]
+    baja: [dispepsia sin alarma, reflujo leve, colon irritable]

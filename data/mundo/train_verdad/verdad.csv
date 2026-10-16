@@ -1,0 +1,421 @@
+id_paciente,especialidad,trayectoria,gravedad_inicial,gravedad_corte,charlson,riesgo_90d,categoria_ideal,prioridad_inicial,empeoro
+SIN-TR-00001,Salud Mental,fluctuante,0.262,0.248,1,0.0346,baja,media,False
+SIN-TR-00002,Gastroenterología,agudo,0.508,0.885,1,0.4478,alta,media,True
+SIN-TR-00003,Salud Mental,estable,0.351,0.374,0,0.0586,baja,media,False
+SIN-TR-00004,Salud Mental,estable,0.499,0.478,1,0.1114,baja,media,False
+SIN-TR-00005,Traumatología,agudo,0.209,0.485,0,0.0919,baja,media,False
+SIN-TR-00006,Endocrinología,progresivo,0.137,0.377,1,0.0827,baja,baja,False
+SIN-TR-00007,Traumatología,mejora,0.134,0.101,0,0.0195,baja,baja,False
+SIN-TR-00008,Salud Mental,estable,0.329,0.336,0,0.0481,baja,baja,False
+SIN-TR-00009,Endocrinología,mejora,0.294,0.024,2,0.0239,baja,baja,False
+SIN-TR-00010,Gastroenterología,progresivo,0.384,0.731,1,0.3611,alta,media,True
+SIN-TR-00011,Cardiología,mejora,0.6,0.024,1,0.0216,baja,alta,False
+SIN-TR-00012,Salud Mental,progresivo,0.521,0.98,0,0.5399,alta,baja,True
+SIN-TR-00013,Neurología,estable,0.178,0.168,1,0.0257,baja,baja,False
+SIN-TR-00014,Traumatología,progresivo,0.08,0.738,1,0.4059,alta,baja,True
+SIN-TR-00015,Endocrinología,progresivo,0.473,0.619,0,0.2167,media,media,False
+SIN-TR-00016,Traumatología,progresivo,0.189,0.484,1,0.158,media,baja,True
+SIN-TR-00017,Endocrinología,progresivo,0.24,0.338,1,0.0706,baja,media,False
+SIN-TR-00018,Traumatología,mejora,0.252,0.052,0,0.0193,baja,baja,False
+SIN-TR-00019,Cardiología,estable,0.436,0.376,1,0.0662,baja,alta,False
+SIN-TR-00020,Cardiología,estable,0.107,0.124,3,0.0282,baja,baja,False
+SIN-TR-00021,Broncopulmonar,progresivo,0.261,0.546,2,0.2487,media,media,False
+SIN-TR-00022,Traumatología,agudo,0.161,0.411,1,0.0704,baja,baja,False
+SIN-TR-00023,Endocrinología,estable,0.378,0.35,1,0.0578,baja,media,False
+SIN-TR-00024,Salud Mental,mejora,0.19,0.02,0,0.0193,baja,media,False
+SIN-TR-00025,Broncopulmonar,estable,0.553,0.574,1,0.1714,media,alta,False
+SIN-TR-00026,Traumatología,estable,0.241,0.206,0,0.026,baja,media,False
+SIN-TR-00027,Endocrinología,progresivo,0.391,0.905,1,0.5489,alta,media,True
+SIN-TR-00028,Neurología,agudo,0.109,0.451,0,0.0775,baja,baja,False
+SIN-TR-00029,Traumatología,estable,0.444,0.432,2,0.0974,baja,media,False
+SIN-TR-00030,Broncopulmonar,estable,0.229,0.264,1,0.0373,baja,baja,False
+SIN-TR-00031,Broncopulmonar,estable,0.563,0.586,1,0.1807,media,media,False
+SIN-TR-00032,Neurología,progresivo,0.302,0.303,0,0.0516,baja,baja,False
+SIN-TR-00033,Broncopulmonar,estable,0.332,0.33,1,0.0519,baja,media,False
+SIN-TR-00034,Broncopulmonar,mejora,0.435,0.086,2,0.024,baja,media,False
+SIN-TR-00035,Salud Mental,agudo,0.388,0.682,0,0.2165,media,media,False
+SIN-TR-00036,Cardiología,mejora,0.262,0.184,1,0.024,baja,baja,False
+SIN-TR-00037,Cardiología,fluctuante,0.821,0.968,1,0.5688,alta,alta,False
+SIN-TR-00038,Traumatología,estable,0.154,0.157,1,0.0249,baja,baja,False
+SIN-TR-00039,Traumatología,progresivo,0.267,0.334,2,0.0988,baja,media,False
+SIN-TR-00040,Gastroenterología,estable,0.151,0.122,1,0.0232,baja,media,False
+SIN-TR-00041,Cardiología,estable,0.406,0.429,0,0.0781,baja,baja,False
+SIN-TR-00042,Traumatología,progresivo,0.3,0.726,1,0.349,alta,baja,True
+SIN-TR-00043,Endocrinología,estable,0.312,0.365,1,0.0625,baja,media,False
+SIN-TR-00044,Cardiología,progresivo,0.444,0.608,0,0.2439,media,media,False
+SIN-TR-00045,Traumatología,progresivo,0.222,0.393,0,0.0866,baja,baja,False
+SIN-TR-00046,Endocrinología,estable,0.28,0.28,1,0.0403,baja,baja,False
+SIN-TR-00047,Neurología,progresivo,0.392,0.98,2,0.6208,alta,media,True
+SIN-TR-00048,Salud Mental,mejora,0.487,0.326,0,0.0391,baja,alta,False
+SIN-TR-00049,Traumatología,agudo,0.259,0.29,2,0.0418,baja,baja,False
+SIN-TR-00050,Traumatología,agudo,0.308,0.613,2,0.201,media,media,False
+SIN-TR-00051,Traumatología,estable,0.093,0.103,0,0.0202,baja,baja,False
+SIN-TR-00052,Broncopulmonar,estable,0.335,0.364,1,0.062,baja,media,False
+SIN-TR-00053,Gastroenterología,fluctuante,0.401,0.29,2,0.0468,baja,media,False
+SIN-TR-00054,Salud Mental,progresivo,0.411,0.948,2,0.6163,alta,alta,False
+SIN-TR-00055,Cardiología,agudo,0.47,0.665,0,0.2036,media,media,False
+SIN-TR-00056,Cardiología,fluctuante,0.64,0.633,1,0.2182,media,alta,False
+SIN-TR-00057,Endocrinología,mejora,0.31,0.02,1,0.0216,baja,baja,False
+SIN-TR-00058,Broncopulmonar,progresivo,0.378,0.739,1,0.3981,alta,alta,False
+SIN-TR-00059,Broncopulmonar,mejora,0.523,0.487,1,0.0968,baja,media,False
+SIN-TR-00060,Cardiología,agudo,0.634,0.909,1,0.4744,alta,media,True
+SIN-TR-00061,Gastroenterología,fluctuante,0.175,0.255,0,0.032,baja,baja,False
+SIN-TR-00062,Traumatología,mejora,0.122,0.02,0,0.0193,baja,baja,False
+SIN-TR-00063,Broncopulmonar,estable,0.325,0.327,1,0.0512,baja,media,False
+SIN-TR-00064,Endocrinología,estable,0.417,0.404,1,0.0768,baja,media,False
+SIN-TR-00065,Neurología,progresivo,0.637,0.98,1,0.5822,alta,alta,False
+SIN-TR-00066,Salud Mental,progresivo,0.148,0.785,0,0.3912,alta,baja,True
+SIN-TR-00067,Salud Mental,estable,0.239,0.234,0,0.0291,baja,baja,False
+SIN-TR-00068,Endocrinología,estable,0.178,0.157,0,0.0223,baja,baja,False
+SIN-TR-00069,Traumatología,progresivo,0.222,0.623,0,0.2716,media,media,False
+SIN-TR-00070,Traumatología,estable,0.226,0.226,0,0.0281,baja,baja,False
+SIN-TR-00071,Cardiología,agudo,0.151,0.439,0,0.0729,baja,baja,False
+SIN-TR-00072,Endocrinología,progresivo,0.149,0.798,0,0.402,alta,baja,True
+SIN-TR-00073,Salud Mental,progresivo,0.376,0.534,0,0.1686,media,baja,True
+SIN-TR-00074,Traumatología,estable,0.216,0.239,0,0.0297,baja,baja,False
+SIN-TR-00075,Cardiología,progresivo,0.42,0.98,0,0.5399,alta,media,True
+SIN-TR-00076,Neurología,estable,0.327,0.335,0,0.0478,baja,baja,False
+SIN-TR-00077,Salud Mental,agudo,0.459,0.699,2,0.2785,media,media,False
+SIN-TR-00078,Neurología,fluctuante,0.234,0.114,2,0.0253,baja,media,False
+SIN-TR-00079,Neurología,estable,0.681,0.697,1,0.2749,media,alta,False
+SIN-TR-00080,Salud Mental,mejora,0.196,0.02,1,0.0216,baja,media,False
+SIN-TR-00081,Endocrinología,mejora,0.339,0.02,1,0.0216,baja,media,False
+SIN-TR-00082,Broncopulmonar,mejora,0.428,0.165,1,0.0229,baja,media,False
+SIN-TR-00083,Traumatología,progresivo,0.461,0.98,1,0.5822,alta,media,True
+SIN-TR-00084,Traumatología,mejora,0.381,0.026,3,0.0262,baja,media,False
+SIN-TR-00085,Salud Mental,estable,0.331,0.329,0,0.0462,baja,media,False
+SIN-TR-00086,Neurología,mejora,0.534,0.345,2,0.0498,baja,alta,False
+SIN-TR-00087,Endocrinología,progresivo,0.228,0.261,0,0.0444,baja,media,False
+SIN-TR-00088,Salud Mental,mejora,0.492,0.02,0,0.0193,baja,alta,False
+SIN-TR-00089,Endocrinología,estable,0.388,0.405,1,0.0771,baja,media,False
+SIN-TR-00090,Traumatología,agudo,0.257,0.694,0,0.2264,media,media,False
+SIN-TR-00091,Traumatología,estable,0.192,0.239,0,0.0297,baja,media,False
+SIN-TR-00092,Cardiología,estable,0.565,0.547,3,0.1826,media,alta,False
+SIN-TR-00093,Cardiología,estable,0.368,0.36,1,0.0609,baja,media,False
+SIN-TR-00094,Endocrinología,progresivo,0.478,0.669,1,0.3136,alta,alta,False
+SIN-TR-00095,Cardiología,progresivo,0.342,0.937,1,0.5731,alta,media,True
+SIN-TR-00096,Cardiología,agudo,0.76,0.961,1,0.5341,alta,alta,False
+SIN-TR-00097,Broncopulmonar,progresivo,0.382,0.544,3,0.2111,media,media,False
+SIN-TR-00098,Salud Mental,estable,0.421,0.395,0,0.0655,baja,media,False
+SIN-TR-00099,Endocrinología,estable,0.314,0.342,1,0.0554,baja,media,False
+SIN-TR-00100,Broncopulmonar,estable,0.309,0.315,2,0.0529,baja,media,False
+SIN-TR-00101,Endocrinología,agudo,0.326,0.626,0,0.1741,media,baja,True
+SIN-TR-00102,Cardiología,mejora,0.49,0.053,1,0.0216,baja,alta,False
+SIN-TR-00103,Salud Mental,agudo,0.346,0.653,1,0.2147,media,baja,True
+SIN-TR-00104,Broncopulmonar,progresivo,0.14,0.466,1,0.1422,media,baja,True
+SIN-TR-00105,Traumatología,progresivo,0.312,0.525,0,0.1908,media,baja,True
+SIN-TR-00106,Traumatología,estable,0.18,0.162,0,0.0226,baja,baja,False
+SIN-TR-00107,Cardiología,fluctuante,0.405,0.269,0,0.0342,baja,alta,False
+SIN-TR-00108,Neurología,agudo,0.445,0.731,0,0.258,media,media,False
+SIN-TR-00109,Broncopulmonar,estable,0.183,0.195,1,0.0279,baja,baja,False
+SIN-TR-00110,Traumatología,estable,0.309,0.361,0,0.0548,baja,baja,False
+SIN-TR-00111,Cardiología,estable,0.489,0.505,2,0.1389,media,media,False
+SIN-TR-00112,Traumatología,progresivo,0.03,0.118,0,0.0233,baja,baja,False
+SIN-TR-00113,Neurología,estable,0.155,0.124,0,0.0208,baja,baja,False
+SIN-TR-00114,Cardiología,mejora,0.528,0.47,1,0.0896,baja,media,False
+SIN-TR-00115,Salud Mental,agudo,0.45,0.756,0,0.2806,media,media,False
+SIN-TR-00116,Neurología,progresivo,0.276,0.98,0,0.5399,alta,media,True
+SIN-TR-00117,Neurología,agudo,0.28,0.547,0,0.1238,media,baja,True
+SIN-TR-00118,Endocrinología,estable,0.196,0.206,2,0.0322,baja,baja,False
+SIN-TR-00119,Broncopulmonar,estable,0.436,0.449,1,0.0962,baja,media,False
+SIN-TR-00120,Neurología,estable,0.242,0.233,0,0.029,baja,baja,False
+SIN-TR-00121,Traumatología,estable,0.303,0.288,0,0.0374,baja,media,False
+SIN-TR-00122,Traumatología,agudo,0.138,0.69,0,0.2229,media,baja,True
+SIN-TR-00123,Traumatología,progresivo,0.303,0.98,0,0.5399,alta,media,True
+SIN-TR-00124,Traumatología,estable,0.201,0.218,0,0.0272,baja,media,False
+SIN-TR-00125,Cardiología,estable,0.521,0.525,3,0.1655,media,media,False
+SIN-TR-00126,Broncopulmonar,agudo,0.381,0.767,1,0.3201,alta,baja,True
+SIN-TR-00127,Broncopulmonar,progresivo,0.437,0.524,1,0.1695,media,media,False
+SIN-TR-00128,Broncopulmonar,mejora,0.445,0.434,1,0.0687,baja,media,False
+SIN-TR-00129,Traumatología,progresivo,0.104,0.965,0,0.5386,alta,media,True
+SIN-TR-00130,Endocrinología,fluctuante,0.358,0.502,1,0.1245,media,media,False
+SIN-TR-00131,Gastroenterología,agudo,0.604,0.926,2,0.5302,alta,alta,False
+SIN-TR-00132,Traumatología,progresivo,0.105,0.273,1,0.0533,baja,baja,False
+SIN-TR-00133,Cardiología,progresivo,0.502,0.98,1,0.5822,alta,alta,False
+SIN-TR-00134,Salud Mental,estable,0.51,0.523,0,0.1235,media,media,False
+SIN-TR-00135,Cardiología,progresivo,0.697,0.973,1,0.5816,alta,alta,False
+SIN-TR-00136,Gastroenterología,mejora,0.273,0.02,1,0.0216,baja,baja,False
+SIN-TR-00137,Broncopulmonar,agudo,0.345,0.654,3,0.2556,media,media,False
+SIN-TR-00138,Traumatología,progresivo,0.234,0.98,2,0.6208,alta,media,True
+SIN-TR-00139,Broncopulmonar,agudo,0.243,0.659,2,0.2407,media,media,False
+SIN-TR-00140,Broncopulmonar,estable,0.705,0.669,4,0.3163,alta,alta,False
+SIN-TR-00141,Cardiología,estable,0.693,0.705,1,0.2823,media,alta,False
+SIN-TR-00142,Broncopulmonar,progresivo,0.481,0.98,1,0.5822,alta,media,True
+SIN-TR-00143,Traumatología,progresivo,0.365,0.98,2,0.6208,alta,media,True
+SIN-TR-00144,Broncopulmonar,agudo,0.25,0.672,1,0.2306,media,baja,True
+SIN-TR-00145,Broncopulmonar,progresivo,0.18,0.605,1,0.2659,media,media,False
+SIN-TR-00146,Cardiología,agudo,0.427,0.719,1,0.2732,media,media,False
+SIN-TR-00147,Endocrinología,progresivo,0.247,0.655,2,0.2972,media,baja,True
+SIN-TR-00148,Cardiología,estable,0.377,0.379,1,0.0673,baja,media,False
+SIN-TR-00149,Salud Mental,mejora,0.305,0.02,1,0.0216,baja,baja,False
+SIN-TR-00150,Cardiología,progresivo,0.182,0.414,1,0.1222,media,baja,True
+SIN-TR-00151,Traumatología,progresivo,0.096,0.708,1,0.3423,alta,baja,True
+SIN-TR-00152,Cardiología,mejora,0.524,0.138,0,0.0202,baja,media,False
+SIN-TR-00153,Neurología,agudo,0.445,0.502,0,0.1,baja,media,False
+SIN-TR-00154,Traumatología,progresivo,0.203,0.962,1,0.5802,alta,baja,True
+SIN-TR-00155,Cardiología,estable,0.204,0.224,0,0.0279,baja,baja,False
+SIN-TR-00156,Salud Mental,mejora,0.36,0.041,2,0.0239,baja,media,False
+SIN-TR-00157,Traumatología,estable,0.092,0.079,1,0.022,baja,baja,False
+SIN-TR-00158,Endocrinología,estable,0.129,0.104,1,0.0226,baja,baja,False
+SIN-TR-00159,Gastroenterología,estable,0.476,0.478,1,0.1111,baja,media,False
+SIN-TR-00160,Neurología,estable,0.224,0.218,3,0.0369,baja,baja,False
+SIN-TR-00161,Endocrinología,estable,0.333,0.304,1,0.0455,baja,media,False
+SIN-TR-00162,Traumatología,estable,0.215,0.215,2,0.0332,baja,media,False
+SIN-TR-00163,Traumatología,estable,0.241,0.236,0,0.0294,baja,media,False
+SIN-TR-00164,Traumatología,agudo,0.334,0.717,0,0.2462,media,media,False
+SIN-TR-00165,Broncopulmonar,agudo,0.636,0.976,2,0.5892,alta,media,True
+SIN-TR-00166,Salud Mental,estable,0.387,0.336,0,0.0479,baja,media,False
+SIN-TR-00167,Traumatología,estable,0.285,0.264,0,0.0333,baja,media,False
+SIN-TR-00168,Traumatología,estable,0.235,0.269,0,0.0342,baja,baja,False
+SIN-TR-00169,Cardiología,progresivo,0.524,0.98,1,0.5822,alta,alta,False
+SIN-TR-00170,Cardiología,agudo,0.567,0.814,1,0.3698,alta,alta,False
+SIN-TR-00171,Broncopulmonar,progresivo,0.368,0.98,1,0.5822,alta,media,True
+SIN-TR-00172,Cardiología,estable,0.497,0.517,1,0.1336,media,alta,False
+SIN-TR-00173,Broncopulmonar,estable,0.351,0.403,2,0.084,baja,media,False
+SIN-TR-00174,Broncopulmonar,mejora,0.189,0.176,1,0.0245,baja,baja,False
+SIN-TR-00175,Endocrinología,estable,0.159,0.145,2,0.0268,baja,media,False
+SIN-TR-00176,Endocrinología,estable,0.03,0.02,1,0.0216,baja,baja,False
+SIN-TR-00177,Traumatología,estable,0.262,0.267,1,0.0378,baja,baja,False
+SIN-TR-00178,Neurología,fluctuante,0.385,0.45,0,0.0869,baja,baja,False
+SIN-TR-00179,Endocrinología,estable,0.47,0.48,1,0.1122,baja,media,False
+SIN-TR-00180,Traumatología,estable,0.392,0.405,2,0.0847,baja,baja,False
+SIN-TR-00181,Cardiología,estable,0.435,0.449,0,0.0866,baja,media,False
+SIN-TR-00182,Neurología,estable,0.382,0.396,0,0.066,baja,media,False
+SIN-TR-00183,Traumatología,estable,0.181,0.202,0,0.0256,baja,baja,False
+SIN-TR-00184,Cardiología,mejora,0.368,0.306,2,0.0402,baja,baja,False
+SIN-TR-00185,Broncopulmonar,progresivo,0.482,0.503,1,0.1568,media,media,False
+SIN-TR-00186,Broncopulmonar,estable,0.366,0.363,1,0.0617,baja,baja,False
+SIN-TR-00187,Neurología,estable,0.335,0.369,0,0.0572,baja,alta,False
+SIN-TR-00188,Salud Mental,mejora,0.367,0.108,1,0.0221,baja,baja,False
+SIN-TR-00189,Cardiología,progresivo,0.614,0.963,1,0.5802,alta,alta,False
+SIN-TR-00190,Traumatología,mejora,0.22,0.02,0,0.0193,baja,baja,False
+SIN-TR-00191,Gastroenterología,estable,0.063,0.021,2,0.0239,baja,baja,False
+SIN-TR-00192,Endocrinología,agudo,0.184,0.439,0,0.073,baja,baja,False
+SIN-TR-00193,Neurología,mejora,0.501,0.155,0,0.0203,baja,media,False
+SIN-TR-00194,Endocrinología,progresivo,0.104,0.36,1,0.0761,baja,baja,False
+SIN-TR-00195,Endocrinología,progresivo,0.322,0.765,1,0.3825,alta,media,True
+SIN-TR-00196,Cardiología,agudo,0.042,0.362,0,0.0488,baja,baja,False
+SIN-TR-00197,Traumatología,estable,0.42,0.418,0,0.0738,baja,baja,False
+SIN-TR-00198,Cardiología,estable,0.492,0.487,0,0.1043,baja,alta,False
+SIN-TR-00199,Gastroenterología,agudo,0.404,0.807,3,0.4214,alta,media,True
+SIN-TR-00200,Cardiología,estable,0.224,0.238,0,0.0295,baja,baja,False
+SIN-TR-00201,Traumatología,progresivo,0.17,0.376,1,0.0886,baja,media,False
+SIN-TR-00202,Traumatología,estable,0.03,0.02,0,0.0193,baja,baja,False
+SIN-TR-00203,Cardiología,progresivo,0.348,0.735,1,0.3531,alta,media,True
+SIN-TR-00204,Neurología,mejora,0.19,0.02,1,0.0216,baja,media,False
+SIN-TR-00205,Neurología,mejora,0.301,0.164,0,0.0211,baja,media,False
+SIN-TR-00206,Traumatología,mejora,0.03,0.02,0,0.0193,baja,baja,False
+SIN-TR-00207,Traumatología,progresivo,0.118,0.272,1,0.0573,baja,baja,False
+SIN-TR-00208,Traumatología,progresivo,0.131,0.422,0,0.1096,baja,baja,False
+SIN-TR-00209,Endocrinología,progresivo,0.433,0.533,1,0.1744,media,media,False
+SIN-TR-00210,Traumatología,mejora,0.153,0.111,0,0.0196,baja,baja,False
+SIN-TR-00211,Cardiología,estable,0.301,0.296,1,0.0435,baja,media,False
+SIN-TR-00212,Cardiología,progresivo,0.429,0.94,2,,,media,False
+SIN-TR-00213,Endocrinología,estable,0.046,0.045,0,0.0194,baja,baja,False
+SIN-TR-00214,Gastroenterología,estable,0.539,0.508,1,0.1283,media,media,False
+SIN-TR-00215,Neurología,estable,0.188,0.182,1,0.0268,baja,media,False
+SIN-TR-00216,Cardiología,mejora,0.233,0.173,0,0.0207,baja,baja,False
+SIN-TR-00217,Neurología,agudo,0.391,0.801,0,0.3242,alta,alta,False
+SIN-TR-00218,Traumatología,fluctuante,0.249,0.196,0,0.025,baja,media,False
+SIN-TR-00219,Cardiología,mejora,0.481,0.359,0,0.0427,baja,baja,False
+SIN-TR-00220,Gastroenterología,agudo,0.227,0.481,2,0.1105,baja,baja,False
+SIN-TR-00221,Traumatología,estable,0.148,0.15,2,0.0271,baja,baja,False
+SIN-TR-00222,Gastroenterología,mejora,0.146,0.069,1,0.0217,baja,baja,False
+SIN-TR-00223,Neurología,estable,0.506,0.551,0,0.14,media,media,False
+SIN-TR-00224,Cardiología,progresivo,0.565,0.855,1,0.5252,alta,alta,False
+SIN-TR-00225,Broncopulmonar,estable,0.327,0.349,1,0.0575,baja,alta,False
+SIN-TR-00226,Traumatología,estable,0.113,0.118,0,0.0206,baja,baja,False
+SIN-TR-00227,Cardiología,mejora,0.187,0.02,1,0.0216,baja,baja,False
+SIN-TR-00228,Traumatología,estable,0.03,0.046,0,0.0194,baja,baja,False
+SIN-TR-00229,Cardiología,agudo,0.187,0.372,0,0.0514,baja,baja,False
+SIN-TR-00230,Cardiología,agudo,0.587,0.935,2,0.5412,alta,media,True
+SIN-TR-00231,Traumatología,agudo,0.03,0.26,0,0.0295,baja,baja,False
+SIN-TR-00232,Cardiología,estable,0.209,0.193,0,0.0248,baja,baja,False
+SIN-TR-00233,Cardiología,progresivo,0.21,0.313,2,0.0654,baja,media,False
+SIN-TR-00234,Cardiología,agudo,0.561,0.924,2,0.5285,alta,alta,False
+SIN-TR-00235,Salud Mental,agudo,0.127,0.313,0,0.0377,baja,baja,False
+SIN-TR-00236,Salud Mental,estable,0.499,0.527,0,0.1255,media,media,False
+SIN-TR-00237,Cardiología,estable,0.137,0.138,2,0.0264,baja,media,False
+SIN-TR-00238,Traumatología,mejora,0.303,0.022,0,0.0193,baja,media,False
+SIN-TR-00239,Cardiología,estable,0.306,0.308,0,0.0416,baja,baja,False
+SIN-TR-00240,Broncopulmonar,fluctuante,0.296,0.396,1,0.0736,baja,media,False
+SIN-TR-00241,Endocrinología,progresivo,0.332,0.723,0,0.3499,alta,media,True
+SIN-TR-00242,Neurología,estable,0.309,0.323,0,0.0448,baja,media,False
+SIN-TR-00243,Cardiología,estable,0.416,0.413,2,0.0887,baja,media,False
+SIN-TR-00244,Salud Mental,mejora,0.35,0.253,3,0.0384,baja,media,False
+SIN-TR-00245,Salud Mental,estable,0.4,0.391,0,0.064,baja,media,False
+SIN-TR-00246,Cardiología,progresivo,0.5,0.671,2,0.3626,alta,media,True
+SIN-TR-00247,Salud Mental,fluctuante,0.37,0.554,0,0.1422,media,media,False
+SIN-TR-00248,Endocrinología,mejora,0.248,0.02,1,0.0216,baja,baja,False
+SIN-TR-00249,Neurología,progresivo,0.612,0.98,0,0.5399,alta,alta,False
+SIN-TR-00250,Gastroenterología,fluctuante,0.202,0.116,1,0.0229,baja,media,False
+SIN-TR-00251,Cardiología,estable,0.564,0.57,1,0.1685,media,alta,False
+SIN-TR-00252,Traumatología,progresivo,0.285,0.581,2,0.2458,media,media,False
+SIN-TR-00253,Neurología,estable,0.269,0.28,2,0.0445,baja,baja,False
+SIN-TR-00254,Endocrinología,progresivo,0.263,0.695,2,0.3715,alta,baja,True
+SIN-TR-00255,Salud Mental,estable,0.196,0.181,2,0.0295,baja,media,False
+SIN-TR-00256,Neurología,agudo,0.399,0.483,0,0.091,baja,alta,False
+SIN-TR-00257,Broncopulmonar,estable,0.524,0.542,1,0.1495,media,alta,False
+SIN-TR-00258,Endocrinología,agudo,0.134,0.261,1,0.0331,baja,baja,False
+SIN-TR-00259,Cardiología,agudo,0.221,0.584,1,0.162,media,baja,True
+SIN-TR-00260,Salud Mental,fluctuante,0.469,0.583,0,0.1607,media,media,False
+SIN-TR-00261,Broncopulmonar,estable,0.147,0.133,2,0.0261,baja,baja,False
+SIN-TR-00262,Salud Mental,progresivo,0.442,0.799,2,0.4587,alta,media,True
+SIN-TR-00263,Gastroenterología,estable,0.298,0.305,1,0.0457,baja,baja,False
+SIN-TR-00264,Neurología,estable,0.264,0.24,0,0.0298,baja,media,False
+SIN-TR-00265,Neurología,progresivo,0.038,0.802,0,0.4075,alta,baja,True
+SIN-TR-00266,Cardiología,estable,0.157,0.158,0,0.0224,baja,baja,False
+SIN-TR-00267,Gastroenterología,estable,0.418,0.415,3,0.0977,baja,media,False
+SIN-TR-00268,Gastroenterología,estable,0.566,0.563,3,0.1952,media,alta,False
+SIN-TR-00269,Traumatología,mejora,0.229,0.202,0,0.0231,baja,baja,False
+SIN-TR-00270,Broncopulmonar,progresivo,0.419,0.521,2,0.1835,media,media,False
+SIN-TR-00271,Cardiología,estable,0.197,0.196,0,0.0251,baja,baja,False
+SIN-TR-00272,Salud Mental,mejora,0.272,0.051,1,0.0216,baja,media,False
+SIN-TR-00273,Broncopulmonar,estable,0.193,0.189,3,0.0331,baja,baja,False
+SIN-TR-00274,Salud Mental,progresivo,0.203,0.98,1,0.5822,alta,media,True
+SIN-TR-00275,Broncopulmonar,progresivo,0.474,0.638,1,0.2839,media,media,False
+SIN-TR-00276,Salud Mental,agudo,0.297,0.765,0,0.2892,media,media,False
+SIN-TR-00277,Endocrinología,agudo,0.056,0.581,1,0.1596,media,baja,True
+SIN-TR-00278,Endocrinología,estable,0.063,0.062,3,0.0264,baja,baja,False
+SIN-TR-00279,Endocrinología,estable,0.382,0.377,1,0.0664,baja,media,False
+SIN-TR-00280,Cardiología,fluctuante,0.054,0.02,0,0.0193,baja,baja,False
+SIN-TR-00281,Traumatología,progresivo,0.395,0.783,2,0.4379,alta,alta,False
+SIN-TR-00282,Cardiología,progresivo,0.713,0.98,1,0.5822,alta,alta,False
+SIN-TR-00283,Neurología,estable,0.198,0.191,1,0.0276,baja,media,False
+SIN-TR-00284,Cardiología,estable,0.584,0.571,2,0.1857,media,media,False
+SIN-TR-00285,Endocrinología,agudo,0.184,0.475,1,0.0975,baja,media,False
+SIN-TR-00286,Endocrinología,estable,0.314,0.313,2,0.0526,baja,baja,False
+SIN-TR-00287,Salud Mental,progresivo,0.285,0.97,1,0.5813,alta,media,True
+SIN-TR-00288,Endocrinología,agudo,0.146,0.481,1,0.1003,baja,baja,False
+SIN-TR-00289,Salud Mental,progresivo,0.441,0.98,0,0.5399,alta,media,True
+SIN-TR-00290,Cardiología,mejora,0.301,0.022,0,0.0193,baja,baja,False
+SIN-TR-00291,Cardiología,estable,0.327,0.361,1,0.0611,baja,media,False
+SIN-TR-00292,Salud Mental,estable,0.48,0.495,1,0.1203,media,media,False
+SIN-TR-00293,Endocrinología,agudo,0.235,0.652,2,0.2345,media,media,False
+SIN-TR-00294,Traumatología,agudo,0.318,0.677,0,0.2129,media,baja,True
+SIN-TR-00295,Broncopulmonar,agudo,0.343,0.845,1,0.4028,alta,media,True
+SIN-TR-00296,Endocrinología,agudo,0.072,0.601,0,0.1571,media,baja,True
+SIN-TR-00297,Traumatología,progresivo,0.38,0.46,1,0.1287,media,baja,True
+SIN-TR-00298,Neurología,progresivo,0.222,0.945,0,0.5337,alta,baja,True
+SIN-TR-00299,Gastroenterología,estable,0.14,0.122,0,0.0207,baja,baja,False
+SIN-TR-00300,Cardiología,progresivo,0.282,0.728,0,0.3197,alta,baja,True
+SIN-TR-00301,Neurología,progresivo,0.225,0.88,2,0.5822,alta,baja,True
+SIN-TR-00302,Broncopulmonar,agudo,0.392,0.814,1,0.3696,alta,media,True
+SIN-TR-00303,Endocrinología,agudo,0.03,0.415,0,0.0645,baja,baja,False
+SIN-TR-00304,Salud Mental,progresivo,0.158,0.964,1,,,baja,False
+SIN-TR-00305,Cardiología,estable,0.518,0.517,1,0.1335,media,alta,False
+SIN-TR-00306,Endocrinología,progresivo,0.319,0.797,1,0.4512,alta,alta,False
+SIN-TR-00307,Endocrinología,estable,0.585,0.569,1,0.1683,media,alta,False
+SIN-TR-00308,Traumatología,estable,0.186,0.214,0,0.0268,baja,baja,False
+SIN-TR-00309,Cardiología,progresivo,0.225,0.358,0,0.0668,baja,baja,False
+SIN-TR-00310,Cardiología,mejora,0.434,0.183,1,0.0249,baja,media,False
+SIN-TR-00311,Salud Mental,estable,0.421,0.459,0,0.0907,baja,media,False
+SIN-TR-00312,Salud Mental,mejora,0.379,0.02,1,0.0216,baja,alta,False
+SIN-TR-00313,Cardiología,estable,0.666,0.667,0,0.224,media,alta,False
+SIN-TR-00314,Broncopulmonar,estable,0.539,0.539,1,0.1476,media,alta,False
+SIN-TR-00315,Cardiología,estable,0.447,0.456,0,0.0894,baja,alta,False
+SIN-TR-00316,Endocrinología,mejora,0.304,0.035,1,0.0216,baja,media,False
+SIN-TR-00317,Broncopulmonar,estable,0.475,0.514,2,0.1451,media,alta,False
+SIN-TR-00318,Endocrinología,estable,0.497,0.48,1,0.112,baja,media,False
+SIN-TR-00319,Endocrinología,estable,0.253,0.243,1,0.0338,baja,media,False
+SIN-TR-00320,Endocrinología,progresivo,0.362,0.853,1,0.4937,alta,media,True
+SIN-TR-00321,Cardiología,estable,0.413,0.389,0,0.0634,baja,alta,False
+SIN-TR-00322,Traumatología,agudo,0.187,0.617,0,0.1682,media,baja,True
+SIN-TR-00323,Endocrinología,estable,0.221,0.221,1,0.0309,baja,baja,False
+SIN-TR-00324,Salud Mental,mejora,0.41,0.25,0,0.0268,baja,media,False
+SIN-TR-00325,Salud Mental,estable,0.378,0.347,0,0.0508,baja,media,False
+SIN-TR-00326,Salud Mental,estable,0.329,0.319,1,0.049,baja,baja,False
+SIN-TR-00327,Cardiología,estable,0.43,0.418,1,0.0823,baja,media,False
+SIN-TR-00328,Neurología,agudo,0.074,0.413,0,0.0636,baja,baja,False
+SIN-TR-00329,Salud Mental,mejora,0.308,0.11,4,0.0291,baja,baja,False
+SIN-TR-00330,Broncopulmonar,agudo,0.437,0.726,1,0.2797,media,media,False
+SIN-TR-00331,Neurología,progresivo,0.445,0.699,1,0.3767,alta,media,True
+SIN-TR-00332,Neurología,estable,0.66,0.703,0,0.2546,media,media,False
+SIN-TR-00333,Traumatología,fluctuante,0.222,0.295,0,0.0387,baja,baja,False
+SIN-TR-00334,Traumatología,progresivo,0.134,0.536,0,0.1984,media,baja,True
+SIN-TR-00335,Broncopulmonar,estable,0.351,0.333,1,0.0527,baja,media,False
+SIN-TR-00336,Gastroenterología,mejora,0.34,0.02,1,0.0216,baja,media,False
+SIN-TR-00337,Salud Mental,fluctuante,0.192,0.333,1,0.0529,baja,baja,False
+SIN-TR-00338,Traumatología,mejora,0.034,0.024,1,0.0216,baja,baja,False
+SIN-TR-00339,Neurología,estable,0.403,0.403,2,0.0839,baja,media,False
+SIN-TR-00340,Salud Mental,progresivo,0.629,0.744,0,0.3502,alta,alta,False
+SIN-TR-00341,Cardiología,estable,0.594,0.578,2,0.1918,media,alta,False
+SIN-TR-00342,Neurología,agudo,0.225,0.597,3,0.2043,media,baja,True
+SIN-TR-00343,Cardiología,progresivo,0.211,0.371,0,0.08,baja,baja,False
+SIN-TR-00344,Cardiología,estable,0.31,0.312,0,0.0423,baja,media,False
+SIN-TR-00345,Cardiología,estable,0.447,0.418,0,0.074,baja,media,False
+SIN-TR-00346,Salud Mental,estable,0.378,0.38,0,0.0604,baja,baja,False
+SIN-TR-00347,Traumatología,progresivo,0.325,0.479,3,0.1904,media,media,False
+SIN-TR-00348,Broncopulmonar,fluctuante,0.341,0.183,1,0.0269,baja,baja,False
+SIN-TR-00349,Traumatología,progresivo,0.339,0.89,0,0.5118,alta,media,True
+SIN-TR-00350,Endocrinología,mejora,0.234,0.021,1,0.0216,baja,baja,False
+SIN-TR-00351,Traumatología,estable,0.102,0.146,2,0.0268,baja,baja,False
+SIN-TR-00352,Cardiología,estable,0.039,0.077,0,0.0197,baja,baja,False
+SIN-TR-00353,Salud Mental,fluctuante,0.402,0.587,0,0.1634,media,media,False
+SIN-TR-00354,Endocrinología,mejora,0.289,0.158,1,0.0235,baja,baja,False
+SIN-TR-00355,Cardiología,progresivo,0.265,0.468,2,0.1824,media,baja,True
+SIN-TR-00356,Endocrinología,estable,0.334,0.322,0,0.0445,baja,baja,False
+SIN-TR-00357,Salud Mental,estable,0.288,0.28,1,0.0403,baja,baja,False
+SIN-TR-00358,Traumatología,estable,0.478,0.5,2,0.1358,media,media,False
+SIN-TR-00359,Cardiología,estable,0.452,0.501,1,0.1239,media,media,False
+SIN-TR-00360,Broncopulmonar,estable,0.261,0.314,1,0.0478,baja,media,False
+SIN-TR-00361,Broncopulmonar,estable,0.392,0.436,1,0.0902,baja,media,False
+SIN-TR-00362,Broncopulmonar,progresivo,0.499,0.98,1,0.5822,alta,media,True
+SIN-TR-00363,Endocrinología,progresivo,0.138,0.523,0,0.1525,media,baja,True
+SIN-TR-00364,Traumatología,estable,0.322,0.349,0,0.0513,baja,baja,False
+SIN-TR-00365,Broncopulmonar,fluctuante,0.399,0.33,1,0.052,baja,media,False
+SIN-TR-00366,Salud Mental,mejora,0.286,0.191,1,0.0237,baja,baja,False
+SIN-TR-00367,Salud Mental,estable,0.207,0.249,2,0.0384,baja,baja,False
+SIN-TR-00368,Salud Mental,estable,0.333,0.309,3,0.0564,baja,media,False
+SIN-TR-00369,Endocrinología,progresivo,0.379,0.952,1,0.5787,alta,media,True
+SIN-TR-00370,Salud Mental,fluctuante,0.264,0.13,3,0.0284,baja,baja,False
+SIN-TR-00371,Neurología,estable,0.581,0.583,0,0.1605,media,alta,False
+SIN-TR-00372,Neurología,progresivo,0.368,0.579,0,0.1901,media,media,False
+SIN-TR-00373,Neurología,progresivo,0.167,0.227,0,0.034,baja,baja,False
+SIN-TR-00374,Salud Mental,progresivo,0.167,0.476,2,0.1793,media,baja,True
+SIN-TR-00375,Cardiología,progresivo,0.448,0.98,1,0.5822,alta,media,True
+SIN-TR-00376,Broncopulmonar,agudo,0.333,0.769,2,0.351,alta,media,True
+SIN-TR-00377,Cardiología,estable,0.594,0.567,2,0.1826,media,alta,False
+SIN-TR-00378,Traumatología,estable,0.214,0.225,0,0.028,baja,baja,False
+SIN-TR-00379,Cardiología,fluctuante,0.398,0.422,0,0.0755,baja,alta,False
+SIN-TR-00380,Neurología,progresivo,0.094,0.421,1,0.1051,baja,media,False
+SIN-TR-00381,Traumatología,estable,0.309,0.284,1,0.041,baja,media,False
+SIN-TR-00382,Endocrinología,estable,0.315,0.335,1,0.0534,baja,baja,False
+SIN-TR-00383,Traumatología,estable,0.234,0.236,0,0.0293,baja,baja,False
+SIN-TR-00384,Traumatología,progresivo,0.19,0.21,0,0.0397,baja,baja,False
+SIN-TR-00385,Traumatología,agudo,0.262,0.551,0,0.126,media,baja,True
+SIN-TR-00386,Traumatología,estable,0.061,0.076,0,0.0197,baja,baja,False
+SIN-TR-00387,Cardiología,estable,0.334,0.346,0,0.0506,baja,media,False
+SIN-TR-00388,Traumatología,estable,0.116,0.139,0,0.0214,baja,baja,False
+SIN-TR-00389,Endocrinología,estable,0.421,0.427,1,0.0862,baja,media,False
+SIN-TR-00390,Broncopulmonar,progresivo,0.539,0.661,2,0.3063,alta,media,True
+SIN-TR-00391,Broncopulmonar,agudo,0.239,0.516,1,0.119,baja,baja,False
+SIN-TR-00392,Neurología,estable,0.158,0.166,2,0.0282,baja,baja,False
+SIN-TR-00393,Cardiología,estable,0.568,0.533,0,0.1292,media,alta,False
+SIN-TR-00394,Neurología,estable,0.372,0.367,0,0.0566,baja,media,False
+SIN-TR-00395,Endocrinología,estable,0.148,0.135,1,0.0237,baja,media,False
+SIN-TR-00396,Endocrinología,estable,0.099,0.119,1,0.0231,baja,baja,False
+SIN-TR-00397,Gastroenterología,estable,0.568,0.595,1,0.1876,media,alta,False
+SIN-TR-00398,Cardiología,estable,0.388,0.433,1,0.0889,baja,media,False
+SIN-TR-00399,Broncopulmonar,progresivo,0.365,0.837,2,0.5588,alta,media,True
+SIN-TR-00400,Traumatología,progresivo,0.233,0.55,0,0.1828,media,media,False
+SIN-TR-00401,Broncopulmonar,estable,0.314,0.332,3,0.0635,baja,alta,False
+SIN-TR-00402,Broncopulmonar,estable,0.554,0.546,1,0.1524,media,alta,False
+SIN-TR-00403,Cardiología,agudo,0.571,0.93,0,0.4591,alta,alta,False
+SIN-TR-00404,Traumatología,estable,0.078,0.101,0,0.0201,baja,baja,False
+SIN-TR-00405,Cardiología,estable,0.297,0.278,0,0.0356,baja,media,False
+SIN-TR-00406,Traumatología,estable,0.145,0.119,0,0.0206,baja,baja,False
+SIN-TR-00407,Endocrinología,estable,0.204,0.238,0,0.0296,baja,baja,False
+SIN-TR-00408,Traumatología,mejora,0.105,0.02,0,0.0193,baja,media,False
+SIN-TR-00409,Salud Mental,progresivo,0.446,0.592,1,0.2242,media,alta,False
+SIN-TR-00410,Endocrinología,agudo,0.302,0.632,2,0.2169,media,media,False
+SIN-TR-00411,Cardiología,agudo,0.494,0.598,2,0.1887,media,alta,False
+SIN-TR-00412,Traumatología,estable,0.286,0.268,2,0.042,baja,media,False
+SIN-TR-00413,Gastroenterología,agudo,0.292,0.696,0,0.2287,media,baja,True
+SIN-TR-00414,Broncopulmonar,estable,0.357,0.371,3,0.0776,baja,media,False
+SIN-TR-00415,Endocrinología,agudo,0.234,0.714,3,0.3164,alta,media,True
+SIN-TR-00416,Cardiología,agudo,0.313,0.576,1,0.1565,media,baja,True
+SIN-TR-00417,Salud Mental,agudo,0.116,0.677,0,0.2124,media,baja,True
+SIN-TR-00418,Salud Mental,estable,0.257,0.234,0,0.029,baja,baja,False
+SIN-TR-00419,Cardiología,estable,0.465,0.493,0,0.1071,baja,media,False
+SIN-TR-00420,Traumatología,agudo,0.103,0.559,2,0.1598,media,media,False

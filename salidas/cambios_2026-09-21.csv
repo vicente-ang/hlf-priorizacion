@@ -1,0 +1,4 @@
+tipo,especialidad,id_paciente,prioridad_inicial,puesto_antes,puesto_ahora,en_especialidad,detalle,llego
+Entró al carril rápido,Endocrinología,PAC-HLF-00160,alta,49,3,70,Urgencia (triage ESI 2) hoy,Urgencia (triage ESI 2) (21-09)
+Nueva señal de deterioro,Salud Mental,PAC-HLF-00209,media,2,2,64,Hospitalización (21-09),Hospitalización (21-09)
+Salió del carril rápido,Endocrinología,PAC-HLF-00480,alta,2,12,70,Pasaron 30 días desde el evento grave,

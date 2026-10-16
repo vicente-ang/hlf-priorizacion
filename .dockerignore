@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+salidas/registro_decisiones.csv
+salidas/demo_ingesta/
+salidas/validacion/
+data/almacen/
+credenciales_aws.ps1
+ia/cache/

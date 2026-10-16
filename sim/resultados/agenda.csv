@@ -1,0 +1,6 @@
+politica,nombre,atendidos_por_100_cupos,sobretiempo_medio_min,pct_bloques_sobretiempo_30,minutos_ociosos_medio,sobrecupos_por_100_cupos,atendidos_extra_6_meses,bloques,periodo
+A,Actual: citar la capacidad,73.8,20.0,22.6,48.7,0.0,0.0,2188,14-04-2026 al 13-10-2026
+B,+ llamada a riesgo alto,74.5,20.7,23.3,47.0,0.0,153.0,2188,14-04-2026 al 13-10-2026
+C,+ llamada + lista de reserva,79.6,28.2,30.7,35.9,0.0,1268.0,2188,14-04-2026 al 13-10-2026
+D,+ llamada + reserva + sobrecupo fijo (+2),95.5,64.2,57.4,13.6,20.0,4745.0,2188,14-04-2026 al 13-10-2026
+E,+ llamada + reserva + sobrecupo con tope de sobretiempo,82.8,30.2,33.5,26.7,4.0,1968.0,2188,14-04-2026 al 13-10-2026

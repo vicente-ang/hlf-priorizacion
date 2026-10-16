@@ -1,0 +1,121 @@
+# Regla por defecto del MVP: CARRIL RÁPIDO + PLAZO DINÁMICO
+# ---------------------------------------------------------------
+# No hay pesos que calibrar. Cada número viene de una fuente externa o del propio registro:
+#   - La gravedad de los eventos (leve / moderada / grave) viene del registro clínico
+#     (triage ESI 2, hospitalización, UCI = grave). No la definimos nosotros.
+#   - Ventana del carril rápido: lógica NEWS2 (un solo hallazgo grave basta para actuar).
+#   - Plazos base: pauta del piloto BID en el Hospital San Juan de Dios
+#     (urgente 30 días; normal 6 meses). "media" queda en un punto intermedio.
+#
+# Cómo ordena la lista (dentro de cada especialidad):
+#   1) CARRIL RÁPIDO: pacientes con un evento grave en los últimos `ventana_dias`.
+#      Entre ellos NO se ordena por llegada (lo pidió el hospital, entrevista 5): primero el nivel de cuidado
+#      más alto (UCI > sala > urgencia; Lone et al. 2016), luego el índice LACE (van Walraven 2010, puntos
+#      publicados), luego prioridad y antigüedad. Ver motor/clusters.py.
+#   2) RESTO: por razón de atraso = (hoy - fecha objetivo) / plazo vigente.
+#      La fecha objetivo parte en ingreso + plazo base y se ADELANTA si hay eventos o mediciones
+#      que empeoran. Así, quien más se ha pasado de su plazo va primero.
+
+version: mvp-carril-plazo-3
+modo_por_defecto: carril_plazo   # otros: carril (regla actual + carril), actual, puntaje (v1, opcional)
+
+carril_rapido:
+  ventana_dias: 30
+  severidades: [grave]
+  # Orden dentro del carril. Opciones: nivel_cuidado, recurrencia, lace, prioridad, antiguedad.
+  # recurrencia = episodios graves relacionados en 12 meses (reunión 7: "un segundo infarto en corto plazo va
+  # por sobre uno solo con comorbilidades"; el puntaje HOSPITAL de Donzé 2013 también suma ingresos previos).
+  # Si el hospital quiere que la cirugía pese, se puede cambiar LACE por el puntaje HOSPITAL (Donzé 2013).
+  orden: [nivel_cuidado, recurrencia, lace, prioridad, antiguedad]
+  dias_mismo_episodio: 7             # eventos graves a menos de 7 días son el mismo episodio (urgencia -> ingreso)
+
+# Pertinencia (reunión 7): un evento mueve al paciente solo si se relaciona con aquello por lo que espera.
+# Prefijos CIE-10 que cuentan para cada especialidad. Si el evento no trae diagnóstico, se asume relacionado.
+# Para especialidades que no están en la tabla, cuenta el mismo capítulo que el diagnóstico de derivación.
+# Propuesta del equipo (capítulos CIE-10 + asociaciones de riesgo que nombró el hospital): validar con cada jefe.
+pertinencia:
+  siempre: [ingreso UCI]
+  por_especialidad:
+    Cardiología: [I, J, E10, E11, E13, E14, N18, R00, R07, R55, R60]
+    Broncopulmonar: [J, I26, I27, I50, R04, R05, R06, R09]
+    Endocrinología: [E, I, N18, L97, R73]
+    Gastroenterología: [K, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, I85, D50, R10, R18]
+    Neurología: [G, I60, I61, I62, I63, I64, I65, I66, I67, I68, I69, R51, R56, S06]
+    Salud Mental: [F, X60, X61, X62, X63, X64, X65, X66, X67, X68, X69, X70, X71, X72, X73, X74, X75, X76,
+                   X77, X78, X79, X80, X81, X82, X83, X84, T36, T37, T38, T39, T40, T41, T42, T43, T44, T45,
+                   R45]
+    Traumatología: [M, S, T0, T1, G55, G56, G57]
+
+# Clusters de información (motor/clusters.py): qué ventanas de tiempo mira cada uno
+clusters:
+  ventana_hospitalizaciones_dias: 365
+  ventana_urgencias_dias: 182        # LACE cuenta las consultas de urgencia de los 6 meses previos
+
+# Corte semanal (entrevista 6): la lista oficial se reprioriza un día fijo para que el equipo agende al
+# día siguiente con un orden estable. Los reportes diarios no mueven la lista: generan alertas
+# (motor/cortes.py) y el jefe o la gestora pueden adelantar a alguien con un motivo que queda registrado.
+corte:
+  dia_semana: lunes
+  semanas_historial: 8
+
+# Interconsultas sin priorizar (entrevista 6): hay especialidades que no priorizan. Mientras el especialista
+# no la lee, la interconsulta espera con plazo medio. Si pasan `dias_para_proponer` días sin prioridad, se usa
+# la que propone la guía por diagnóstico (motor/guias.py); queda marcada para que el especialista la confirme.
+sin_priorizar:
+  prioridad_provisoria: media
+  dias_para_proponer: 21
+
+plazo:
+  base_dias:
+    alta: 30
+    media: 90
+    baja: 180
+  tras_evento_grave_dias: 14        # un evento grave pide atención en 2 semanas
+  tras_evento_moderado_dias: 45     # descompensación, examen alterado, aumento de dosis
+  tras_medicion_empeorando_dias: 60 # tendencia de empeoramiento en las últimas 3 mediciones
+
+senales:
+  ventana_eventos_dias: 60
+  # Sin ningún evento ni medición en este período = "sin señales recientes": no sabemos cómo
+  # está. No cambia el orden; genera una tarea de verificación (llamada o cuestionario, como
+  # en el piloto BID). Mitiga que quien accede menos al sistema parezca "más sano".
+  dias_sin_senales: 180
+  dias_espera_minimos_para_verificar: 90
+  subtipos_mejora: [buena respuesta, estabilización, reducción dosis]
+  subtipos_rutina: [control, control crónico, control de rutina]
+
+mediciones:
+  ventana_dias: 180
+  tipos:
+    presion_sistolica:  {empeora_si: sube, umbral: 10}
+    presion_diastolica: {empeora_si: sube, umbral: 8}
+    HbA1c:              {empeora_si: sube, umbral: 0.5}
+    glicemia:           {empeora_si: sube, umbral: 20}
+    saturacion_o2:      {empeora_si: baja, umbral: 2}
+    peak_flow:          {empeora_si: baja, umbral: 40}
+    escala_dolor_eva:   {empeora_si: sube, umbral: 2}
+    PHQ9:               {empeora_si: sube, umbral: 3}
+
+# Cupo por antigüedad: 1 de cada 10 puestos de la lista de cada especialidad se le da al que
+# más tiempo lleva esperando, sin importar lo demás. Con 10%, en la simulación nadie queda
+# peor que hoy en esperas > 365 días y la reacción ante eventos graves no cambia
+# (ver sim/resultados/sensibilidad.md). Es una decisión de política del hospital: 0 lo apaga.
+agenda:
+  cupo_antiguedad: 0.10
+  # --- Uso del box (motor/agenda.py) ---
+  duracion_bloque_min: 300          # bloque 08:30-13:30 (agenda_box.csv)
+  inasistencia:
+    fuerza_prior: 4                 # cuántas citas "pesa" la tasa de la especialidad frente a la historia del paciente
+    umbral_llamada: 0.30            # riesgo de no llegar desde el cual se llama 48 h antes (Dunstan et al. 2023)
+  sobrecupo:
+    activo: true
+    max_por_box: 2
+    minutos_tolerancia: 30          # sobretiempo que se acepta
+    prob_max_pasarse: 0.10          # se agrega un sobrecupo solo si la probabilidad de pasarse más de la
+                                    # tolerancia sigue bajo este valor (simulado con duraciones reales de atención)
+  reserva_extra: 1                  # pacientes de reserva además de las cancelaciones esperadas
+
+# Inasistencias: no cambian el orden. Solo alerta de contacto para el equipo de agenda.
+alerta_contacto:
+  inasistencias_para_alerta: 1
+  inasistencias_para_llamada: 2

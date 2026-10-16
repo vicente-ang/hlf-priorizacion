@@ -1,0 +1,301 @@
+id_paciente,id_solicitud,especialidad,sub_especialidad,diagnostico_cie10,diagnostico_texto,prioridad_inicial,fecha_ingreso_lista,origen_derivacion,estado
+SIN-DE-00001,IC-SIN-DE-00001,Broncopulmonar,EPOC,J44,EPOC,media,2026-09-09,Urgencia,en_espera
+SIN-DE-00002,IC-SIN-DE-00002,Broncopulmonar,EPOC,J44,EPOC,media,2025-05-06,Urgencia,en_espera
+SIN-DE-00003,IC-SIN-DE-00003,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-12-26,Urgencia,en_espera
+SIN-DE-00004,IC-SIN-DE-00004,Broncopulmonar,Asma,J45,Asma,media,2025-10-01,CESFAM/APS,en_espera
+SIN-DE-00005,IC-SIN-DE-00005,Broncopulmonar,EPOC,J44,EPOC,media,2025-11-06,CESFAM/APS,en_espera
+SIN-DE-00006,IC-SIN-DE-00006,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-06-30,CESFAM/APS,en_espera
+SIN-DE-00007,IC-SIN-DE-00007,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-08-03,CESFAM/APS,en_espera
+SIN-DE-00008,IC-SIN-DE-00008,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-03-02,Otro hospital red,en_espera
+SIN-DE-00009,IC-SIN-DE-00009,Broncopulmonar,Asma,J45,Asma,baja,2026-02-08,Urgencia,en_espera
+SIN-DE-00010,IC-SIN-DE-00010,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-08-15,CESFAM/APS,en_espera
+SIN-DE-00011,IC-SIN-DE-00011,Traumatología,Columna,M54,Lumbago,baja,2026-01-26,CESFAM/APS,en_espera
+SIN-DE-00012,IC-SIN-DE-00012,Endocrinología,Diabetes,E66,Obesidad,baja,2025-06-24,Urgencia,en_espera
+SIN-DE-00013,IC-SIN-DE-00013,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-09-18,CESFAM/APS,en_espera
+SIN-DE-00014,IC-SIN-DE-00014,Broncopulmonar,EPOC,J44,EPOC,alta,2025-11-29,CESFAM/APS,en_espera
+SIN-DE-00015,IC-SIN-DE-00015,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-09-13,Otro hospital red,en_espera
+SIN-DE-00016,IC-SIN-DE-00016,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-01-17,CESFAM/APS,en_espera
+SIN-DE-00017,IC-SIN-DE-00017,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-06-29,CESFAM/APS,en_espera
+SIN-DE-00018,IC-SIN-DE-00018,Salud Mental,Psicología,F41,Trastorno de ansiedad,alta,2026-09-03,CESFAM/APS,en_espera
+SIN-DE-00019,IC-SIN-DE-00019,Neurología,Cefaleas,G43,Migraña,baja,2025-07-27,CESFAM/APS,en_espera
+SIN-DE-00020,IC-SIN-DE-00020,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-01-04,CESFAM/APS,en_espera
+SIN-DE-00021,IC-SIN-DE-00021,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-04-30,CESFAM/APS,en_espera
+SIN-DE-00022,IC-SIN-DE-00022,Broncopulmonar,Asma,J45,Asma,media,2026-05-06,CESFAM/APS,en_espera
+SIN-DE-00023,IC-SIN-DE-00023,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-06-23,CESFAM/APS,en_espera
+SIN-DE-00024,IC-SIN-DE-00024,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-09-21,CESFAM/APS,en_espera
+SIN-DE-00025,IC-SIN-DE-00025,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2026-01-29,Hospitalización,en_espera
+SIN-DE-00026,IC-SIN-DE-00026,Broncopulmonar,EPOC,J44,EPOC,alta,2026-08-16,CESFAM/APS,en_espera
+SIN-DE-00027,IC-SIN-DE-00027,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-07-21,Urgencia,en_espera
+SIN-DE-00028,IC-SIN-DE-00028,Neurología,Cefaleas,G43,Migraña,baja,2025-11-13,CESFAM/APS,en_espera
+SIN-DE-00029,IC-SIN-DE-00029,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-11-11,CESFAM/APS,en_espera
+SIN-DE-00030,IC-SIN-DE-00030,Broncopulmonar,Asma,J45,Asma,baja,2025-08-10,CESFAM/APS,en_espera
+SIN-DE-00031,IC-SIN-DE-00031,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-02-06,CESFAM/APS,en_espera
+SIN-DE-00032,IC-SIN-DE-00032,Traumatología,Columna,M54,Lumbago,media,2025-10-01,CESFAM/APS,en_espera
+SIN-DE-00033,IC-SIN-DE-00033,Traumatología,Rodilla,M17,Artrosis de rodilla,alta,2025-09-13,Otro hospital red,en_espera
+SIN-DE-00034,IC-SIN-DE-00034,Broncopulmonar,EPOC,J44,EPOC,baja,2025-09-25,CESFAM/APS,en_espera
+SIN-DE-00035,IC-SIN-DE-00035,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-07-16,CESFAM/APS,en_espera
+SIN-DE-00036,IC-SIN-DE-00036,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-09-25,Hospitalización,en_espera
+SIN-DE-00037,IC-SIN-DE-00037,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-03-13,CESFAM/APS,en_espera
+SIN-DE-00038,IC-SIN-DE-00038,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2026-02-08,Otro hospital red,en_espera
+SIN-DE-00039,IC-SIN-DE-00039,Broncopulmonar,EPOC,J44,EPOC,alta,2026-07-07,CESFAM/APS,en_espera
+SIN-DE-00040,IC-SIN-DE-00040,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-09-29,CESFAM/APS,en_espera
+SIN-DE-00041,IC-SIN-DE-00041,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-06-21,CESFAM/APS,en_espera
+SIN-DE-00042,IC-SIN-DE-00042,Broncopulmonar,Asma,J45,Asma,media,2026-06-25,CESFAM/APS,en_espera
+SIN-DE-00043,IC-SIN-DE-00043,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-01-15,CESFAM/APS,en_espera
+SIN-DE-00044,IC-SIN-DE-00044,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-04-23,Urgencia,en_espera
+SIN-DE-00045,IC-SIN-DE-00045,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2025-11-29,CESFAM/APS,en_espera
+SIN-DE-00046,IC-SIN-DE-00046,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2025-06-13,CESFAM/APS,en_espera
+SIN-DE-00047,IC-SIN-DE-00047,Endocrinología,Diabetes,E66,Obesidad,baja,2026-09-21,CESFAM/APS,en_espera
+SIN-DE-00048,IC-SIN-DE-00048,Broncopulmonar,EPOC,J44,EPOC,alta,2025-10-09,Urgencia,en_espera
+SIN-DE-00049,IC-SIN-DE-00049,Traumatología,Columna,M54,Lumbago,baja,2025-07-13,CESFAM/APS,en_espera
+SIN-DE-00050,IC-SIN-DE-00050,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-03-17,CESFAM/APS,en_espera
+SIN-DE-00051,IC-SIN-DE-00051,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-04-05,CESFAM/APS,en_espera
+SIN-DE-00052,IC-SIN-DE-00052,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-02-01,Otro hospital red,en_espera
+SIN-DE-00053,IC-SIN-DE-00053,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-05-21,Urgencia,en_espera
+SIN-DE-00054,IC-SIN-DE-00054,Endocrinología,Diabetes,E66,Obesidad,baja,2026-04-24,CESFAM/APS,en_espera
+SIN-DE-00055,IC-SIN-DE-00055,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2025-08-10,CESFAM/APS,en_espera
+SIN-DE-00056,IC-SIN-DE-00056,Broncopulmonar,EPOC,J44,EPOC,media,2026-07-08,CESFAM/APS,en_espera
+SIN-DE-00057,IC-SIN-DE-00057,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-06-27,Urgencia,en_espera
+SIN-DE-00058,IC-SIN-DE-00058,Broncopulmonar,EPOC,J44,EPOC,alta,2025-05-26,Urgencia,en_espera
+SIN-DE-00059,IC-SIN-DE-00059,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-09-25,Hospitalización,en_espera
+SIN-DE-00060,IC-SIN-DE-00060,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2026-07-24,CESFAM/APS,en_espera
+SIN-DE-00061,IC-SIN-DE-00061,Broncopulmonar,Asma,J45,Asma,baja,2025-07-28,Otro hospital red,en_espera
+SIN-DE-00062,IC-SIN-DE-00062,Broncopulmonar,EPOC,J44,EPOC,baja,2026-04-25,CESFAM/APS,en_espera
+SIN-DE-00063,IC-SIN-DE-00063,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2026-07-14,Urgencia,en_espera
+SIN-DE-00064,IC-SIN-DE-00064,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-11-02,Otro hospital red,en_espera
+SIN-DE-00065,IC-SIN-DE-00065,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-04-16,CESFAM/APS,en_espera
+SIN-DE-00066,IC-SIN-DE-00066,Gastroenterología,Hígado,K70,Enfermedad hepática,baja,2025-07-12,CESFAM/APS,en_espera
+SIN-DE-00067,IC-SIN-DE-00067,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-04-24,Urgencia,en_espera
+SIN-DE-00068,IC-SIN-DE-00068,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2026-01-27,Urgencia,en_espera
+SIN-DE-00069,IC-SIN-DE-00069,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2025-07-10,Otro hospital red,en_espera
+SIN-DE-00070,IC-SIN-DE-00070,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-08-15,CESFAM/APS,en_espera
+SIN-DE-00071,IC-SIN-DE-00071,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-09-29,Otro hospital red,en_espera
+SIN-DE-00072,IC-SIN-DE-00072,Broncopulmonar,EPOC,J44,EPOC,media,2026-08-15,Hospitalización,en_espera
+SIN-DE-00073,IC-SIN-DE-00073,Endocrinología,Diabetes,E66,Obesidad,baja,2026-03-28,Urgencia,en_espera
+SIN-DE-00074,IC-SIN-DE-00074,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-07-03,Otro hospital red,en_espera
+SIN-DE-00075,IC-SIN-DE-00075,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-03-27,Hospitalización,en_espera
+SIN-DE-00076,IC-SIN-DE-00076,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-08-01,CESFAM/APS,en_espera
+SIN-DE-00077,IC-SIN-DE-00077,Broncopulmonar,EPOC,J44,EPOC,media,2025-06-23,Otro hospital red,en_espera
+SIN-DE-00078,IC-SIN-DE-00078,Endocrinología,Diabetes,E66,Obesidad,baja,2025-10-12,Otro hospital red,en_espera
+SIN-DE-00079,IC-SIN-DE-00079,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-05-03,CESFAM/APS,en_espera
+SIN-DE-00080,IC-SIN-DE-00080,Neurología,Epilepsia,G40,Epilepsia,media,2026-09-07,CESFAM/APS,en_espera
+SIN-DE-00081,IC-SIN-DE-00081,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-02-18,Urgencia,en_espera
+SIN-DE-00082,IC-SIN-DE-00082,Traumatología,Columna,M54,Lumbago,baja,2026-06-27,CESFAM/APS,en_espera
+SIN-DE-00083,IC-SIN-DE-00083,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-07-05,CESFAM/APS,en_espera
+SIN-DE-00084,IC-SIN-DE-00084,Endocrinología,Diabetes,E66,Obesidad,baja,2026-05-16,Urgencia,en_espera
+SIN-DE-00085,IC-SIN-DE-00085,Traumatología,Columna,M54,Lumbago,baja,2025-05-23,CESFAM/APS,en_espera
+SIN-DE-00086,IC-SIN-DE-00086,Traumatología,Columna,M54,Lumbago,media,2025-05-09,CESFAM/APS,en_espera
+SIN-DE-00087,IC-SIN-DE-00087,Endocrinología,Diabetes,E66,Obesidad,baja,2025-07-24,Urgencia,en_espera
+SIN-DE-00088,IC-SIN-DE-00088,Broncopulmonar,Asma,J45,Asma,baja,2025-06-04,CESFAM/APS,en_espera
+SIN-DE-00089,IC-SIN-DE-00089,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2026-04-09,CESFAM/APS,en_espera
+SIN-DE-00090,IC-SIN-DE-00090,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-08-15,CESFAM/APS,en_espera
+SIN-DE-00091,IC-SIN-DE-00091,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-09-30,CESFAM/APS,en_espera
+SIN-DE-00092,IC-SIN-DE-00092,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2025-06-03,CESFAM/APS,en_espera
+SIN-DE-00093,IC-SIN-DE-00093,Broncopulmonar,EPOC,J44,EPOC,media,2025-10-03,Urgencia,en_espera
+SIN-DE-00094,IC-SIN-DE-00094,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-06-09,Urgencia,en_espera
+SIN-DE-00095,IC-SIN-DE-00095,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-04-08,CESFAM/APS,en_espera
+SIN-DE-00096,IC-SIN-DE-00096,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-04-26,CESFAM/APS,en_espera
+SIN-DE-00097,IC-SIN-DE-00097,Cardiología,Cardiología adulto,I10,Hipertensión esencial,alta,2026-08-13,Otro hospital red,en_espera
+SIN-DE-00098,IC-SIN-DE-00098,Endocrinología,Diabetes,E66,Obesidad,baja,2025-10-24,Urgencia,en_espera
+SIN-DE-00099,IC-SIN-DE-00099,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-05-23,Hospitalización,en_espera
+SIN-DE-00100,IC-SIN-DE-00100,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-07-21,Otro hospital red,en_espera
+SIN-DE-00101,IC-SIN-DE-00101,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2026-07-19,CESFAM/APS,en_espera
+SIN-DE-00102,IC-SIN-DE-00102,Neurología,Epilepsia,G40,Epilepsia,baja,2025-09-01,Urgencia,en_espera
+SIN-DE-00103,IC-SIN-DE-00103,Traumatología,Columna,M54,Lumbago,baja,2025-11-10,Otro hospital red,en_espera
+SIN-DE-00104,IC-SIN-DE-00104,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-09-30,CESFAM/APS,en_espera
+SIN-DE-00105,IC-SIN-DE-00105,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2025-07-27,Hospitalización,en_espera
+SIN-DE-00106,IC-SIN-DE-00106,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2026-06-04,Otro hospital red,en_espera
+SIN-DE-00107,IC-SIN-DE-00107,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-03-31,Urgencia,en_espera
+SIN-DE-00108,IC-SIN-DE-00108,Broncopulmonar,Asma,J45,Asma,baja,2026-05-17,Hospitalización,en_espera
+SIN-DE-00109,IC-SIN-DE-00109,Traumatología,Columna,M54,Lumbago,baja,2025-11-07,CESFAM/APS,en_espera
+SIN-DE-00110,IC-SIN-DE-00110,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-10-09,CESFAM/APS,fallecido
+SIN-DE-00111,IC-SIN-DE-00111,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-07-30,CESFAM/APS,en_espera
+SIN-DE-00112,IC-SIN-DE-00112,Traumatología,Columna,M54,Lumbago,baja,2025-06-26,CESFAM/APS,en_espera
+SIN-DE-00113,IC-SIN-DE-00113,Endocrinología,Diabetes,E66,Obesidad,baja,2026-07-20,CESFAM/APS,en_espera
+SIN-DE-00114,IC-SIN-DE-00114,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-07-19,Otro hospital red,en_espera
+SIN-DE-00115,IC-SIN-DE-00115,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-05-26,CESFAM/APS,en_espera
+SIN-DE-00116,IC-SIN-DE-00116,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-10-25,Urgencia,en_espera
+SIN-DE-00117,IC-SIN-DE-00117,Neurología,Epilepsia,G40,Epilepsia,media,2025-05-29,Urgencia,en_espera
+SIN-DE-00118,IC-SIN-DE-00118,Endocrinología,Diabetes,E66,Obesidad,baja,2025-11-10,CESFAM/APS,en_espera
+SIN-DE-00119,IC-SIN-DE-00119,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-10-10,Urgencia,en_espera
+SIN-DE-00120,IC-SIN-DE-00120,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-07-23,Urgencia,en_espera
+SIN-DE-00121,IC-SIN-DE-00121,Broncopulmonar,EPOC,J44,EPOC,media,2025-08-09,CESFAM/APS,en_espera
+SIN-DE-00122,IC-SIN-DE-00122,Broncopulmonar,Asma,J45,Asma,baja,2025-11-25,CESFAM/APS,en_espera
+SIN-DE-00123,IC-SIN-DE-00123,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-04-10,CESFAM/APS,en_espera
+SIN-DE-00124,IC-SIN-DE-00124,Traumatología,Columna,M54,Lumbago,baja,2025-06-28,CESFAM/APS,en_espera
+SIN-DE-00125,IC-SIN-DE-00125,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-09-19,Hospitalización,en_espera
+SIN-DE-00126,IC-SIN-DE-00126,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2025-12-23,CESFAM/APS,en_espera
+SIN-DE-00127,IC-SIN-DE-00127,Neurología,Cefaleas,G43,Migraña,media,2026-03-31,Otro hospital red,en_espera
+SIN-DE-00128,IC-SIN-DE-00128,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2026-02-15,Urgencia,en_espera
+SIN-DE-00129,IC-SIN-DE-00129,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-09-20,CESFAM/APS,en_espera
+SIN-DE-00130,IC-SIN-DE-00130,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-05-04,Urgencia,en_espera
+SIN-DE-00131,IC-SIN-DE-00131,Broncopulmonar,EPOC,J44,EPOC,media,2026-09-30,Hospitalización,en_espera
+SIN-DE-00132,IC-SIN-DE-00132,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-11-22,Urgencia,en_espera
+SIN-DE-00133,IC-SIN-DE-00133,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2026-02-20,Hospitalización,en_espera
+SIN-DE-00134,IC-SIN-DE-00134,Traumatología,Columna,M54,Lumbago,baja,2026-02-03,CESFAM/APS,en_espera
+SIN-DE-00135,IC-SIN-DE-00135,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2025-06-07,Otro hospital red,en_espera
+SIN-DE-00136,IC-SIN-DE-00136,Neurología,Cefaleas,G43,Migraña,media,2026-09-05,Urgencia,en_espera
+SIN-DE-00137,IC-SIN-DE-00137,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-06-13,Otro hospital red,en_espera
+SIN-DE-00138,IC-SIN-DE-00138,Broncopulmonar,Asma,J45,Asma,media,2026-03-17,Urgencia,en_espera
+SIN-DE-00139,IC-SIN-DE-00139,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2026-02-26,Otro hospital red,en_espera
+SIN-DE-00140,IC-SIN-DE-00140,Neurología,Cefaleas,G43,Migraña,baja,2025-11-16,CESFAM/APS,en_espera
+SIN-DE-00141,IC-SIN-DE-00141,Neurología,Cefaleas,G43,Migraña,media,2025-10-25,CESFAM/APS,en_espera
+SIN-DE-00142,IC-SIN-DE-00142,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-10-14,Urgencia,en_espera
+SIN-DE-00143,IC-SIN-DE-00143,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2026-01-06,CESFAM/APS,en_espera
+SIN-DE-00144,IC-SIN-DE-00144,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-08-23,CESFAM/APS,en_espera
+SIN-DE-00145,IC-SIN-DE-00145,Traumatología,Rodilla,M17,Artrosis de rodilla,alta,2026-05-18,CESFAM/APS,en_espera
+SIN-DE-00146,IC-SIN-DE-00146,Traumatología,Columna,M54,Lumbago,baja,2026-03-26,CESFAM/APS,en_espera
+SIN-DE-00147,IC-SIN-DE-00147,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-09-27,CESFAM/APS,en_espera
+SIN-DE-00148,IC-SIN-DE-00148,Neurología,Epilepsia,G40,Epilepsia,media,2025-05-10,Urgencia,en_espera
+SIN-DE-00149,IC-SIN-DE-00149,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2025-05-17,Urgencia,en_espera
+SIN-DE-00150,IC-SIN-DE-00150,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-08-20,CESFAM/APS,en_espera
+SIN-DE-00151,IC-SIN-DE-00151,Broncopulmonar,Asma,J45,Asma,media,2025-04-29,Urgencia,en_espera
+SIN-DE-00152,IC-SIN-DE-00152,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-03-05,Otro hospital red,en_espera
+SIN-DE-00153,IC-SIN-DE-00153,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-01-08,Otro hospital red,en_espera
+SIN-DE-00154,IC-SIN-DE-00154,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-07-28,Hospitalización,en_espera
+SIN-DE-00155,IC-SIN-DE-00155,Neurología,Epilepsia,G40,Epilepsia,media,2025-07-08,CESFAM/APS,en_espera
+SIN-DE-00156,IC-SIN-DE-00156,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2025-05-04,CESFAM/APS,en_espera
+SIN-DE-00157,IC-SIN-DE-00157,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-04-17,CESFAM/APS,en_espera
+SIN-DE-00158,IC-SIN-DE-00158,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-03-12,Urgencia,en_espera
+SIN-DE-00159,IC-SIN-DE-00159,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-01-06,CESFAM/APS,en_espera
+SIN-DE-00160,IC-SIN-DE-00160,Traumatología,Columna,M54,Lumbago,baja,2026-01-10,CESFAM/APS,en_espera
+SIN-DE-00161,IC-SIN-DE-00161,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2026-01-02,CESFAM/APS,en_espera
+SIN-DE-00162,IC-SIN-DE-00162,Neurología,Epilepsia,G40,Epilepsia,media,2026-08-02,Hospitalización,en_espera
+SIN-DE-00163,IC-SIN-DE-00163,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-11-25,CESFAM/APS,en_espera
+SIN-DE-00164,IC-SIN-DE-00164,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-07-13,CESFAM/APS,en_espera
+SIN-DE-00165,IC-SIN-DE-00165,Endocrinología,Diabetes,E66,Obesidad,baja,2025-09-06,CESFAM/APS,en_espera
+SIN-DE-00166,IC-SIN-DE-00166,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2026-06-06,Otro hospital red,en_espera
+SIN-DE-00167,IC-SIN-DE-00167,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-08-08,CESFAM/APS,en_espera
+SIN-DE-00168,IC-SIN-DE-00168,Traumatología,Columna,M54,Lumbago,media,2026-09-06,Urgencia,en_espera
+SIN-DE-00169,IC-SIN-DE-00169,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,baja,2025-09-20,Urgencia,en_espera
+SIN-DE-00170,IC-SIN-DE-00170,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-01-31,CESFAM/APS,en_espera
+SIN-DE-00171,IC-SIN-DE-00171,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-03-19,CESFAM/APS,en_espera
+SIN-DE-00172,IC-SIN-DE-00172,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2025-04-24,Urgencia,en_espera
+SIN-DE-00173,IC-SIN-DE-00173,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-07-07,CESFAM/APS,en_espera
+SIN-DE-00174,IC-SIN-DE-00174,Neurología,Epilepsia,G40,Epilepsia,media,2025-08-15,CESFAM/APS,en_espera
+SIN-DE-00175,IC-SIN-DE-00175,Neurología,Epilepsia,G40,Epilepsia,media,2026-05-06,CESFAM/APS,en_espera
+SIN-DE-00176,IC-SIN-DE-00176,Neurología,Cefaleas,G43,Migraña,baja,2025-04-29,CESFAM/APS,en_espera
+SIN-DE-00177,IC-SIN-DE-00177,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2026-07-11,Hospitalización,en_espera
+SIN-DE-00178,IC-SIN-DE-00178,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2025-10-30,Urgencia,en_espera
+SIN-DE-00179,IC-SIN-DE-00179,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-02-12,CESFAM/APS,en_espera
+SIN-DE-00180,IC-SIN-DE-00180,Traumatología,Hombro,M75,Lesión del hombro,media,2026-01-16,CESFAM/APS,en_espera
+SIN-DE-00181,IC-SIN-DE-00181,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2025-08-08,Urgencia,fallecido
+SIN-DE-00182,IC-SIN-DE-00182,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-11-02,CESFAM/APS,en_espera
+SIN-DE-00183,IC-SIN-DE-00183,Broncopulmonar,Asma,J45,Asma,media,2026-09-07,Otro hospital red,en_espera
+SIN-DE-00184,IC-SIN-DE-00184,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-09-08,Urgencia,en_espera
+SIN-DE-00185,IC-SIN-DE-00185,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2025-11-03,CESFAM/APS,en_espera
+SIN-DE-00186,IC-SIN-DE-00186,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-12-27,Hospitalización,fallecido
+SIN-DE-00187,IC-SIN-DE-00187,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-08-30,CESFAM/APS,en_espera
+SIN-DE-00188,IC-SIN-DE-00188,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-11-21,CESFAM/APS,en_espera
+SIN-DE-00189,IC-SIN-DE-00189,Neurología,Epilepsia,G40,Epilepsia,baja,2026-05-09,CESFAM/APS,en_espera
+SIN-DE-00190,IC-SIN-DE-00190,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-08-17,CESFAM/APS,en_espera
+SIN-DE-00191,IC-SIN-DE-00191,Endocrinología,Diabetes,E66,Obesidad,baja,2026-03-04,CESFAM/APS,en_espera
+SIN-DE-00192,IC-SIN-DE-00192,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-09-13,Urgencia,en_espera
+SIN-DE-00193,IC-SIN-DE-00193,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,alta,2025-06-03,CESFAM/APS,en_espera
+SIN-DE-00194,IC-SIN-DE-00194,Broncopulmonar,EPOC,J44,EPOC,media,2025-10-31,CESFAM/APS,en_espera
+SIN-DE-00195,IC-SIN-DE-00195,Traumatología,Columna,M54,Lumbago,baja,2025-09-20,CESFAM/APS,en_espera
+SIN-DE-00196,IC-SIN-DE-00196,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-08-15,CESFAM/APS,en_espera
+SIN-DE-00197,IC-SIN-DE-00197,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-06-07,Otro hospital red,en_espera
+SIN-DE-00198,IC-SIN-DE-00198,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2026-07-01,Urgencia,en_espera
+SIN-DE-00199,IC-SIN-DE-00199,Neurología,Cefaleas,G43,Migraña,baja,2025-09-24,CESFAM/APS,en_espera
+SIN-DE-00200,IC-SIN-DE-00200,Broncopulmonar,Asma,J45,Asma,baja,2026-06-22,CESFAM/APS,en_espera
+SIN-DE-00201,IC-SIN-DE-00201,Traumatología,Columna,M54,Lumbago,baja,2026-05-27,Urgencia,en_espera
+SIN-DE-00202,IC-SIN-DE-00202,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-07-15,Hospitalización,en_espera
+SIN-DE-00203,IC-SIN-DE-00203,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-08-21,CESFAM/APS,en_espera
+SIN-DE-00204,IC-SIN-DE-00204,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2026-08-26,Otro hospital red,en_espera
+SIN-DE-00205,IC-SIN-DE-00205,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2025-11-20,Urgencia,en_espera
+SIN-DE-00206,IC-SIN-DE-00206,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-11-25,Otro hospital red,en_espera
+SIN-DE-00207,IC-SIN-DE-00207,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-05-16,CESFAM/APS,en_espera
+SIN-DE-00208,IC-SIN-DE-00208,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-04-29,CESFAM/APS,en_espera
+SIN-DE-00209,IC-SIN-DE-00209,Broncopulmonar,EPOC,J44,EPOC,baja,2025-05-08,CESFAM/APS,en_espera
+SIN-DE-00210,IC-SIN-DE-00210,Salud Mental,Psicología,F41,Trastorno de ansiedad,media,2026-08-16,Otro hospital red,en_espera
+SIN-DE-00211,IC-SIN-DE-00211,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-07-15,CESFAM/APS,en_espera
+SIN-DE-00212,IC-SIN-DE-00212,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2026-05-23,CESFAM/APS,en_espera
+SIN-DE-00213,IC-SIN-DE-00213,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-06-26,Urgencia,en_espera
+SIN-DE-00214,IC-SIN-DE-00214,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,baja,2026-05-24,Hospitalización,en_espera
+SIN-DE-00215,IC-SIN-DE-00215,Traumatología,Columna,M54,Lumbago,media,2026-03-18,CESFAM/APS,en_espera
+SIN-DE-00216,IC-SIN-DE-00216,Broncopulmonar,EPOC,J44,EPOC,alta,2026-01-22,CESFAM/APS,en_espera
+SIN-DE-00217,IC-SIN-DE-00217,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2026-07-19,CESFAM/APS,en_espera
+SIN-DE-00218,IC-SIN-DE-00218,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-05-25,CESFAM/APS,en_espera
+SIN-DE-00219,IC-SIN-DE-00219,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,baja,2026-08-01,CESFAM/APS,en_espera
+SIN-DE-00220,IC-SIN-DE-00220,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2026-05-01,CESFAM/APS,en_espera
+SIN-DE-00221,IC-SIN-DE-00221,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2025-10-01,Urgencia,en_espera
+SIN-DE-00222,IC-SIN-DE-00222,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-11-02,Urgencia,en_espera
+SIN-DE-00223,IC-SIN-DE-00223,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-02-02,CESFAM/APS,en_espera
+SIN-DE-00224,IC-SIN-DE-00224,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,baja,2026-06-14,CESFAM/APS,en_espera
+SIN-DE-00225,IC-SIN-DE-00225,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-09-21,CESFAM/APS,fallecido
+SIN-DE-00226,IC-SIN-DE-00226,Neurología,Epilepsia,G40,Epilepsia,media,2026-04-26,CESFAM/APS,en_espera
+SIN-DE-00227,IC-SIN-DE-00227,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2026-08-22,Otro hospital red,en_espera
+SIN-DE-00228,IC-SIN-DE-00228,Traumatología,Columna,M54,Lumbago,media,2025-12-05,CESFAM/APS,en_espera
+SIN-DE-00229,IC-SIN-DE-00229,Traumatología,Columna,M54,Lumbago,media,2026-03-15,CESFAM/APS,en_espera
+SIN-DE-00230,IC-SIN-DE-00230,Cardiología,Cardiología adulto,I10,Hipertensión esencial,baja,2026-01-15,CESFAM/APS,en_espera
+SIN-DE-00231,IC-SIN-DE-00231,Traumatología,Columna,M54,Lumbago,baja,2025-06-11,CESFAM/APS,en_espera
+SIN-DE-00232,IC-SIN-DE-00232,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-06-18,CESFAM/APS,en_espera
+SIN-DE-00233,IC-SIN-DE-00233,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2026-06-24,CESFAM/APS,en_espera
+SIN-DE-00234,IC-SIN-DE-00234,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2025-10-23,CESFAM/APS,fallecido
+SIN-DE-00235,IC-SIN-DE-00235,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-05-01,Urgencia,en_espera
+SIN-DE-00236,IC-SIN-DE-00236,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-05-03,CESFAM/APS,en_espera
+SIN-DE-00237,IC-SIN-DE-00237,Neurología,Cefaleas,G43,Migraña,media,2025-08-25,CESFAM/APS,en_espera
+SIN-DE-00238,IC-SIN-DE-00238,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-12-17,CESFAM/APS,en_espera
+SIN-DE-00239,IC-SIN-DE-00239,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2025-07-26,Urgencia,en_espera
+SIN-DE-00240,IC-SIN-DE-00240,Broncopulmonar,EPOC,J44,EPOC,alta,2025-05-24,CESFAM/APS,en_espera
+SIN-DE-00241,IC-SIN-DE-00241,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-03-30,Urgencia,en_espera
+SIN-DE-00242,IC-SIN-DE-00242,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-07-05,Urgencia,en_espera
+SIN-DE-00243,IC-SIN-DE-00243,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-06-04,CESFAM/APS,en_espera
+SIN-DE-00244,IC-SIN-DE-00244,Traumatología,Rodilla,M17,Artrosis de rodilla,baja,2025-04-28,Urgencia,en_espera
+SIN-DE-00245,IC-SIN-DE-00245,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2025-08-28,Urgencia,en_espera
+SIN-DE-00246,IC-SIN-DE-00246,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-06-27,CESFAM/APS,en_espera
+SIN-DE-00247,IC-SIN-DE-00247,Endocrinología,Diabetes,E66,Obesidad,media,2025-12-01,CESFAM/APS,en_espera
+SIN-DE-00248,IC-SIN-DE-00248,Broncopulmonar,Asma,J45,Asma,media,2026-04-15,Otro hospital red,en_espera
+SIN-DE-00249,IC-SIN-DE-00249,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-06-08,Urgencia,en_espera
+SIN-DE-00250,IC-SIN-DE-00250,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-11-29,CESFAM/APS,en_espera
+SIN-DE-00251,IC-SIN-DE-00251,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2025-04-22,Hospitalización,en_espera
+SIN-DE-00252,IC-SIN-DE-00252,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2026-07-23,CESFAM/APS,en_espera
+SIN-DE-00253,IC-SIN-DE-00253,Endocrinología,Diabetes,E66,Obesidad,media,2026-02-22,Otro hospital red,en_espera
+SIN-DE-00254,IC-SIN-DE-00254,Traumatología,Rodilla,M17,Artrosis de rodilla,media,2026-09-24,Hospitalización,en_espera
+SIN-DE-00255,IC-SIN-DE-00255,Broncopulmonar,EPOC,J44,EPOC,media,2026-01-31,CESFAM/APS,en_espera
+SIN-DE-00256,IC-SIN-DE-00256,Endocrinología,Tiroides,E03,Hipotiroidismo,baja,2025-07-02,CESFAM/APS,en_espera
+SIN-DE-00257,IC-SIN-DE-00257,Endocrinología,Diabetes,E66,Obesidad,baja,2025-04-29,CESFAM/APS,en_espera
+SIN-DE-00258,IC-SIN-DE-00258,Traumatología,Columna,M54,Lumbago,baja,2026-08-05,CESFAM/APS,en_espera
+SIN-DE-00259,IC-SIN-DE-00259,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-10-30,Urgencia,en_espera
+SIN-DE-00260,IC-SIN-DE-00260,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2026-03-10,CESFAM/APS,en_espera
+SIN-DE-00261,IC-SIN-DE-00261,Gastroenterología,Digestivo alto,K21,Enfermedad por reflujo,media,2026-09-10,Otro hospital red,en_espera
+SIN-DE-00262,IC-SIN-DE-00262,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-06-05,CESFAM/APS,en_espera
+SIN-DE-00263,IC-SIN-DE-00263,Endocrinología,Tiroides,E03,Hipotiroidismo,media,2025-05-25,CESFAM/APS,en_espera
+SIN-DE-00264,IC-SIN-DE-00264,Neurología,Epilepsia,G40,Epilepsia,alta,2025-06-19,Urgencia,en_espera
+SIN-DE-00265,IC-SIN-DE-00265,Salud Mental,Psicología,F41,Trastorno de ansiedad,baja,2025-11-25,Urgencia,en_espera
+SIN-DE-00266,IC-SIN-DE-00266,Neurología,Cefaleas,G43,Migraña,media,2025-05-12,CESFAM/APS,en_espera
+SIN-DE-00267,IC-SIN-DE-00267,Traumatología,Columna,M54,Lumbago,baja,2026-01-01,CESFAM/APS,en_espera
+SIN-DE-00268,IC-SIN-DE-00268,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-09-09,Urgencia,en_espera
+SIN-DE-00269,IC-SIN-DE-00269,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-05-22,CESFAM/APS,en_espera
+SIN-DE-00270,IC-SIN-DE-00270,Broncopulmonar,EPOC,J44,EPOC,media,2025-07-04,CESFAM/APS,en_espera
+SIN-DE-00271,IC-SIN-DE-00271,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,alta,2025-08-08,Otro hospital red,en_espera
+SIN-DE-00272,IC-SIN-DE-00272,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-04-11,CESFAM/APS,en_espera
+SIN-DE-00273,IC-SIN-DE-00273,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2025-06-07,CESFAM/APS,en_espera
+SIN-DE-00274,IC-SIN-DE-00274,Broncopulmonar,EPOC,J44,EPOC,media,2026-05-06,CESFAM/APS,en_espera
+SIN-DE-00275,IC-SIN-DE-00275,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-09-11,CESFAM/APS,en_espera
+SIN-DE-00276,IC-SIN-DE-00276,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-03-06,Urgencia,en_espera
+SIN-DE-00277,IC-SIN-DE-00277,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-08-08,CESFAM/APS,en_espera
+SIN-DE-00278,IC-SIN-DE-00278,Traumatología,Hombro,M75,Lesión del hombro,baja,2026-03-23,Urgencia,en_espera
+SIN-DE-00279,IC-SIN-DE-00279,Broncopulmonar,Asma,J45,Asma,baja,2025-05-16,CESFAM/APS,en_espera
+SIN-DE-00280,IC-SIN-DE-00280,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-09-13,Hospitalización,en_espera
+SIN-DE-00281,IC-SIN-DE-00281,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,media,2026-08-04,CESFAM/APS,en_espera
+SIN-DE-00282,IC-SIN-DE-00282,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-09-25,Urgencia,en_espera
+SIN-DE-00283,IC-SIN-DE-00283,Cardiología,Cardiología adulto,I10,Hipertensión esencial,media,2026-08-16,Otro hospital red,en_espera
+SIN-DE-00284,IC-SIN-DE-00284,Gastroenterología,Hígado,K70,Enfermedad hepática,media,2026-08-03,Hospitalización,en_espera
+SIN-DE-00285,IC-SIN-DE-00285,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2026-06-14,Urgencia,en_espera
+SIN-DE-00286,IC-SIN-DE-00286,Cardiología,Cardiología adulto,I20,Angina de pecho,alta,2026-07-07,CESFAM/APS,en_espera
+SIN-DE-00287,IC-SIN-DE-00287,Traumatología,Hombro,M75,Lesión del hombro,baja,2025-05-20,CESFAM/APS,en_espera
+SIN-DE-00288,IC-SIN-DE-00288,Neurología,Cefaleas,G43,Migraña,media,2025-07-30,CESFAM/APS,en_espera
+SIN-DE-00289,IC-SIN-DE-00289,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2025-07-27,CESFAM/APS,en_espera
+SIN-DE-00290,IC-SIN-DE-00290,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2026-01-25,CESFAM/APS,en_espera
+SIN-DE-00291,IC-SIN-DE-00291,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-06-19,CESFAM/APS,en_espera
+SIN-DE-00292,IC-SIN-DE-00292,Salud Mental,Psiquiatría adulto,F32,Episodio depresivo,media,2026-05-18,Urgencia,en_espera
+SIN-DE-00293,IC-SIN-DE-00293,Endocrinología,Diabetes,E11,Diabetes mellitus tipo 2,media,2026-08-26,CESFAM/APS,en_espera
+SIN-DE-00294,IC-SIN-DE-00294,Cardiología,Cardiología adulto,I20,Angina de pecho,baja,2026-09-10,CESFAM/APS,en_espera
+SIN-DE-00295,IC-SIN-DE-00295,Traumatología,Columna,M54,Lumbago,baja,2026-01-27,CESFAM/APS,en_espera
+SIN-DE-00296,IC-SIN-DE-00296,Endocrinología,Diabetes,E66,Obesidad,baja,2026-07-22,CESFAM/APS,en_espera
+SIN-DE-00297,IC-SIN-DE-00297,Neurología,Epilepsia,G40,Epilepsia,media,2026-09-13,Otro hospital red,en_espera
+SIN-DE-00298,IC-SIN-DE-00298,Gastroenterología,Hígado,K70,Enfermedad hepática,alta,2025-09-09,CESFAM/APS,en_espera
+SIN-DE-00299,IC-SIN-DE-00299,Cardiología,Cardiología adulto,I20,Angina de pecho,media,2025-08-17,Otro hospital red,en_espera
+SIN-DE-00300,IC-SIN-DE-00300,Cardiología,Insuficiencia cardíaca,I50,Insuficiencia cardíaca,alta,2025-06-26,Otro hospital red,en_espera

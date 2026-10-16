@@ -1,0 +1,9 @@
+ia/cache/
+salidas/demo_ingesta/
+salidas/validacion/
+data/almacen/
+salidas/registro_decisiones.csv
+__pycache__/
+.pytest_cache/
+.venv/
+credenciales_aws.ps1

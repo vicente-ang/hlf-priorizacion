@@ -1,0 +1,202 @@
+﻿Especialidad;Box;Orden;Tipo;Paciente;Puesto en lista;Prioridad médica;Por qué está en la lista;Riesgo de no llegar (%);Antes de la cita
+Broncopulmonar;BOX-07;1;Cupo;PAC-HLF-00417;1;media;Carril rápido;15;Carril rápido: Hospitalización hace 19 días
+Broncopulmonar;BOX-07;2;Cupo;PAC-HLF-00361;2;alta;Atraso de su plazo;15;
+Broncopulmonar;BOX-07;3;Cupo;PAC-HLF-00318;3;alta;Atraso de su plazo;15;
+Broncopulmonar;BOX-07;4;Cupo;PAC-HLF-00301;4;alta;Atraso de su plazo;15;
+Broncopulmonar;BOX-07;5;Cupo;PAC-HLF-00163;5;alta;Atraso de su plazo;15;Sin datos recientes: preguntar cómo está al llamar
+Broncopulmonar;BOX-07;6;Cupo;PAC-HLF-00100;6;alta;Atraso de su plazo;15;
+Broncopulmonar;BOX-07;7;Cupo;PAC-HLF-00092;7;alta;Atraso de su plazo;12;
+Broncopulmonar;BOX-07;8;Cupo;PAC-HLF-00251;8;media;Atraso de su plazo;43;Llamar 48 h antes para confirmar
+Broncopulmonar;BOX-07;9;Sobrecupo;PAC-HLF-00046;9;media;Atraso de su plazo;15;
+Broncopulmonar;BOX-11;1;Cupo;PAC-HLF-00242;10;baja;Cupo por antigüedad;15;
+Broncopulmonar;BOX-11;2;Cupo;PAC-HLF-00465;11;media;Atraso de su plazo;12;
+Broncopulmonar;BOX-11;3;Cupo;PAC-HLF-00411;12;media;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Broncopulmonar;BOX-11;4;Cupo;PAC-HLF-00229;13;media;Atraso de su plazo;12;
+Broncopulmonar;BOX-11;5;Cupo;PAC-HLF-00173;14;media;Atraso de su plazo;15;
+Broncopulmonar;BOX-11;6;Cupo;PAC-HLF-00477;15;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-11;7;Cupo;PAC-HLF-00132;16;media;Atraso de su plazo;12;
+Broncopulmonar;BOX-11;8;Cupo;PAC-HLF-00141;17;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-11;9;Sobrecupo;PAC-HLF-00080;18;media;Atraso de su plazo;15;Sin datos recientes: preguntar cómo está al llamar
+Broncopulmonar;BOX-13;1;Cupo;PAC-HLF-00376;19;alta;Atraso de su plazo;15;
+Broncopulmonar;BOX-13;2;Cupo;PAC-HLF-00300;20;baja;Cupo por antigüedad;15;
+Broncopulmonar;BOX-13;3;Cupo;PAC-HLF-00145;21;media;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Broncopulmonar;BOX-13;4;Cupo;PAC-HLF-00194;22;media;Atraso de su plazo;15;
+Broncopulmonar;BOX-13;5;Cupo;PAC-HLF-00048;23;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-13;6;Cupo;PAC-HLF-00290;24;media;Atraso de su plazo;15;
+Broncopulmonar;BOX-13;7;Cupo;PAC-HLF-00007;25;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-13;8;Cupo;PAC-HLF-00198;26;media;Atraso de su plazo;12;
+Broncopulmonar;BOX-13;9;Sobrecupo;PAC-HLF-00447;27;alta;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Broncopulmonar;BOX-14;1;Cupo;PAC-HLF-00273;28;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-14;2;Cupo;PAC-HLF-00217;29;baja;Atraso de su plazo;43;Llamar 48 h antes para confirmar
+Broncopulmonar;BOX-14;3;Cupo;PAC-HLF-00058;30;baja;Cupo por antigüedad;15;
+Broncopulmonar;BOX-14;4;Cupo;PAC-HLF-00276;31;media;Atraso de su plazo;15;
+Broncopulmonar;BOX-14;5;Cupo;PAC-HLF-00331;32;media;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Broncopulmonar;BOX-14;6;Cupo;PAC-HLF-00247;33;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-14;7;Cupo;PAC-HLF-00187;34;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-14;8;Cupo;PAC-HLF-00099;35;media;Atraso de su plazo;12;
+Broncopulmonar;BOX-14;9;Cupo;PAC-HLF-00084;36;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-14;10;Cupo;PAC-HLF-00348;37;media;Atraso de su plazo;12;
+Broncopulmonar;BOX-16;1;Cupo;PAC-HLF-00284;38;media;Atraso de su plazo;15;
+Broncopulmonar;BOX-16;2;Cupo;PAC-HLF-00509;39;alta;Atraso de su plazo;15;
+Broncopulmonar;BOX-16;3;Cupo;PAC-HLF-00403;40;baja;Cupo por antigüedad;15;
+Broncopulmonar;BOX-16;4;Cupo;PAC-HLF-00218;41;media;Atraso de su plazo;15;
+Broncopulmonar;BOX-16;5;Cupo;PAC-HLF-00412;42;media;Atraso de su plazo;12;
+Broncopulmonar;BOX-16;6;Cupo;PAC-HLF-00428;43;baja;Atraso de su plazo;15;
+Broncopulmonar;BOX-16;7;Cupo;PAC-HLF-00510;44;media;Atraso de su plazo;15;
+Cardiología;BOX-12;1;Cupo;PAC-HLF-00086;1;media;Carril rápido;15;Carril rápido: Hospitalización hace 26 días
+Cardiología;BOX-12;2;Cupo;PAC-HLF-00415;2;alta;Atraso de su plazo;15;
+Cardiología;BOX-12;3;Cupo;PAC-HLF-00464;3;alta;Atraso de su plazo;15;
+Cardiología;BOX-12;4;Cupo;PAC-HLF-00431;4;alta;Atraso de su plazo;15;
+Cardiología;BOX-12;5;Cupo;PAC-HLF-00106;5;alta;Atraso de su plazo;15;
+Cardiología;BOX-12;6;Cupo;PAC-HLF-00485;6;alta;Atraso de su plazo;15;
+Cardiología;BOX-12;7;Cupo;PAC-HLF-00137;7;alta;Atraso de su plazo;15;
+Cardiología;BOX-12;8;Cupo;PAC-HLF-00432;8;alta;Atraso de su plazo;15;
+Cardiología;BOX-12;9;Cupo;PAC-HLF-00272;9;alta;Atraso de su plazo;12;
+Cardiología;BOX-12;10;Cupo;PAC-HLF-00168;10;media;Cupo por antigüedad;15;
+Endocrinología;BOX-02;1;Cupo;PAC-HLF-00329;1;media;Carril rápido;16;Carril rápido: Hospitalización hace 14 días
+Endocrinología;BOX-02;2;Cupo;PAC-HLF-00160;2;alta;Carril rápido;32;"Carril rápido: Hospitalización hace 18 días; Llamar 48 h antes para confirmar"
+Endocrinología;BOX-02;3;Cupo;PAC-HLF-00167;3;alta;Atraso de su plazo;16;
+Endocrinología;BOX-02;4;Cupo;PAC-HLF-00299;4;alta;Atraso de su plazo;16;Sin datos recientes: preguntar cómo está al llamar
+Endocrinología;BOX-02;5;Cupo;PAC-HLF-00234;5;alta;Atraso de su plazo;12;
+Endocrinología;BOX-02;6;Cupo;PAC-HLF-00274;6;alta;Atraso de su plazo;16;
+Endocrinología;BOX-02;7;Cupo;PAC-HLF-00162;7;alta;Atraso de su plazo;16;
+Endocrinología;BOX-02;8;Cupo;PAC-HLF-00340;8;alta;Atraso de su plazo;16;
+Endocrinología;BOX-02;9;Cupo;PAC-HLF-00452;9;alta;Atraso de su plazo;16;
+Endocrinología;BOX-02;10;Cupo;PAC-HLF-00365;10;media;Cupo por antigüedad;16;
+Endocrinología;BOX-02;11;Sobrecupo;PAC-HLF-00480;11;alta;Atraso de su plazo;16;
+Endocrinología;BOX-03;1;Cupo;PAC-HLF-00463;12;alta;Atraso de su plazo;16;
+Endocrinología;BOX-03;2;Cupo;PAC-HLF-00090;13;alta;Atraso de su plazo;12;
+Endocrinología;BOX-03;3;Cupo;PAC-HLF-00003;14;media;Atraso de su plazo;16;
+Endocrinología;BOX-03;4;Cupo;PAC-HLF-00389;15;alta;Atraso de su plazo;16;
+Endocrinología;BOX-03;5;Cupo;PAC-HLF-00091;16;media;Atraso de su plazo;12;
+Endocrinología;BOX-03;6;Cupo;PAC-HLF-00334;17;baja;Atraso de su plazo;16;
+Endocrinología;BOX-03;7;Cupo;PAC-HLF-00468;18;media;Atraso de su plazo;16;Sin datos recientes: preguntar cómo está al llamar
+Endocrinología;BOX-03;8;Cupo;PAC-HLF-00104;19;media;Atraso de su plazo;16;
+Endocrinología;BOX-03;9;Cupo;PAC-HLF-00372;20;baja;Cupo por antigüedad;12;
+Endocrinología;BOX-03;10;Cupo;PAC-HLF-00309;21;media;Atraso de su plazo;32;"Llamar 48 h antes para confirmar; Sin datos recientes: preguntar cómo está al llamar"
+Endocrinología;BOX-03;11;Cupo;PAC-HLF-00421;22;media;Atraso de su plazo;12;
+Endocrinología;BOX-03;12;Cupo;PAC-HLF-00164;23;media;Atraso de su plazo;16;
+Endocrinología;BOX-05;1;Cupo;PAC-HLF-00393;24;media;Atraso de su plazo;16;
+Endocrinología;BOX-05;2;Cupo;PAC-HLF-00459;25;media;Atraso de su plazo;12;Sin datos recientes: preguntar cómo está al llamar
+Endocrinología;BOX-05;3;Cupo;PAC-HLF-00434;26;media;Atraso de su plazo;12;Sin datos recientes: preguntar cómo está al llamar
+Endocrinología;BOX-05;4;Cupo;PAC-HLF-00269;27;media;Atraso de su plazo;16;
+Endocrinología;BOX-05;5;Cupo;PAC-HLF-00178;28;media;Atraso de su plazo;16;Sin datos recientes: preguntar cómo está al llamar
+Endocrinología;BOX-05;6;Cupo;PAC-HLF-00034;29;baja;Atraso de su plazo;16;
+Endocrinología;BOX-05;7;Cupo;PAC-HLF-00235;30;baja;Cupo por antigüedad;16;Sin datos recientes: preguntar cómo está al llamar
+Endocrinología;BOX-05;8;Cupo;PAC-HLF-00453;31;media;Atraso de su plazo;16;
+Endocrinología;BOX-05;9;Cupo;PAC-HLF-00013;32;media;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Endocrinología;BOX-05;10;Cupo;PAC-HLF-00283;33;media;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Endocrinología;BOX-05;11;Sobrecupo;PAC-HLF-00075;34;media;Atraso de su plazo;16;
+Endocrinología;BOX-18;1;Cupo;PAC-HLF-00401;35;media;Atraso de su plazo;16;
+Endocrinología;BOX-18;2;Cupo;PAC-HLF-00364;36;media;Atraso de su plazo;16;
+Endocrinología;BOX-18;3;Cupo;PAC-HLF-00320;37;alta;Atraso de su plazo;16;
+Endocrinología;BOX-18;4;Cupo;PAC-HLF-00494;38;media;Atraso de su plazo;16;
+Endocrinología;BOX-18;5;Cupo;PAC-HLF-00207;39;media;Atraso de su plazo;12;
+Endocrinología;BOX-18;6;Cupo;PAC-HLF-00322;40;baja;Cupo por antigüedad;16;Sin datos recientes: preguntar cómo está al llamar
+Endocrinología;BOX-18;7;Cupo;PAC-HLF-00402;41;media;Atraso de su plazo;16;
+Endocrinología;BOX-18;8;Cupo;PAC-HLF-00289;42;media;Atraso de su plazo;16;
+Endocrinología;BOX-18;9;Cupo;PAC-HLF-00196;43;baja;Atraso de su plazo;12;
+Endocrinología;BOX-18;10;Cupo;PAC-HLF-00240;44;media;Atraso de su plazo;16;
+Gastroenterología;BOX-06;1;Cupo;PAC-HLF-00254;1;alta;Atraso de su plazo;10;
+Gastroenterología;BOX-06;2;Cupo;PAC-HLF-00449;2;alta;Atraso de su plazo;13;Sin datos recientes: preguntar cómo está al llamar
+Gastroenterología;BOX-06;3;Cupo;PAC-HLF-00078;3;alta;Atraso de su plazo;13;
+Gastroenterología;BOX-06;4;Cupo;PAC-HLF-00176;4;media;Atraso de su plazo;13;
+Gastroenterología;BOX-06;5;Cupo;PAC-HLF-00363;5;baja;Atraso de su plazo;13;
+Gastroenterología;BOX-06;6;Cupo;PAC-HLF-00475;6;media;Atraso de su plazo;30;"Llamar 48 h antes para confirmar; Sin datos recientes: preguntar cómo está al llamar"
+Gastroenterología;BOX-06;7;Cupo;PAC-HLF-00152;7;media;Atraso de su plazo;10;
+Gastroenterología;BOX-06;8;Cupo;PAC-HLF-00380;8;media;Atraso de su plazo;13;
+Gastroenterología;BOX-06;9;Cupo;PAC-HLF-00070;9;media;Atraso de su plazo;13;Sin datos recientes: preguntar cómo está al llamar
+Gastroenterología;BOX-06;10;Cupo;PAC-HLF-00351;10;baja;Cupo por antigüedad;13;
+Gastroenterología;BOX-06;11;Cupo;PAC-HLF-00482;11;media;Atraso de su plazo;13;Sin datos recientes: preguntar cómo está al llamar
+Gastroenterología;BOX-06;12;Cupo;PAC-HLF-00252;12;media;Atraso de su plazo;13;
+Gastroenterología;BOX-15;1;Cupo;PAC-HLF-00314;13;media;Atraso de su plazo;30;Llamar 48 h antes para confirmar
+Gastroenterología;BOX-15;2;Cupo;PAC-HLF-00016;14;media;Atraso de su plazo;30;Llamar 48 h antes para confirmar
+Gastroenterología;BOX-15;3;Cupo;PAC-HLF-00123;15;media;Atraso de su plazo;13;
+Gastroenterología;BOX-15;4;Cupo;PAC-HLF-00213;16;media;Atraso de su plazo;13;
+Gastroenterología;BOX-15;5;Cupo;PAC-HLF-00113;17;baja;Atraso de su plazo;13;
+Gastroenterología;BOX-15;6;Cupo;PAC-HLF-00448;18;media;Atraso de su plazo;10;
+Gastroenterología;BOX-15;7;Cupo;PAC-HLF-00197;19;media;Atraso de su plazo;13;
+Gastroenterología;BOX-15;8;Cupo;PAC-HLF-00267;20;baja;Cupo por antigüedad;13;
+Gastroenterología;BOX-15;9;Cupo;PAC-HLF-00397;21;baja;Atraso de su plazo;13;
+Gastroenterología;BOX-15;10;Cupo;PAC-HLF-00201;22;media;Atraso de su plazo;10;
+Neurología;BOX-01;1;Cupo;PAC-HLF-00446;1;baja;Carril rápido;32;"Carril rápido: Hospitalización hace 26 días; Llamar 48 h antes para confirmar"
+Neurología;BOX-01;2;Cupo;PAC-HLF-00054;2;alta;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Neurología;BOX-01;3;Cupo;PAC-HLF-00233;3;alta;Atraso de su plazo;15;
+Neurología;BOX-01;4;Cupo;PAC-HLF-00118;4;alta;Atraso de su plazo;15;
+Neurología;BOX-01;5;Cupo;PAC-HLF-00119;5;media;Atraso de su plazo;12;
+Neurología;BOX-01;6;Cupo;PAC-HLF-00146;6;alta;Atraso de su plazo;15;
+Neurología;BOX-01;7;Cupo;PAC-HLF-00271;7;alta;Atraso de su plazo;15;
+Neurología;BOX-01;8;Cupo;PAC-HLF-00066;8;media;Atraso de su plazo;15;
+Neurología;BOX-01;9;Cupo;PAC-HLF-00051;9;alta;Atraso de su plazo;12;
+Neurología;BOX-01;10;Cupo;PAC-HLF-00266;10;baja;Cupo por antigüedad;32;Llamar 48 h antes para confirmar
+Neurología;BOX-01;11;Cupo;PAC-HLF-00426;11;media;Atraso de su plazo;12;
+Neurología;BOX-01;12;Cupo;PAC-HLF-00097;12;alta;Atraso de su plazo;15;
+Neurología;BOX-19;1;Cupo;PAC-HLF-00134;13;media;Atraso de su plazo;12;
+Neurología;BOX-19;2;Cupo;PAC-HLF-00203;14;media;Atraso de su plazo;15;
+Neurología;BOX-19;3;Cupo;PAC-HLF-00150;15;media;Atraso de su plazo;15;
+Neurología;BOX-19;4;Cupo;PAC-HLF-00223;16;media;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Neurología;BOX-19;5;Cupo;PAC-HLF-00275;17;media;Atraso de su plazo;15;
+Neurología;BOX-19;6;Cupo;PAC-HLF-00349;18;media;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Neurología;BOX-19;7;Cupo;PAC-HLF-00347;19;media;Atraso de su plazo;15;
+Neurología;BOX-19;8;Cupo;PAC-HLF-00045;20;baja;Cupo por antigüedad;12;Sin datos recientes: preguntar cómo está al llamar
+Neurología;BOX-19;9;Cupo;PAC-HLF-00425;21;baja;Atraso de su plazo;15;
+Neurología;BOX-19;10;Cupo;PAC-HLF-00126;22;media;Atraso de su plazo;15;
+Neurología;BOX-19;11;Cupo;PAC-HLF-00308;23;alta;Atraso de su plazo;12;
+Neurología;BOX-19;12;Cupo;PAC-HLF-00418;24;media;Atraso de su plazo;12;
+Salud Mental;BOX-04;1;Cupo;PAC-HLF-00209;1;media;Carril rápido;14;Carril rápido: Hospitalización hace 22 días
+Salud Mental;BOX-04;2;Cupo;PAC-HLF-00053;2;alta;Atraso de su plazo;14;
+Salud Mental;BOX-04;3;Cupo;PAC-HLF-00395;3;alta;Atraso de su plazo;12;Sin datos recientes: preguntar cómo está al llamar
+Salud Mental;BOX-04;4;Cupo;PAC-HLF-00015;4;alta;Atraso de su plazo;14;
+Salud Mental;BOX-04;5;Cupo;PAC-HLF-00355;5;alta;Atraso de su plazo;12;
+Salud Mental;BOX-04;6;Cupo;PAC-HLF-00386;6;alta;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Salud Mental;BOX-04;7;Cupo;PAC-HLF-00486;7;alta;Atraso de su plazo;14;
+Salud Mental;BOX-04;8;Cupo;PAC-HLF-00478;8;alta;Atraso de su plazo;14;
+Salud Mental;BOX-04;9;Cupo;PAC-HLF-00378;9;alta;Atraso de su plazo;14;
+Salud Mental;BOX-04;10;Cupo;PAC-HLF-00457;10;media;Cupo por antigüedad;14;Sin datos recientes: preguntar cómo está al llamar
+Salud Mental;BOX-17;1;Cupo;PAC-HLF-00159;11;alta;Atraso de su plazo;12;
+Salud Mental;BOX-17;2;Cupo;PAC-HLF-00001;12;alta;Atraso de su plazo;14;
+Salud Mental;BOX-17;3;Cupo;PAC-HLF-00392;13;alta;Atraso de su plazo;14;Sin datos recientes: preguntar cómo está al llamar
+Salud Mental;BOX-17;4;Cupo;PAC-HLF-00087;14;alta;Atraso de su plazo;14;
+Salud Mental;BOX-17;5;Cupo;PAC-HLF-00311;15;baja;Atraso de su plazo;14;
+Salud Mental;BOX-17;6;Cupo;PAC-HLF-00033;16;baja;Atraso de su plazo;12;
+Salud Mental;BOX-17;7;Cupo;PAC-HLF-00484;17;alta;Atraso de su plazo;14;
+Salud Mental;BOX-17;8;Cupo;PAC-HLF-00442;18;alta;Atraso de su plazo;32;Llamar 48 h antes para confirmar
+Salud Mental;BOX-17;9;Cupo;PAC-HLF-00212;19;media;Atraso de su plazo;14;
+Salud Mental;BOX-17;10;Cupo;PAC-HLF-00330;20;baja;Cupo por antigüedad;12;Sin datos recientes: preguntar cómo está al llamar
+Traumatología;BOX-08;1;Cupo;PAC-HLF-00473;1;media;Carril rápido;17;Carril rápido: Hospitalización hace 23 días
+Traumatología;BOX-08;2;Cupo;PAC-HLF-00114;2;baja;Carril rápido;34;"Carril rápido: Hospitalización hace 30 días; Llamar 48 h antes para confirmar"
+Traumatología;BOX-08;3;Cupo;PAC-HLF-00192;3;alta;Atraso de su plazo;34;Llamar 48 h antes para confirmar
+Traumatología;BOX-08;4;Cupo;PAC-HLF-00121;4;alta;Atraso de su plazo;34;Llamar 48 h antes para confirmar
+Traumatología;BOX-08;5;Cupo;PAC-HLF-00359;5;alta;Atraso de su plazo;17;
+Traumatología;BOX-08;6;Cupo;PAC-HLF-00244;6;alta;Atraso de su plazo;17;
+Traumatología;BOX-08;7;Cupo;PAC-HLF-00153;7;alta;Atraso de su plazo;17;
+Traumatología;BOX-08;8;Cupo;PAC-HLF-00265;8;alta;Atraso de su plazo;17;
+Traumatología;BOX-08;9;Cupo;PAC-HLF-00253;9;alta;Atraso de su plazo;17;
+Traumatología;BOX-08;10;Cupo;PAC-HLF-00136;10;baja;Cupo por antigüedad;14;
+Traumatología;BOX-08;11;Cupo;PAC-HLF-00483;11;alta;Atraso de su plazo;14;
+Traumatología;BOX-08;12;Cupo;PAC-HLF-00063;12;media;Atraso de su plazo;17;
+Cardiología;;1;Reserva;PAC-HLF-00430;11;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Cardiología;;2;Reserva;PAC-HLF-00021;12;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Cardiología;;3;Reserva;PAC-HLF-00036;13;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Endocrinología;;1;Reserva;PAC-HLF-00025;46;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Endocrinología;;2;Reserva;PAC-HLF-00245;47;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Endocrinología;;3;Reserva;PAC-HLF-00017;48;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Endocrinología;;4;Reserva;PAC-HLF-00461;49;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Endocrinología;;5;Reserva;PAC-HLF-00073;50;baja;Cupo por antigüedad;;llamar si alguien avisa que no viene
+Endocrinología;;6;Reserva;PAC-HLF-00183;51;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Endocrinología;;7;Reserva;PAC-HLF-00469;52;alta;Atraso de su plazo;;llamar si alguien avisa que no viene
+Gastroenterología;;1;Reserva;PAC-HLF-00307;23;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Gastroenterología;;2;Reserva;PAC-HLF-00166;24;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Gastroenterología;;3;Reserva;PAC-HLF-00138;26;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Gastroenterología;;4;Reserva;PAC-HLF-00231;28;baja;Atraso de su plazo;;llamar si alguien avisa que no viene
+Neurología;;1;Reserva;PAC-HLF-00030;25;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Neurología;;2;Reserva;PAC-HLF-00375;26;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Neurología;;3;Reserva;PAC-HLF-00195;27;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Neurología;;4;Reserva;PAC-HLF-00450;28;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Salud Mental;;1;Reserva;PAC-HLF-00382;21;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Salud Mental;;2;Reserva;PAC-HLF-00268;22;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Salud Mental;;3;Reserva;PAC-HLF-00122;23;alta;Atraso de su plazo;;llamar si alguien avisa que no viene
+Salud Mental;;4;Reserva;PAC-HLF-00085;24;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Traumatología;;1;Reserva;PAC-HLF-00101;13;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Traumatología;;2;Reserva;PAC-HLF-00129;14;media;Atraso de su plazo;;llamar si alguien avisa que no viene
+Traumatología;;3;Reserva;PAC-HLF-00413;16;media;Atraso de su plazo;;llamar si alguien avisa que no viene
