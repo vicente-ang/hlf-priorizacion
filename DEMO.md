@@ -1,5 +1,8 @@
 # Guion de la demo con el front «pulso.» (≈ 4 minutos y medio, recomendado)
 
+**Front publicado en AWS** (S3 privado + CloudFront): https://da8n28k4fli3t.cloudfront.net/ — muestra los 423
+pacientes de la lista vigente. Para la demo local, o si CloudFront aún propaga, usar `python -m web.servidor`.
+
 Preparación: `. .\entorno.ps1` y `python -m web.servidor` → http://localhost:8000 a pantalla completa. Perfil
 abajo a la izquierda: **Gestora de demanda**. Si quedaron decisiones de un ensayo: página Agente IA → **Borrar
 decisiones de este navegador**. Plan B sin red ni Python: doble clic en `web\index.html` (mismos datos).

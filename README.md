@@ -150,6 +150,10 @@ python -m web.servidor          # regenera web/datos.js y abre en http://localho
   mismo registro de la consola Streamlit). El orden de la propuesta IA en el navegador reproduce exactamente el de
   `ia/agente.ordenar` (verificado con los 423 pacientes).
 - En producción: la Lambda del lunes genera `datos.js` y el front se sirve desde S3 + CloudFront o App Runner.
+- **Desplegado (15-10-2026, cuenta del taller):** bucket privado S3 `hlf-priorizacion-web-<cuenta>` + CloudFront con
+  Origin Access Control. Despliegue idempotente con `python -m infra.desplegar_web` (sube los 4 archivos con su
+  Content-Type e invalida la caché; fallback a Lambda Function URL si CloudFront no está permitido).
+  URL del front (los 423 pacientes de la lista vigente): **https://da8n28k4fli3t.cloudfront.net/**
 
 `app.py` (Streamlit) queda como **consola completa** del equipo: alertas del día con eventos de prueba,
 indicaciones en texto libre, impacto, equidad, indicadores y agenda.
