@@ -387,7 +387,13 @@ Ver `infra/README.md`: dos Lambdas en imagen de contenedor, EventBridge Schedule
 de Chile; el lunes publica el corte), HTTP API, S3 cifrado y la interfaz en App Runner. Bedrock se llama con la
 Converse API; sin modelo configurado o ante cualquier error se usa la plantilla. **Bedrock y S3 ya corrieron contra
 la cuenta del taller** (15-10-2026: 1.000+ llamadas a Claude Haiku 4.5 y Sonnet 4.5 en us-east-1, bucket
-`hlf-priorizacion-ia-<cuenta>`). Lambda, EventBridge y App Runner están en la plantilla pero sin desplegar.
+`hlf-priorizacion-ia-<cuenta>`).
+
+**Desplegado sin Docker (16-10-2026):** la Lambda del corte del lunes `hlf-priorizacion-corte` (Python 3.12, capa
+administrada AWSSDKPandas + PyYAML en el zip) regenera `datos.js` y lo publica en el bucket del front, invalidando
+CloudFront. La dispara EventBridge Scheduler `hlf-priorizacion-corte-lunes` con `cron(0 7 ? * MON *)` en zona
+America/Santiago. Despliegue idempotente: `python -m infra.desplegar_lambda_corte`. Verificada en AWS: 423
+pacientes, 0 errores. La App Runner de la interfaz Streamlit sigue en la plantilla sin desplegar.
 
 ## Privacidad y seguridad
 

@@ -112,3 +112,30 @@ FIN DE LA VENTANA. SIGO: P3 (alertas entre cortes en el front) cuando se retome.
 - Costo: ~US$ 0 (solo S3/CloudFront).
 
 SIGO: P4 (Lambda del corte del lunes) cuando se retome.
+
+## 2026-10-16 03:20 — P4: Lambda del corte del lunes (sin Docker)
+- Qué: Lambda que regenera `web/datos.js` y lo publica en el bucket del front los lunes a las 07:00 (Chile).
+- Archivos:
+  - `api/corte_web.py`: handler. Llama a `web.construir`, sube `datos.js` al bucket web con Content-Type, invalida
+    CloudFront si hay DISTRIBUTION_ID. Variables: BUCKET_WEB, DISTRIBUTION_ID, HLF_HOY.
+  - `infra/desplegar_lambda_corte.py`: empaqueta un zip SIN Docker (motor, ia/*.py, web, api, data del hospital +
+    fuentes sintéticas, propuestas y PyYAML; pandas/numpy via capa AWSSDKPandas-Python312). Crea idempotente la
+    Lambda `hlf-priorizacion-corte`, su rol y el EventBridge Scheduler.
+  - `tests/test_web.py`: `test_lambda_corte_regenera_datos_js_en_s3` (moto): el handler sube datos.js con 423
+    pacientes y la clave alertas.
+- Incidencias resueltas (enfoque cambiado, no reintentado igual):
+  1. El schedule falló con ValidationException porque el rol no confiaba en scheduler.amazonaws.com ni tenía
+     lambda:InvokeFunction. Se añadió el principal scheduler + permiso y se actualizó la confianza del rol existente.
+  2. La Lambda daba 409 pacientes (faltaba `data/fuentes_sinteticas` en el zip) y luego `ModuleNotFoundError:
+     ia.decisiones` (faltaban los .py de ia/). Se incluyeron ambos. Verificada: 423 pacientes, 0 errores.
+- Verificación: `python -m pytest -q` → **136 passed**. Invocación REAL de la Lambda en AWS: StatusCode 200,
+  FunctionError None, body con 423 pacientes, corte 2026-10-12, datos.js subido e CloudFront invalidado.
+- Recursos AWS creados:
+  - Lambda `hlf-priorizacion-corte` · AWS Lambda (Python 3.12, capa AWSSDKPandas) · regenera y publica datos.js.
+  - `hlf-priorizacion-corte-rol` · rol IAM de ejecución (S3 PutObject al bucket web, CloudFront invalidation,
+    logs, lambda:InvokeFunction; confianza lambda + scheduler) · permisos de la Lambda y del scheduler.
+  - `hlf-priorizacion-corte-lunes` · EventBridge Scheduler `cron(0 7 ? * MON *)` America/Santiago · dispara la Lambda.
+- Costo estimado: ~US$ 0 (invocaciones puntuales de prueba; una ejecución semanal real es free tier).
+- Nota: el schedule está ENABLED; correrá los lunes. Si se quiere apagar: scheduler update-schedule State=DISABLED.
+
+SIGO: P5 (explicaciones Bedrock top-10) cuando se retome.

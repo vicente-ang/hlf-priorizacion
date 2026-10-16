@@ -16,7 +16,7 @@ Orden de ejecución. Marcar `[x]` al terminar y verificar (`python -m pytest -q`
   - `web/construir.py` exporta `motor.cortes.alertas_desde_corte` con el puesto proyectado de cada paciente.
   - Nueva página "Alertas" con el diseño del mockup.
   - Test en `tests/test_web.py` con `--hoy 2026-10-16`.
-- [ ] **P4. Lambda del corte del lunes**
+- [x] **P4. Lambda del corte del lunes**
   - Regenera `datos.js` en el bucket de P1. EventBridge Scheduler `cron(0 7 ? * MON *)`, zona America/Santiago.
   - Sin Docker: capa administrada AWSSDKPandas para Python 3.12, y PyYAML dentro del zip.
   - Si no se permite crear el rol IAM, documentar el bloqueo y seguir.

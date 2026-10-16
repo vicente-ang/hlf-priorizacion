@@ -91,3 +91,27 @@ def test_exporta_alertas_entre_cortes(tmp_path):
     # la lista vigente del front no se movió: PAC-HLF-00079 sigue en el puesto 42
     p = next(x for x in d["pacientes"] if x["id"] == "PAC-HLF-00079")
     assert p["puesto"] == 42
+
+
+
+def test_lambda_corte_regenera_datos_js_en_s3(monkeypatch):
+    """P4: la Lambda del corte (api/corte_web) reconstruye datos.js y lo publica en el bucket del front."""
+    moto = pytest.importorskip("moto")
+    boto3 = pytest.importorskip("boto3")
+    monkeypatch.setenv("AWS_DEFAULT_REGION", "us-east-1")
+    monkeypatch.setenv("AWS_ACCESS_KEY_ID", "prueba")
+    monkeypatch.setenv("AWS_SECRET_ACCESS_KEY", "prueba")
+    with moto.mock_aws():
+        s3 = boto3.client("s3", region_name="us-east-1")
+        s3.create_bucket(Bucket="hlf-web")
+        from api.corte_web import lambda_handler
+        resp = lambda_handler({"bucket_web": "hlf-web", "hoy": "2026-10-13"})
+        cuerpo = json.loads(resp["body"])
+        assert resp["statusCode"] == 200
+        assert cuerpo["pacientes"] == 423 and cuerpo["corte"] == "2026-10-12"
+        obj = s3.get_object(Bucket="hlf-web", Key="datos.js")
+        assert obj["ContentType"].startswith("application/javascript")
+        texto = obj["Body"].read().decode("utf-8")
+        assert texto.startswith("// Generado") and "window.HLF = " in texto
+        data = json.loads(texto.split("window.HLF = ", 1)[1].rstrip().rstrip(";\n").rstrip(";"))
+        assert len(data["pacientes"]) == 423 and "alertas" in data
