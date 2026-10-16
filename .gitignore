@@ -6,4 +6,6 @@ salidas/registro_decisiones.csv
 __pycache__/
 .pytest_cache/
 .venv/
+_runpytest.py
+_*.txt
 credenciales_aws.ps1

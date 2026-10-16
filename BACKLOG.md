@@ -8,7 +8,7 @@ Orden de ejecución. Marcar `[x]` al terminar y verificar (`python -m pytest -q`
     Content-Type, invalida la caché al re-subir.
   - Alternativa si CloudFront no está permitido: Lambda con URL que sirva esos 4 archivos.
   - Aceptación: la URL muestra los 423 pacientes. Anotarla en `README.md` y `DEMO.md`.
-- [ ] **P2. Repetir el ciclo regulador (K3b)** en un subagente
+- [x] **P2. Repetir el ciclo regulador (K3b)** en un subagente
   - `. .\entorno.ps1; python -m ia.ciclo --modo bedrock --iteraciones 3 --muestra 120 | Out-File -Encoding utf8 ciclo.txt`
   - Si aparece `ia/rubrica/v1.md`: revisar que la regla sea clínica y general; correr el agente sobre
     `data/dataset_hlf_ambulatorio` con esa rúbrica; luego `python -m web.construir`.
