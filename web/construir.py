@@ -26,7 +26,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(RAIZ))
 from motor import Datos, cargar_regla, priorizar  # noqa: E402
 from motor.clusters import texto_clusters  # noqa: E402
-from motor.cortes import corte_vigente, cortes_anteriores, proximo_corte  # noqa: E402
+from motor.cortes import alertas_desde_corte, corte_vigente, cortes_anteriores, proximo_corte  # noqa: E402
 from motor.explicar import explicacion_plantilla, hechos  # noqa: E402
 from motor.pertinencia import es_pertinente  # noqa: E402
 from motor.puntaje import DATOS_DEFECTO, ETIQUETAS_MEDICION, ETIQUETAS_SUBTIPO  # noqa: E402
@@ -170,6 +170,29 @@ def _ia() -> tuple[dict, dict]:
     return por_id, resumen
 
 
+def _alertas(datos, cfg: dict, hoy: date, nombres: dict) -> dict:
+    """Lo que llegó entre el corte vigente y `hoy`: cada paciente con su puesto vigente y el proyectado para el
+    próximo corte (motor.cortes.alertas_desde_corte). No cambia la lista vigente."""
+    df, res = alertas_desde_corte(datos, hoy, cfg)
+    items = []
+    for r in (df.to_dict("records") if len(df) else []):
+        p = datos.pacientes.get(r["id_paciente"])
+        pv, pp = r.get("puesto_vigente"), r.get("puesto_proyectado")
+        delta = (int(pv) - int(pp)) if (pv is not None and pp is not None) else None
+        items.append({
+            "id": r["id_paciente"], "nombre": _nombre(nombres, r["id_paciente"]),
+            "especialidad": r.get("especialidad"), "tipo": r.get("tipo"),
+            "prioridad_inicial": r.get("prioridad_inicial"),
+            "puesto_vigente": pv, "puesto_proyectado": pp, "delta": delta,
+            "de": r.get("en_especialidad"), "detalle": r.get("detalle"), "llego": r.get("llego"),
+            "grave": r.get("tipo") in ("Entró al carril rápido", "Nueva señal de deterioro"),
+            "en_lista": p is not None,
+        })
+    return {"desde": res.get("desde"), "hasta": res.get("hasta"),
+            "resumen": {k: v for k, v in res.items() if k not in ("desde", "hasta")},
+            "items": items, "n": len(items)}
+
+
 def construir(carpeta: str | Path | None = None, hoy: str | date | None = None, salida: str | Path | None = None) -> dict:
     datos, cfg = Datos.cargar(carpeta), cargar_regla()
     hoy = date.fromisoformat(str(hoy)) if hoy else datos.fecha_referencia()
@@ -273,7 +296,7 @@ def construir(carpeta: str | Path | None = None, hoy: str | date | None = None, 
                  "generado": datetime.now().isoformat(timespec="seconds"),
                  "fuentes": list((datos.fuentes or {}).keys())},
         "pacientes": pacientes, "cambios": cambios[:8], "n_cambios": len(cambios), "ingresos": ingresos,
-        "especialidades": especialidades, "ia": ia_resumen,
+        "especialidades": especialidades, "ia": ia_resumen, "alertas": _alertas(datos, cfg, hoy, nombres),
     })
     destino = Path(salida) if salida else SALIDA
     destino.write_text("// Generado por python -m web.construir. No editar a mano.\nwindow.HLF = "

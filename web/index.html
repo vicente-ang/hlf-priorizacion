@@ -16,6 +16,7 @@
  <nav aria-label="Navegación principal">
   <button class="nav-button selected" data-page="overview" title="Resumen"><span class="nav-icon" data-icon="overview"></span><span class="nav-text">Resumen</span></button>
   <button class="nav-button" data-page="list" title="Lista de espera"><span class="nav-icon" data-icon="list"></span><span class="nav-text">Lista de espera</span><span class="nav-count" id="nav-list-count"></span></button>
+  <button class="nav-button" data-page="alertas" title="Alertas entre cortes"><span class="nav-icon" data-icon="alert"></span><span class="nav-text">Alertas</span><span class="nav-count" id="nav-alertas-count"></span></button>
   <button class="nav-button" data-page="intake" title="Nuevos ingresos"><span class="nav-icon" data-icon="inbox"></span><span class="nav-text">Nuevos ingresos</span><span class="nav-count intake-count" id="nav-intake-count"></span></button>
   <button class="nav-button" data-page="ia" title="Agente IA"><span class="nav-icon" data-icon="spark"></span><span class="nav-text">Agente IA</span><span class="nav-count" id="nav-ia-count"></span></button>
  </nav>
@@ -62,6 +63,15 @@
    <div class="pagination"><span id="list-result-count" aria-live="polite"></span><div><button id="previous-page" class="icon-button" aria-label="Página anterior"><span data-icon="chevron-left"></span></button><span id="page-number"></span><button id="next-page" class="icon-button" aria-label="Página siguiente"><span data-icon="chevron-right"></span></button></div></div>
   </section>
   <p class="below-table-note">Cada especialidad tiene su propia lista y sus posiciones. La lista vigente es la del último corte (lunes): lo que llega entre cortes se ve como alerta y entra el lunes siguiente, salvo que alguien lo adelante con un motivo. La propuesta IA ordena por la categoría y el puntaje del agente, con el piso de la regla; bajar de categoría lo confirma el jefe de especialidad.</p>
+ </section>
+
+ <!-- ============================================================ ALERTAS -->
+ <section class="page" id="alertas-page" hidden>
+  <div class="page-heading"><div><p class="eyebrow">ENTRE CORTES</p><h1>Lo que llegó esta semana.</h1><p class="page-description">Eventos y cambios desde el último corte. La lista vigente no se mueve hasta el próximo lunes: aquí aparece el puesto que tendría cada persona.</p></div><span class="count-pill" id="alertas-pill"></span></div>
+  <div class="intake-notice"><span data-icon="calendar"></span><div><b>La lista oficial se reprioriza el <span id="alertas-proximo"></span></b><p>Las 72 horas son el plazo para agendar, no para recalcular. Un evento grave llega como alerta en menos de 24 horas con su puesto proyectado; si no puede esperar al corte, el jefe o la gestora lo adelantan con un motivo.</p></div></div>
+  <div class="metrics-grid" id="alertas-metrics"></div>
+  <section class="panel"><div class="panel-heading"><div><h2>Alertas desde el corte</h2><p id="alertas-subtitle"></p></div></div><div class="table-scroll"><table class="intake-table"><thead><tr><th>Persona</th><th>Especialidad</th><th>Qué pasó</th><th>Puesto vigente</th><th>Si se repriorizara hoy</th><th></th></tr></thead><tbody id="alertas-rows"></tbody></table></div></section>
+  <p class="below-table-note">El puesto proyectado sale de repriorizar con los datos hasta hoy (motor.cortes.alertas_desde_corte); es informativo y no cambia la lista con que se agenda esta semana.</p>
  </section>
 
  <!-- ============================================================ FICHA -->

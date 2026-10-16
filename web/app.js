@@ -124,8 +124,9 @@ function showPage(page, focus = true) {
   $$('.page').forEach(e => { e.hidden = e.id !== page + '-page'; });
   const nav = page === 'patient' ? state.returnPage : page;
   $$('.nav-button').forEach(b => { b.classList.toggle('selected', b.dataset.page === nav); if (b.dataset.page === nav) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
-  $('#breadcrumb-page').textContent = {overview: 'Resumen', list: 'Lista de espera', intake: 'Nuevos ingresos', patient: 'Ficha de paciente', ia: 'Agente IA'}[page];
+  $('#breadcrumb-page').textContent = {overview: 'Resumen', list: 'Lista de espera', alertas: 'Alertas', intake: 'Nuevos ingresos', patient: 'Ficha de paciente', ia: 'Agente IA'}[page];
   if (page === 'list') renderList();
+  if (page === 'alertas') renderAlertas();
   if (page === 'ia') renderIA();
   if (page === 'overview') renderOverview();
   window.scrollTo({top: 0, behavior: 'instant'});
@@ -158,6 +159,39 @@ function renderOverview() {
   bindPatients($('#overview-page'));
   $$('#overview-page [data-goto]').forEach(b => { b.onclick = () => showPage(b.dataset.goto); });
 }
+// ------------------------------------------------------------------------------------------- alertas entre cortes
+function renderAlertas() {
+  const a = D.alertas || {items: [], resumen: {}, n: 0};
+  const items = a.items || [];
+  $('#alertas-pill').textContent = `${items.length} ${items.length === 1 ? 'alerta' : 'alertas'}`;
+  $('#alertas-proximo').textContent = `lunes ${fecha(D.meta.proximo_corte)} · 07:00`;
+  $('#alertas-subtitle').textContent = a.desde && a.hasta
+    ? `Desde el corte del ${fecha(a.desde)} hasta el ${fecha(a.hasta)}` : 'Sin período';
+  const r = a.resumen || {};
+  const carril = r['Entró al carril rápido'] || 0, subio = r['Subió'] || 0;
+  const salio = r['Salió de la lista'] || 0, sinDatos = r['Sin datos recientes'] || 0;
+  $('#alertas-metrics').innerHTML =
+    metric('Alertas esta semana', fmt(items.length), '', 'Eventos y cambios desde el último corte', 'alert', items.length > 0)
+    + metric('Entraron al carril rápido', fmt(carril), '', 'Evento grave reciente: revisar hoy', 'activity')
+    + metric('Subieron de puesto', fmt(subio), '', 'Si se repriorizara hoy (proyección)', 'arrow-right')
+    + metric('Sin datos recientes', fmt(sinDatos), '', '180 días sin eventos ni mediciones: llamar', 'clock');
+  $('#alertas-rows').innerHTML = items.length ? items.map(it => {
+    const flecha = it.delta != null && it.delta !== 0
+      ? `<b>#${it.puesto_proyectado}</b> <small>(${it.delta > 0 ? '↑' : '↓'}${Math.abs(it.delta)})</small>`
+      : (it.puesto_proyectado != null ? `#${it.puesto_proyectado}` : '—');
+    const enLista = it.puesto_vigente != null ? `#${it.puesto_vigente}` : '—';
+    return `<tr>
+      <td><div class="change-copy" style="display:flex;align-items:center;gap:10px"><span class="change-avatar">${iniciales(it.nombre)}</span><span><b>${esc(it.nombre)}</b><br><small>${esc(it.id)} · prioridad ${esc(ETIQ[it.prioridad_inicial] || it.prioridad_inicial || '—')}</small></span></div></td>
+      <td>${esc(it.especialidad || '—')}</td>
+      <td><span class="badge ${it.grave ? 'high' : 'neutral'}">${esc(it.tipo)}</span><div><small>${esc(it.detalle || '')}</small></div></td>
+      <td>${enLista}</td>
+      <td>${flecha}</td>
+      <td>${it.en_lista ? `<button class="button secondary" data-open-patient="${esc(it.id)}">Ver ficha ${icon('chevron-right')}</button>` : ''}</td>
+    </tr>`;
+  }).join('') : '<tr><td colspan="6" class="empty-note">Sin alertas desde el último corte: la lista vigente no ha cambiado.</td></tr>';
+  bindPatients($('#alertas-page'));
+}
+
 function renderHistogram() {
   const values = P.map(p => p.dias_espera);
   const step = 60, maxX = Math.max(step, Math.ceil(Math.max(...values) / step) * step);
@@ -423,6 +457,7 @@ function iniciar() {
   $('#reference-date').textContent = `Lista vigente: corte del lunes ${fecha(m.corte)}`;
   $('#footer-right').textContent = `Regla ${m.version_regla} · datos al ${fecha(m.hoy)} · generado ${String(m.generado).replace('T', ' ').slice(0, 16)}`;
   $('#nav-list-count').textContent = P.length;
+  $('#nav-alertas-count').textContent = (D.alertas?.items?.length) || '';
   $('#nav-intake-count').textContent = D.ingresos.length;
   $('#nav-ia-count').textContent = memoria.historial.length || '';
   const sobre = P.filter(p => p.sobre_p90).length, rev = P.filter(porRevisar).length;
@@ -454,6 +489,6 @@ function iniciar() {
   fillIcons();
   const hash = location.hash.replace('#', '');
   if (hash.startsWith('paciente=')) openPatient(decodeURIComponent(hash.slice(9)));
-  else showPage(['list', 'intake', 'ia'].includes(hash) ? hash : 'overview', false);
+  else showPage(['list', 'alertas', 'intake', 'ia'].includes(hash) ? hash : 'overview', false);
 }
 iniciar();

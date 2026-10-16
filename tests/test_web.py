@@ -70,3 +70,24 @@ def test_servidor_guarda_decisiones_y_rechaza_basura(tmp_path, monkeypatch):
         srv.shutdown()
     texto = reg.read_text(encoding="utf-8")
     assert texto.startswith("fecha_registro,") and "ia_aceptada" in texto and "borrar_todo" not in texto
+
+
+
+def test_exporta_alertas_entre_cortes(tmp_path):
+    """P3: el front recibe las alertas desde el corte vigente, con el puesto vigente y el proyectado al próximo
+    corte (motor.cortes.alertas_desde_corte). Con --hoy 2026-10-16 (viernes), el corte vigente es el lunes 12-10."""
+    d = construir.construir(hoy="2026-10-16", salida=tmp_path / "datos.js")
+    a = d["alertas"]
+    assert a["desde"] == "2026-10-12" and a["hasta"] == "2026-10-16"
+    assert a["n"] == len(a["items"]) and a["n"] >= 1
+    # cada alerta trae el puesto vigente y el proyectado; no cambia la lista vigente
+    for it in a["items"]:
+        assert it["puesto_vigente"] is not None and it["puesto_proyectado"] is not None
+        assert it["delta"] == it["puesto_vigente"] - it["puesto_proyectado"]
+        assert it["id"] in {p["id"] for p in d["pacientes"]}      # está en la lista vigente
+    # PAC-HLF-00079 subió del 42 (vigente) al 35 (proyectado) al repriorizar con datos hasta el 16-10
+    g = next(it for it in a["items"] if it["id"] == "PAC-HLF-00079")
+    assert (g["puesto_vigente"], g["puesto_proyectado"], g["delta"]) == (42, 35, 7)
+    # la lista vigente del front no se movió: PAC-HLF-00079 sigue en el puesto 42
+    p = next(x for x in d["pacientes"] if x["id"] == "PAC-HLF-00079")
+    assert p["puesto"] == 42

@@ -87,3 +87,28 @@ SIGO: P3 (alertas entre cortes en el front)
 - `ia/rubrica/v0.md`, `ia/mundo.py` y `data/mundo/*_verdad` sin modificar.
 
 FIN DE LA VENTANA. SIGO: P3 (alertas entre cortes en el front) cuando se retome.
+
+## 2026-10-16 02:55 — P3: alertas entre cortes en el front (retomado a pedido)
+- Qué: nueva página "Alertas" en el front «pulso.» con el puesto vigente y el proyectado al próximo corte.
+- Archivos:
+  - `web/construir.py`: importa `motor.cortes.alertas_desde_corte`; nueva función `_alertas` que arma la lista
+    de alertas (puesto_vigente, puesto_proyectado, delta, tipo, detalle) y la expone en `datos.js` bajo la clave
+    `alertas` (desde, hasta, resumen por tipo, items).
+  - `web/index.html`: nav-button "Alertas" (icono alert) y sección `#alertas-page` con el diseño del mockup
+    (page-heading, intake-notice del próximo corte, metrics-grid y tabla con "Puesto vigente" vs "Si se
+    repriorizara hoy").
+  - `web/app.js`: `renderAlertas()` (métricas + tabla con flecha ↑/↓ del delta y botón "Ver ficha"); integrada en
+    `showPage`, breadcrumb, contador de nav y deep-link `#alertas`.
+  - `tests/test_web.py`: `test_exporta_alertas_entre_cortes` con `--hoy 2026-10-16` (corte vigente 12-10): verifica
+    que cada alerta trae puesto vigente y proyectado, que delta = vigente - proyectado, que el paciente está en la
+    lista vigente y que la lista vigente NO se movió (PAC-HLF-00079 sigue en #42; proyectado #35, ↑7).
+- Verificación: `python -m pytest -q` → **135 passed** (134 + el test nuevo). `python -m web.construir` OK
+  (datos.js con clave `alertas`). Front servido localmente (index/app.js/datos.js/estilos 200) y re-subido a S3 +
+  CloudFront (caché invalidada). Balance de delimitadores de app.js OK; ids del HTML referenciados existen.
+- Nota de diseño: el `datos.js` de producción usa "hoy" = 13-10 (un día tras el corte) → 0 alertas, estado vacío
+  manejado en la UI. El test usa `--hoy 2026-10-16` para el caso con datos. No cambié el "hoy" por defecto para no
+  alterar la demo ni los otros tests de test_web.py.
+- Recursos AWS: ninguno nuevo (re-subida al bucket y CloudFront existentes de P1).
+- Costo: ~US$ 0 (solo S3/CloudFront).
+
+SIGO: P4 (Lambda del corte del lunes) cuando se retome.

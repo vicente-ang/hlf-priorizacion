@@ -12,7 +12,7 @@ Orden de ejecución. Marcar `[x]` al terminar y verificar (`python -m pytest -q`
   - `. .\entorno.ps1; python -m ia.ciclo --modo bedrock --iteraciones 3 --muestra 120 | Out-File -Encoding utf8 ciclo.txt`
   - Si aparece `ia/rubrica/v1.md`: revisar que la regla sea clínica y general; correr el agente sobre
     `data/dataset_hlf_ambulatorio` con esa rúbrica; luego `python -m web.construir`.
-- [ ] **P3. Alertas entre cortes en el front**
+- [x] **P3. Alertas entre cortes en el front**
   - `web/construir.py` exporta `motor.cortes.alertas_desde_corte` con el puesto proyectado de cada paciente.
   - Nueva página "Alertas" con el diseño del mockup.
   - Test en `tests/test_web.py` con `--hoy 2026-10-16`.
