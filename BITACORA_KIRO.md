@@ -52,3 +52,38 @@ SIGO: P2 (repetir el ciclo regulador K3b en un subagente)
   con v2 ≈ US$ 2 a 3. La reversión a v0 usó caché (sin costo).
 
 SIGO: P3 (alertas entre cortes en el front)
+
+## 2026-10-16 02:12 — CONGELADO (ventana acortada a 02:15)
+### Resumen de lo hecho
+- PREP: documentos leídos; respaldo git (commit base ab7d0c2); BACKLOG.md y BITACORA_KIRO.md.
+- **P1 (completo, commit 5132f25):** front `web/` publicado en AWS. Script idempotente `infra/desplegar_web.py`
+  (S3 privado + CloudFront OAC, sube 4 archivos con Content-Type, invalida caché; fallback Lambda URL en
+  `infra/desplegar_web_lambda.py`). **URL verificada HTTP 200 con los 423 pacientes: https://da8n28k4fli3t.cloudfront.net/**
+- **P2 (completo, commit e29b23a):** ciclo regulador K3b. El regulador mejorado aceptó reglas clínicas generales
+  (v1.md, v2.md), mejora DEV 0,749→0,782 y TEST 23/23 deterioros. Decisión segura: v0 sigue en producción/demo
+  (tests y DEMO.md clavados a v0); v1/v2 quedan como evidencia.
+
+### Pendiente (no iniciado por el congelado de las 02:15)
+- **P3** alertas entre cortes en el front (requiere tocar `web/construir.py`, página nueva y `tests/test_web.py`).
+- **P4** Lambda del corte del lunes. **P5** explicaciones Bedrock top-10. **P6** pulir demo (1280/390 px, gráfico
+  ia_test.png). Ninguno se empezó para no dejar código a medias.
+
+### Recursos AWS creados (nombre · tipo · para qué)
+- `hlf-priorizacion-web-904433306629` · bucket S3 privado (acceso público bloqueado, tag proyecto=hlf-priorizacion)
+  · hospeda los 4 archivos del front.
+- `E2276ADQM8SNAX` · distribución CloudFront (da8n28k4fli3t.cloudfront.net) · sirve el front por HTTPS con OAC.
+- `hlf-priorizacion-web-oac` · CloudFront Origin Access Control · acceso del CDN al bucket privado.
+- (de sesiones previas) `hlf-priorizacion-ia-904433306629` · bucket S3 · rúbricas/resultados/mundo del agente IA.
+- No se crearon usuarios ni roles IAM nuevos (el fallback Lambda no se usó porque CloudFront funcionó).
+
+### Costo estimado de la noche
+- P1 (S3 + CloudFront, tráfico de demo): ~US$ 0 (free tier) a centavos.
+- P2 (ciclo bedrock muestra 120 + 423 llamadas del agente con v2): ~US$ 2–3. La reversión a v0 usó caché (US$ 0).
+- Total acumulado del proyecto: ~US$ 4–5 (incluye el ~US$ 1,74 de corridas previas). Dentro del presupuesto (US$ 15).
+
+### Verificación final
+- `python -m pytest -q` → **134 passed**. `python -m web.construir` → OK (423 pacientes, rúbrica IA v0).
+- URL del front: HTTP 200, datos.js con 423 pacientes (verificado contra CloudFront).
+- `ia/rubrica/v0.md`, `ia/mundo.py` y `data/mundo/*_verdad` sin modificar.
+
+FIN DE LA VENTANA. SIGO: P3 (alertas entre cortes en el front) cuando se retome.
